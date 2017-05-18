@@ -1,0 +1,39 @@
+.block-header {
+	background-color: #006873;
+}
+
+.header-wrapper {
+	font-size: 0;
+}
+
+.header-menu-toggle {
+	width: 15%;
+	min-width: 43px;
+	display: inline-block;
+	vertical-align: top;
+	height: 54px;
+	background-color: #004c54;
+	border-right: 1px solid #459199;
+}
+
+.header-logo-wrapper {
+	width: 70%;
+	padding: 7px 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.header-logo {
+	text-align: center;
+}
+
+.header-sign {
+	display: inline-block;
+	vertical-align: top;
+	width: 15%;
+	min-width: 43px;
+	height: 54px;
+	background-color: #004c54;
+	border-left: 1px solid #459199;
+}
+

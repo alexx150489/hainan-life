@@ -1,0 +1,32 @@
+doctype html
+html(class='no-js' lang='ru')
+	head
+		
+		meta(charset='UTF-8')
+		meta(name='viewport' content='width=device-width,initial-scale=1')
+		meta(http-equiv='X-UA-Compatible' content='IE=edge')
+
+		link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=cyrillic' rel='stylesheet')
+		link(rel='shortcut icon' href='../favicon.png' type='image/x-icon')
+		link(rel='stylesheet' href='../css/normalize.css')
+		link(rel='stylesheet' href='../js/vendor/fancybox/jquery.fancybox.css')
+		link(rel='stylesheet' href='../css/fonts.css')
+		link(rel='stylesheet' href='../css/fonts.css')
+		link(rel='stylesheet' href='../css/css3.css')
+		link(rel='stylesheet' href='css/main.css')
+
+		script(src='../js/vendor/modernizr-2.8.3.min.js')
+		script(src='../js/vendor/jquery-3.2.0.min.js')
+		script(src='../js/vendor/jquery-migrate-1.4.1.min.js')
+		script(src='../js/vendor/jquery.form.min.js')
+		script(src='../js/vendor/fancybox/jquery.fancybox.pack.js')
+		script(src='../js/vendor/slick.js/slick.min.js')
+		script(src='../js/main.js')
+
+		title 
+			block title
+	body
+
+		include ../blocks/header
+		block content
+		include ../blocks/footer

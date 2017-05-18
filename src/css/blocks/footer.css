@@ -1,0 +1,82 @@
+.block-footer {
+	background: url("../../images/footer-bg.jpg") center 0 no-repeat;
+}
+
+.footer-menu-item {
+	position: relative;
+	display: block;
+	border-bottom: 1px solid #459199;
+}
+
+.footer-menu-item .item-title {
+	display: block;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #0097a7;
+}
+
+.footer-menu-item:last-child {
+	border-bottom: none;
+}
+
+.footer-menu-item .item-title.active {
+	border-bottom: 5px solid #00c8dd;
+}
+
+.footer-menu .submenu {
+	margin: 0;
+	background-color: rgba(0, 37, 58, .7);
+}
+
+.footer-menu .submenu a {
+	display: block;
+	font-size: 13px;
+	line-height: 36px;
+	font-weight: 500;
+	text-transform: none;
+	color: #fff;
+	text-decoration: underline;
+}
+
+.footer-bottom {
+	background-color: rgba(0, 37, 58, .7);
+}
+
+.footer-contacts-tel{
+	font-size: 20px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+.footer-contacts-adress{
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #fff;
+}
+.footer-contacts-mail{
+	display: block;
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #26c6da;
+	text-decoration: underline;
+}
+
+.footer-description p {
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #fff;
+}
+
+.footer-copyright {
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #fff;
+	text-decoration: underline;
+	text-align: center;
+}

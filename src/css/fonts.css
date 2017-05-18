@@ -1,0 +1,36 @@
+/* ==========================================================================
+	 Файл для подключения шрифтов
+	 Генератор шрифтов - https://www.web-font-generator.com
+	 Генератор шрифтов - http://www.fontsquirrel.com/tools/webfont-generator
+	 ========================================================================== */
+
+
+@font-face {
+	font-family: "FedraSansPro-Light";
+	src: url("../fonts/FedraSansPro-Light.woff") format("woff");
+}
+
+@font-face {
+	font-family: "FedraSansPro-Normal";
+	src: url("../fonts/FedraSansPro-Normal.woff") format("woff");
+}
+
+
+@font-face {
+	font-family: "PTSansPro-Caption";
+	src: url("../fonts/PTSansPro-Caption.woff") format("woff");
+}
+@font-face {
+	font-family: "PTSansPro-CaptionBold";
+	src: url("../fonts/PTSansPro-CaptionBold.woff") format("woff");
+}
+
+@font-face {
+	font-family: "PTSansPro-LightItalic";
+	src: url("../fonts/PTSansPro-LightItalic.woff") format("woff");
+}
+
+@font-face {
+	font-family: "PTSansPro-Light";
+	src: url("../fonts/PTSansPro-Light.woff") format("woff");
+}
