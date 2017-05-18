@@ -1,7 +1,77 @@
 .block-comments {
+	padding: 0 15px;
 	background-color: #313736;
 }
 
 .comments-title {
+	padding-left: 26px;
+	margin-bottom: 34px;
 	color: #d8902a;
+}
+
+.comments-wrapper {
+	position: relative;
+	padding-left: 60px;
+	margin-bottom: 20px;
+}
+
+.comments-foto {
+	position: absolute;
+	content: '';
+	width: 52px;
+	height: 52px;
+	top: -8px;
+	left: 0;
+}
+
+.comments-item {
+	padding-bottom: 16px;
+}
+
+.comments-item.sec1 .comments-foto {
+	background:	url("../../images/avatar.png") 0 0 no-repeat;
+}
+
+.comments-item.sec2 .comments-foto {
+	background:	url("../../images/avatar2.png") 0 0 no-repeat;
+}
+
+.comments-item.sec3 .comments-foto {
+	background:	url("../../images/avatar3.png") 0 0 no-repeat;
+}
+
+.comments-name {
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #fff;
+}
+
+.comments-date {
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #a3a2a2;
+}
+
+.comments-message {
+	padding: 14px;
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #fff;
+	border-radius: 6px;
+	background-color: #4c5453;
+}
+
+.comments-description {
+	font-size: 12px;
+	line-height: 36px;
+	font-weight: normal;
+	color: #a3a2a2;
+}
+
+.comments-description a{
+	padding-left: 6px;
+	color: #fff;
 }

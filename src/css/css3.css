@@ -6,6 +6,7 @@
 
 @import "blocks/header.css"; 
 @import "blocks/footer.css"; 
+@import "blocks/previews.css";
 @import "blocks/ad.css"; 
 @import "blocks/comments.css"; 
 

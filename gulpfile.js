@@ -74,12 +74,12 @@ gulp.task("style", function() {
 // });
 
 gulp.task("images", function() {
-	return gulp.src("build/img/**/*.{png,jpg,gif}")
+	return gulp.src("src/images/**/*.{png,jpg,gif}")
 		.pipe(imagemin([
 			 imagemin.optipng({optimizationLevel: 3}),
 			 imagemin.jpegtran({progressive: true})
 	]))
-	.pipe(gulp.dest("build/img"));
+	.pipe(gulp.dest("src/images/min"));
 });
 
 gulp.task("symbols", function() {

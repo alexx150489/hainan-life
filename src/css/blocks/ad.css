@@ -1,0 +1,23 @@
+.block-ad {
+	padding: 0 15px;
+	padding-bottom: 32px;
+}
+
+.ad-title {
+	padding-left: 26px;
+	color: #828080;
+}
+
+.ad-title span {
+	color: #26c6da;
+}
+
+.ad-slider .slide-image {
+	text-align: center;
+}
+
+.ad-slider .slide-image img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}

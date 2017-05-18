@@ -1,5 +1,10 @@
 .block-footer {
-	background: url("../../images/footer-bg.jpg") center 0 no-repeat;
+	background: url("../../images/footer-bg.jpg") center center no-repeat;
+	background-attachment: fixed;
+}
+
+.footer-menu-wrapper {
+	padding-bottom: 10px;
 }
 
 .footer-menu-item {
@@ -10,6 +15,8 @@
 
 .footer-menu-item .item-title {
 	display: block;
+	padding: 12px 0;
+	padding-left: 15px;
 	font-size: 16px;
 	line-height: 20px;
 	font-weight: bold;
@@ -30,8 +37,11 @@
 	background-color: rgba(0, 37, 58, .7);
 }
 
-.footer-menu .submenu a {
+.footer-menu .submenu-title {
 	display: block;
+	padding: 3px 0;
+	padding-left: 30px;
+	border-bottom: 1px solid #459199;
 	font-size: 13px;
 	line-height: 36px;
 	font-weight: 500;
@@ -40,17 +50,32 @@
 	text-decoration: underline;
 }
 
+
+
+.submenu-item:last-child .submenu-title {
+	border-bottom: none;
+}
+
+
 .footer-bottom {
+	padding: 0 15px;
+	padding-top: 30px;
 	background-color: rgba(0, 37, 58, .7);
 }
 
+.footer-contacts {
+	padding-left: 20px;
+}
+
 .footer-contacts-tel{
+	margin-bottom: 5px;
 	font-size: 20px;
 	line-height: 18px;
 	font-weight: bold;
 	color: #fff;
 }
 .footer-contacts-adress{
+	margin-bottom: 5px;
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: normal;
@@ -63,9 +88,26 @@
 	font-weight: normal;
 	color: #26c6da;
 	text-decoration: underline;
+	margin-bottom: 20px;
 }
 
-.footer-description p {
+.footer-social {
+	font-size: 0;
+	margin-bottom: 40px;
+}
+
+.footer-social-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 33px;
+	height: 32px;
+	background-color: red;
+}
+
+
+
+.footer-description {
+	padding-bottom: 36px;
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: normal;
@@ -73,6 +115,8 @@
 }
 
 .footer-copyright {
+	display: block;
+	padding-bottom: 20px;
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: normal;
