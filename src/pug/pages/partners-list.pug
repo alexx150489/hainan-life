@@ -1,0 +1,236 @@
+extends ../layout/layout
+
+block title 
+	| Список партнеров
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				a(class="breadcrumbs-item" href="#") Партнеры
+				span(class="breadcrumbs-item current") Список партнеров
+
+
+			section(class="block-partners-list")
+				div(class="top-wrapper")
+					h2(class="partners-list-title section-title") Список партнеров
+					div(class="partners-list-category")
+						form(action="#" method="post" name="select-category-form")
+							select(class="partners-list-select" name="select-category" tabindex="1")
+								option(value="option1") Значение 1
+								option(value="option1") Значение 3
+
+				div(class="partners-list-items")
+					div(class="item-wrapper")
+						div(class="partners-list-item yan")
+							div(class="image")
+								img(src="images/partner1.jpg" alt="Партнер" width="290" height="104")
+							h2(class="title") Бар у Яна
+							div(class="since") партнер с 22 Февраля 2017
+							div(class="partners-list-contacts")
+								div(class="director")
+									| Руководитель:
+									span PoceluiKrevetki
+								div(class="person")
+									| Контактное лицо:
+									span PoceluiKrevetki .
+								div(class="person")
+									| E-mail:
+									a(href="mailto:poceluikrevetki@ya.ru") poceluikrevetki@ya.ru
+								div(class="address")
+									| Адрес:
+									span Санья, Дадунхай, улица Ю-Я 99-6
+							div(class="partners-list-discounts")
+								div(class="discounts-title")
+									span Скидки для наших пользователей
+								div(class="discounts-cards")
+									div(class="discounts-card def")
+										| Обычная карта:
+										span 10%
+									div(class="discounts-card silver")
+										| Серебряная карта:
+										span 15%
+									div(class="discounts-card gold")
+										| Золотая карта:
+										span 20%
+							div(class="info")
+								div(class="partners-list-about")
+									div(class="title") О компании
+									div(class="text")
+										p Бар открылся в сентябре 2016 г. Уникальный стиль и атмосфера. Хорошее барное меню с различными акциями и скидками. 
+										p Владелец бара китаец, который говорит на русском и английском. Играет живая музыка по вечерам. Здесь всегда много иностранцев.
+								div(class="partners-list-places")
+									div(class="title") Места от партнера
+									div(class="places-wrapper")
+										a(class="image" href="#")
+											img(src="images/yan.jpg" alt="Партнер" width="289" height="156")
+											div(class="label") Бары
+										div(class="text-wrapper")
+											div(class="name") Бар у Яна Young Bar
+											div(class="address")
+												span No 99-6 Yuya Road, Dadonghai, Sanya
+											div(class="testimonials") Отзывов: 1
+						div(class="show-info")
+							a(class="partners-list-toggle" href="#") Показать
+
+					div(class="item-wrapper")
+						div(class="partners-list-item cityjungle")
+							div(class="image")
+								img(src="images/partner2.jpg" alt="Партнер" width="290" height="104")
+							h2(class="title") таобао магазин: CityJungle
+							div(class="since") партнер с 22 Февраля 2017
+							div(class="partners-list-contacts")
+								div(class="director")
+									| Руководитель:
+									span PoceluiKrevetki
+								div(class="person")
+									| Контактное лицо:
+									span PoceluiKrevetki .
+								div(class="person")
+									| E-mail:
+									a(href="mailto:poceluikrevetki@ya.ru") poceluikrevetki@ya.ru
+								div(class="address")
+									| Адрес:
+									span Санья, Дадунхай, улица Ю-Я 99-6
+							div(class="partners-list-discounts")
+								div(class="discounts-title")
+									span Скидки для наших пользователей
+								div(class="discounts-cards")
+									div(class="discounts-card def")
+										| Обычная карта:
+										span 10%
+									div(class="discounts-card silver")
+										| Серебряная карта:
+										span 15%
+									div(class="discounts-card gold")
+										| Золотая карта:
+										span 20%
+							div(class="info")
+								div(class="partners-list-about")
+									div(class="title") О компании
+									div(class="text")
+										p Бар открылся в сентябре 2016 г. Уникальный стиль и атмосфера. Хорошее барное меню с различными акциями и скидками. 
+										p Владелец бара китаец, который говорит на русском и английском. Играет живая музыка по вечерам. Здесь всегда много иностранцев.
+								div(class="partners-list-places")
+									div(class="title") Места от партнера
+									div(class="places-wrapper")
+										a(class="image" href="#")
+											img(src="images/yan.jpg" alt="Партнер" width="289" height="156")
+											div(class="label") Бары
+										div(class="text-wrapper")
+											div(class="name") Бар у Яна Young Bar
+											div(class="address")
+												span No 99-6 Yuya Road, Dadonghai, Sanya
+											div(class="testimonials") Отзывов: 1
+						div(class="show-info")
+							a(class="partners-list-toggle" href="#") Показать
+
+					div(class="item-wrapper")
+						div(class="partners-list-item kisamia")
+							div(class="image")
+								img(src="images/partner3.jpg" alt="Партнер" width="290" height="104")
+							h2(class="title") "Каса Миа" - ресторан итальянской кухни
+							div(class="since") партнер с 22 Февраля 2017
+							div(class="partners-list-contacts")
+								div(class="director")
+									| Руководитель:
+									span PoceluiKrevetki
+								div(class="person")
+									| Контактное лицо:
+									span PoceluiKrevetki .
+								div(class="person")
+									| E-mail:
+									a(href="mailto:poceluikrevetki@ya.ru") poceluikrevetki@ya.ru
+								div(class="address")
+									| Адрес:
+									span Санья, Дадунхай, улица Ю-Я 99-6
+							div(class="partners-list-discounts")
+								div(class="discounts-title")
+									span Скидки для наших пользователей
+								div(class="discounts-cards")
+									div(class="discounts-card def")
+										| Обычная карта:
+										span 10%
+									div(class="discounts-card silver")
+										| Серебряная карта:
+										span 15%
+									div(class="discounts-card gold")
+										| Золотая карта:
+										span 20%
+							div(class="info")
+								div(class="partners-list-about")
+									div(class="title") О компании
+									div(class="text")
+										p Бар открылся в сентябре 2016 г. Уникальный стиль и атмосфера. Хорошее барное меню с различными акциями и скидками. 
+										p Владелец бара китаец, который говорит на русском и английском. Играет живая музыка по вечерам. Здесь всегда много иностранцев.
+								div(class="partners-list-places")
+									div(class="title") Места от партнера
+									div(class="places-wrapper")
+										a(class="image" href="#")
+											img(src="images/yan.jpg" alt="Партнер" width="289" height="156")
+											div(class="label") Бары
+										div(class="text-wrapper")
+											div(class="name") Бар у Яна Young Bar
+											div(class="address")
+												span No 99-6 Yuya Road, Dadonghai, Sanya
+											div(class="testimonials") Отзывов: 1
+						div(class="show-info")
+							a(class="partners-list-toggle" href="#") Показать
+
+					div(class="item-wrapper")
+						div(class="partners-list-item porch")
+							div(class="image")
+								img(src="images/partner4.jpg" alt="Партнер" width="290" height="104")
+							h2(class="title") "Веранда" - Филиппинское кафе
+							div(class="since") партнер с 22 Февраля 2017
+							div(class="partners-list-contacts")
+								div(class="director")
+									| Руководитель:
+									span PoceluiKrevetki
+								div(class="person")
+									| Контактное лицо:
+									span PoceluiKrevetki .
+								div(class="person")
+									| E-mail:
+									a(href="mailto:poceluikrevetki@ya.ru") poceluikrevetki@ya.ru
+								div(class="address")
+									| Адрес:
+									span Санья, Дадунхай, улица Ю-Я 99-6
+							div(class="partners-list-discounts")
+								div(class="discounts-title")
+									span Скидки для наших пользователей
+								div(class="discounts-cards")
+									div(class="discounts-card def")
+										| Обычная карта:
+										span 10%
+									div(class="discounts-card silver")
+										| Серебряная карта:
+										span 15%
+									div(class="discounts-card gold")
+										| Золотая карта:
+										span 20%
+							div(class="info")
+								div(class="partners-list-about")
+									div(class="title") О компании
+									div(class="text")
+										p Бар открылся в сентябре 2016 г. Уникальный стиль и атмосфера. Хорошее барное меню с различными акциями и скидками. 
+										p Владелец бара китаец, который говорит на русском и английском. Играет живая музыка по вечерам. Здесь всегда много иностранцев.
+								div(class="partners-list-places")
+									div(class="title") Места от партнера
+									div(class="places-wrapper")
+										a(class="image" href="#")
+											img(src="images/yan.jpg" alt="Партнер" width="289" height="156")
+											div(class="label") Бары
+										div(class="text-wrapper")
+											div(class="name") Бар у Яна Young Bar
+											div(class="address")
+												span No 99-6 Yuya Road, Dadonghai, Sanya
+											div(class="testimonials") Отзывов: 1
+						div(class="show-info")
+							a(class="partners-list-toggle" href="#") Показать
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad

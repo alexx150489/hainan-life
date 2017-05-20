@@ -8,7 +8,25 @@
 @import "blocks/footer.css"; 
 @import "blocks/previews.css";
 @import "blocks/ad.css"; 
-@import "blocks/comments.css"; 
+@import "blocks/comments.css";
+@import "blocks/events.css";
+@import "blocks/forum.css";
+@import "blocks/similar-events.css";
+@import "blocks/breadcrumbs.css";
+@import "blocks/paginator.css";
+@import "blocks/contacts.css";
+
+@import "blocks/partners.css";
+@import "blocks/partners-list.css";
+
+@import "blocks/fraternity.css";
+
+
+@import "blocks/aboutHainan.css";
+@import "blocks/aboutHainanFoto.css";
+@import "blocks/aboutHainanFotoFull.css";
+@import "blocks/aboutHainanPerelet.css";
+@import "blocks/aboutHainanVideo.css";
 
 
 * {
@@ -22,19 +40,18 @@
 	transition:all 0.2s ease-out;
 }
 
-.button {
-
-}
-
 .title {
+	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
-	line-height: 30px;
+	line-height: 21px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
-.form-element {
-
+.section-title {
+	font-size: 30px;
+	font-weight: bold;
+	color: #26c6da;
 }
 
 .slick-slide:focus { outline: none; }

@@ -1,0 +1,59 @@
+.block-paginator {
+	width: 100%;
+	min-height: 30px;
+	padding-top: 21px;
+	font-size: 0;
+	text-align: center;
+}
+
+.paginator-wrp {
+	display: inline-block;
+	text-align: center;
+	min-width: 280px;
+}
+
+.paginator-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 30px;
+	height: 30px;
+	font-size: 13px;
+	line-height: 30px;
+	color: #000;
+	text-align: center;
+	cursor: pointer;
+}
+
+.paginator-item.active {
+	background-color: #26c6da;
+	color: #fff;
+	border-radius: 50%;
+}
+
+.paginator-item.prev, .paginator-item.next {
+	position: relative;
+	width: auto;
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: underline;
+}
+
+.paginator-item.prev::after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	height: 11px;
+	top: 10px;
+	left: -15px;
+	background: url("../../images/sprite.png") -1388px -5px no-repeat;
+}
+
+.paginator-item.next::after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	height: 11px;
+	top: 10px;
+	right: -15px;
+	background: url("../../images/sprite.png") -1404px -5px no-repeat;
+}

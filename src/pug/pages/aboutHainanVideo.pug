@@ -1,0 +1,38 @@
+extends ../layout/layout
+
+block title 
+	| Видеогалерея
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				a(class="breadcrumbs-item" href="#") О Хайнане
+				span(class="breadcrumbs-item current") Видеогалерея
+
+
+			section(class="block-aboutHainanVideo")
+				div(class="aboutHainanVideo-wrp")
+					h2(class="aboutHainanVideo-title section-title") Видеогалерея
+					button(class="add-video-btn") Добавить видео
+				div(class="aboutHainanVideo-items")
+					div(class="aboutHainanVideo-item")
+						img(src="images/video-sample1.jpg" alt="Фото" width="320" height="215")
+					div(class="aboutHainanVideo-item")
+						img(src="images/video-sample1.jpg" alt="Фото" width="320" height="215")
+					div(class="aboutHainanVideo-item")
+						img(src="images/video-sample1.jpg" alt="Фото" width="320" height="215")
+					div(class="aboutHainanVideo-item")
+						img(src="images/video-sample1.jpg" alt="Фото" width="320" height="215")
+					div(class="aboutHainanVideo-item")
+						img(src="images/video-sample1.jpg" alt="Фото" width="320" height="215")
+					div(class="aboutHainanVideo-item")
+						img(src="images/video-sample1.jpg" alt="Фото" width="320" height="215")
+
+				include ../blocks/paginator
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad

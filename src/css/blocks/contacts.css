@@ -1,0 +1,48 @@
+.block-contacts {
+	padding: 0 15px;
+	padding-top: 40px;
+	padding-bottom: 85px;
+	background-color: #f9f4f4;
+}
+
+.contacts-title {
+	margin-bottom: 22px;
+}
+
+.contacts-wrapper {
+	font-size: 13px;
+	color: #686868;
+}
+
+.contacts-wrapper a {
+	margin-left: 6px;
+	color: #26c6da;
+	text-decoration: underline;
+}
+
+.block-contacts .contacts-subtitle {
+	margin-bottom: 5px;
+	font-size: 13px;
+	color: #686868;
+	font-weight: normal;
+}
+
+.block-contacts .contacts-email{
+	display: block;
+	margin-bottom: 9px;
+}
+
+.block-contacts	.contacts-tel {
+	display: block;
+	margin-bottom: 9px;
+}
+
+.block-contacts	.contacts-tel span{
+	margin-left: 6px;
+	font-weight: 600;
+	color: #000;
+}
+
+.block-contacts	.contacts-social {
+	display: block;
+}

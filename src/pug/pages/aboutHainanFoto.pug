@@ -1,0 +1,92 @@
+extends ../layout/layout
+
+block title 
+	| Фотогалерея
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				a(class="breadcrumbs-item" href="#") О Хайнане
+				span(class="breadcrumbs-item current") Фотогалерея
+
+
+			section(class="block-aboutHainanFoto")
+				h2(class="aboutHainanFoto-title section-title") Фотогалерея
+				div(class="aboutHainanFoto-items")
+					div(class="aboutHainanFoto-item")
+						div(class="aboutHainanFoto-autor")
+							div(class="name") 悦心 (Yue Xin) 
+							div(class="date") 30 Января 2017
+							div(class="autor-foto")
+						a(class="aboutHainanFoto photo-wrapper" href="#")
+							div(class="big-photo")
+								img(src="images/gal1-big.jpg" alt="Фото" width="290" height="164")
+							div(class="mini-photos")
+								div(class="itm")
+									img(src="images/gal-mini.jpg" alt="Фото" width="90" height="89")
+								div(class="itm")
+									img(src="images/gal-mini.jpg" alt="Фото" width="90" height="89")
+								div(class="itm")
+									img(src="images/gal-mini.jpg" alt="Фото" width="90" height="89")
+								div(class="itm")
+									img(src="images/gal-mini.jpg" alt="Фото" width="90" height="89")
+								div(class="itm")
+									img(src="images/gal-mini.jpg" alt="Фото" width="90" height="89")
+								div(class="itm all" href="#")
+									span 6 
+									| фото
+
+					div(class="aboutHainanFoto-item")
+						div(class="aboutHainanFoto-autor")
+							div(class="name") 悦心 (Yue Xin) 
+							div(class="date") 30 Января 2017
+							div(class="autor-foto")
+						a(class="aboutHainanFoto photo-wrapper" href="#")
+							div(class="big-photo")
+								img(src="images/gal1-big.jpg" alt="Фото" width="290" height="164")
+							div(class="mini-photos")
+								div(class="itm")
+									img(src="images/gal-mini.jpg" alt="Фото" width="90" height="89")
+								div(class="itm")
+									img(src="images/gal-mini.jpg" alt="Фото" width="90" height="89")
+								div(class="itm")
+									img(src="images/gal-mini.jpg" alt="Фото" width="90" height="89")
+								div(class="itm")
+									img(src="images/gal-mini.jpg" alt="Фото" width="90" height="89")
+								div(class="itm")
+									img(src="images/gal-mini.jpg" alt="Фото" width="90" height="89")
+								div(class="itm all")
+									span 8 
+									| фото
+
+					div(class="aboutHainanFoto-item")
+						div(class="aboutHainanFoto-autor")
+							div(class="name") 悦心 (Yue Xin) 
+							div(class="date") 30 Января 2017
+							div(class="autor-foto")
+						a(class="aboutHainanFoto photo-wrapper" href="#")
+							div(class="big-photo")
+								img(src="images/gal1-big.jpg" alt="Фото" width="280" height="164")
+							div(class="mini-photos")
+								div(class="itm")
+									img(src="images/gal-mini.jpg" alt="Фото" width="90" height="89")
+								div(class="itm")
+									img(src="images/gal-mini.jpg" alt="Фото" width="90" height="89")
+								div(class="itm")
+									img(src="images/gal-mini.jpg" alt="Фото" width="90" height="89")
+								div(class="itm")
+									img(src="images/gal-mini.jpg" alt="Фото" width="90" height="89")
+								div(class="itm")
+									img(src="images/gal-mini.jpg" alt="Фото" width="90" height="89")
+								div(class="itm all")
+									span 11 
+									| фото
+
+				include ../blocks/paginator
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad

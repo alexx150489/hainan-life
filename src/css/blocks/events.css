@@ -1,0 +1,119 @@
+.block-events {
+	padding-top: 29px;
+	background-color: #313736;
+}
+
+.events-title {
+	padding-left: 47px;
+	margin-bottom: 17px;
+}
+
+.block-events .events-title {
+	position: relative;
+}
+
+.block-events .events-title::after {
+	position: absolute;
+	content: '';
+	width: 21px;
+	height: 20px;
+	top: -1px;
+	left: 16px;
+	background: url("../../images/sprite.png") -551px -5px no-repeat;
+}
+
+.block-events .events-title span {
+	color: #ffa726;
+}
+
+.block-events .calendar-wrapper {
+	padding: 0 15px;
+	padding-top: 15px;
+	background: #000 url("../../images/calendar-bg.png") 0 0 no-repeat;
+	background-size: cover;
+}
+
+.block-events .calendar-panel {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 33px;
+
+}
+.block-events .calendar-panel td {
+	padding: 6px 10px;
+	border: 1px solid#26c6da;
+	text-align: center;
+}
+
+.block-events .calendar-panel td.show-calendar {
+	width: 43px;
+	background-color: #26c6da;
+}
+
+.block-events td.show-calendar {
+	padding: 0;
+	cursor: pointer;
+}
+
+.block-events td.show-calendar::after {
+	display: inline-block;
+	content: '';
+	width: 27px;
+	height: 16px;
+	margin-top: 7px;
+	background:	url("../../images/cal-show-icon.png") 0 0 no-repeat;
+}
+
+.block-events .calendar-panel td a {
+	font-size: 12px;
+	line-height: 8px;
+	color: #26c6da;
+	border-bottom: 1px dotted #26c6da;
+}
+.block-events .events-wrapper {
+	padding: 0 15px;
+	padding-top: 72px;
+	padding-bottom: 9px;
+	border: 3px solid rgba(255, 255, 255, .5);
+}
+
+.block-events .event {
+	padding-bottom: 12px;
+	margin-bottom: 19px;
+	border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+
+.block-events .event:last-child {
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+.block-events .event-date span {
+	margin-right: 36px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: 300;
+	color: #a4a094;
+}
+
+.block-events .event-title {
+	margin-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.block-events .event-description {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: 300;
+	color: #a4a094;
+}
+
+.block-events .previews-show-all a{
+	margin-right: -15px;
+}

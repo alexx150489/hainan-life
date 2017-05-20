@@ -1,0 +1,45 @@
+extends ../layout/layout
+
+block title 
+	| О Хайнане
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				span(class="breadcrumbs-item current") О Хайнане
+
+
+			section(class="block-aboutHainan")
+				h2(class="aboutHainan-title section-title") О Хайнане
+				div(class="aboutHainan-menu-wrapper")
+					ul
+						li(class="aboutHainan-menu-item")
+							a(class="aboutHainan-menu-link" href="#") Карта Хайнаня
+						li(class="aboutHainan-menu-item")
+							a(class="aboutHainan-menu-link" href="#") Факты об острове
+						li(class="aboutHainan-menu-item")
+							a(class="aboutHainan-menu-link" href="#") Визовый режим
+						li(class="aboutHainan-menu-item")
+							a(class="aboutHainan-menu-link" href="#") Перелет на остров
+						li(class="aboutHainan-menu-item")
+							a(class="aboutHainan-menu-link" href="#") Достопримечательности
+						li(class="aboutHainan-menu-item")
+							a(class="aboutHainan-menu-link" href="#") Медицина
+						li(class="aboutHainan-menu-item")
+							a(class="aboutHainan-menu-link" href="#") Образование
+						li(class="aboutHainan-menu-item")
+							a(class="aboutHainan-menu-link" href="#") Проживание на острове
+						li(class="aboutHainan-menu-item")
+							a(class="aboutHainan-menu-link" href="#") Хайнаньская кухня
+						li(class="aboutHainan-menu-item")
+							a(class="aboutHainan-menu-link" href="#") Фотогалерея
+						li(class="aboutHainan-menu-item")
+							a(class="aboutHainan-menu-link" href="#") Видеогалерея
+
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad

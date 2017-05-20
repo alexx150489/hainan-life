@@ -22,8 +22,8 @@ gulp.task('pug', function() {
 		.pipe(pug({
 			pretty: true
 		}))
-		.pipe(browserSync.reload({stream: true}))
 		.pipe(gulp.dest('src'))
+		.pipe(browserSync.reload({stream: true}))
 });
 
 gulp.task("style", function() {
@@ -122,16 +122,15 @@ gulp.task("build", function(fn) {
 gulp.task("serve", ["style"], function() {
 	browserSync ({
 		server: {
-			baseDir: ["./src"]
+			baseDir: "src"
 		},
-		port: 8080,
 		open: true,
 		notify: false
 	});
 
 	// gulp.watch("stylus/**/*.styl", ["style"]);
-	gulp.watch("src/css/**/*.css", ["style"]);
-	gulp.watch("src/**/*.html").on("change", browserSync.reload);
+	gulp.watch("src/css/**/*.css").on("change", browserSync.reload);
+	// gulp.watch("src/**/*.html").on("change", browserSync.reload);
 	gulp.watch("src/pug/**/*.pug", ["pug"]);
 });
 

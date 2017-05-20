@@ -1,0 +1,110 @@
+.block-aboutHainanFoto {
+	padding: 0 15px;
+	padding-bottom: 45px;
+	background-color: #f9f4f4;
+}
+
+
+.aboutHainanFoto-title {
+	padding-top: 31px;
+}
+
+
+.aboutHainanFoto-items {
+	padding-top: 33px;
+}
+
+.aboutHainanFoto-item {
+	margin-bottom: 30px;
+}
+
+.aboutHainanFoto-item:last-child {
+	margin-bottom: 0;
+}
+
+.aboutHainanFoto-autor {
+	position: relative;
+	padding-left: 60px;
+	margin-bottom: 22px;
+}
+
+.aboutHainanFoto-autor .autor-foto {
+	position: absolute;
+	content: '';
+	width: 52px;
+	height: 52px;
+	top: -8px;
+	left: 0;
+}
+
+.aboutHainanFoto-autor .name {
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #000;
+}
+
+.aboutHainanFoto-autor .date {
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #000;
+}
+
+.aboutHainanFoto-autor .autor-foto {
+	background:	url("../../images/avatar.png") 0 0 no-repeat;
+}
+
+.block-aboutHainanFoto .photo-wrapper {
+	display: block;
+	width: 290px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.block-aboutHainanFoto .big-photo img {
+	width: 100%;
+	display: block;
+}
+
+.block-aboutHainanFoto .mini-photos img {
+	display: block;
+}
+
+.block-aboutHainanFoto .mini-photos {
+	padding: 0 5px;
+	font-size: 0;
+}
+
+.block-aboutHainanFoto .mini-photos .itm {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5px;
+	margin-bottom: 5px;
+
+}
+
+.block-aboutHainanFoto .mini-photos .itm:nth-child(3n) {
+	margin-right: 0;
+}
+
+.block-aboutHainanFoto .mini-photos .all {
+	width: 90px;
+	height: 89px;
+	padding: 22px 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 500;
+	color: #fff;
+	background-color: #ffa726;
+	text-align: center;
+}
+
+.block-aboutHainanFoto .mini-photos .all span {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 36px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #fff;
+}

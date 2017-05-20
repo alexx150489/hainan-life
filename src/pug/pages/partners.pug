@@ -1,0 +1,31 @@
+extends ../layout/layout
+
+block title 
+	| Партнеры
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				span(class="breadcrumbs-item current") Партнеры
+
+
+			section(class="block-partners")
+				h2(class="partners-title section-title") Партнеры
+				div(class="partners-menu-wrapper")
+					ul
+						li(class="partners-menu-item")
+							a(class="partners-menu-link" href="#") Список партнеров
+						li(class="partners-menu-item")
+							a(class="partners-menu-link" href="#") Как стать партнером
+						li(class="partners-menu-item")
+							a(class="partners-menu-link" href="#") Бонусы для партнеров
+						li(class="partners-menu-item")
+							a(class="partners-menu-link" href="#") Стоимость рекламы для партнеров
+
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad

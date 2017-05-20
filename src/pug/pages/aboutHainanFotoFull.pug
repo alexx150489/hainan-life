@@ -1,0 +1,43 @@
+extends ../layout/layout
+
+block title 
+	| Талантливая Anna Tyab
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				a(class="breadcrumbs-item" href="#") О Хайнане
+				a(class="breadcrumbs-item" href="#") Фотогалерея
+				span(class="breadcrumbs-item current") Талантливая Anna Tyab
+
+
+			section(class="block-aboutHainanFotoFull")
+				h2(class="aboutHainanFotoFull-title section-title") Талантливая Anna Tyab
+				div(class="aboutHainanFotoFull-wrp")
+					div(class="aboutHainanFotoFull-autor")
+						div(class="user")
+							div(class="name") 悦心 (Yue Xin) 
+							div(class="date") 30 Января 2017
+							div(class="autor-foto")
+					div(class="aboutHainanFotoFull-description") Неповторимая Anna Tyab специально для Hainanlife.
+					div(class="aboutHainanFotoFull-gallery")
+						div(class="gallery-item")
+							img(src="images/gal1.jpg" alt="Фото" width="290" height="215")
+						div(class="gallery-item")
+							img(src="images/gal2.jpg" alt="Фото" width="290" height="215")
+						div(class="gallery-item")
+							img(src="images/gal3.jpg" alt="Фото" width="290" height="215")
+						div(class="gallery-item")
+							img(src="images/gal4.jpg" alt="Фото" width="290" height="215")
+						div(class="gallery-item")
+							img(src="images/gal5.jpg" alt="Фото" width="290" height="215")
+						div(class="gallery-item")
+							img(src="images/gal6.jpg" alt="Фото" width="290" height="215")
+
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad

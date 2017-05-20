@@ -1,12 +1,28 @@
 .block-comments {
 	padding: 0 15px;
+	padding-top: 27px;
+	padding-bottom: 30px;
 	background-color: #313736;
 }
 
 .comments-title {
-	padding-left: 26px;
+	padding-left: 30px;
 	margin-bottom: 34px;
 	color: #d8902a;
+}
+
+.comments-title {
+	position: relative;
+}
+
+.comments-title::after {
+	position: absolute;
+	content: '';
+	width: 19px;
+	height: 19px;
+	top: 0;
+	left: 1px;
+	background: url("../../images/sprite.png") -736px -5px no-repeat;
 }
 
 .comments-wrapper {
@@ -25,7 +41,7 @@
 }
 
 .comments-item {
-	padding-bottom: 16px;
+	padding-bottom: 20px;
 }
 
 .comments-item.sec1 .comments-foto {
@@ -55,6 +71,7 @@
 }
 
 .comments-message {
+	position: relative;
 	padding: 14px;
 	font-size: 13px;
 	line-height: 18px;
@@ -64,9 +81,19 @@
 	background-color: #4c5453;
 }
 
+.comments-message::after {
+	position: absolute;
+	content: '';
+	width: 19px;
+	height: 20px;
+	top: -9px;
+	left: 16px;
+	background: url("../../images/sprite.png") -38px -52px no-repeat;
+}
+
 .comments-description {
 	font-size: 12px;
-	line-height: 36px;
+	line-height: 21px;
 	font-weight: normal;
 	color: #a3a2a2;
 }

@@ -1,0 +1,29 @@
+.block-partners {
+	padding: 0 15px;
+	padding-top: 19px;
+	background-color: #f9f4f4;
+}
+
+.block-partners .partners-menu-wrapper {
+	padding-top: 20px;
+	padding-bottom: 45px;
+}
+
+.block-partners .partners-menu-item {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.block-partners .partners-menu-item:last-child {
+	margin-bottom: 0;
+}
+
+.block-partners .partners-menu-link {
+	display: block;
+	padding: 15px 0;
+	padding-left: 20px;
+	font-weight: 600;
+	color: #fff;
+	background: url("../../images/footer-bg.jpg") center -100px no-repeat;
+	background-attachment: fixed;
+}

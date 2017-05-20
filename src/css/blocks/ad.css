@@ -1,11 +1,27 @@
 .block-ad {
 	padding: 0 15px;
-	padding-bottom: 32px;
+	padding-top: 26px;
+	padding-bottom: 59px;
 }
 
 .ad-title {
+	margin-bottom: 19px;
 	padding-left: 26px;
 	color: #828080;
+}
+
+.ad-title {
+	position: relative;
+}
+
+.ad-title::after {
+	position: absolute;
+	content: '';
+	width: 21px;
+	height: 17px;
+	top: 0;
+	left: -2px;
+	background: url("../../images/sprite.png") -1645px -5px no-repeat;
 }
 
 .ad-title span {

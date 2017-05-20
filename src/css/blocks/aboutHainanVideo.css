@@ -1,0 +1,47 @@
+.block-aboutHainanVideo {
+	padding-top: 29px;
+	padding-bottom: 60px;
+	background-color: #f9f4f4;
+}
+
+.aboutHainanVideo-title {
+	margin-bottom: 16px;
+}
+
+.block-aboutHainanVideo .aboutHainanVideo-wrp {
+	padding: 0 15px;
+}
+
+.aboutHainanVideo-items {
+	padding-top: 12px;
+}
+
+.aboutHainanVideo-item {
+	margin-bottom: 10px;
+}
+
+.block-aboutHainanVideo .add-video-btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 0;
+	padding-left: 42px;
+	padding-right: 20px;
+	background-color: #ff9100;
+	border: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 600;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.aboutHainanVideo-item img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.block-aboutHainanVideo .block-paginator {
+	padding-top: 14px;
+}

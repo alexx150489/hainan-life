@@ -1,0 +1,37 @@
+extends ../layout/layout
+
+block title 
+	| Содружество HNL
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				span(class="breadcrumbs-item current") Содружество HNL
+
+
+			section(class="block-fraternity")
+				h2(class="fraternity-title section-title") Содружество HNL
+				div(class="fraternity-menu-wrapper")
+					ul
+						li(class="fraternity-menu-item")
+							a(class="fraternity-menu-link" href="#") Обращение к учасникам
+						li(class="fraternity-menu-item")
+							a(class="fraternity-menu-link" href="#") Схема наполнения баз данных
+						li(class="fraternity-menu-item")
+							a(class="fraternity-menu-link" href="#") Порядок поощрения контрибьютеров
+						li(class="fraternity-menu-item")
+							a(class="fraternity-menu-link" href="#") Соглашения учасников
+						li(class="fraternity-menu-item")
+							a(class="fraternity-menu-link" href="#") Лист контрибьютеров
+						li(class="fraternity-menu-item")
+							a(class="fraternity-menu-link" href="#") Истории нараждения
+						li(class="fraternity-menu-item")
+							a(class="fraternity-menu-link" href="#") Конкурсы
+
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad

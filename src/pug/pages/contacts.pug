@@ -1,0 +1,31 @@
+extends ../layout/layout
+
+block title 
+	| Контакты
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				span(class="breadcrumbs-item current") Контакты
+
+			section(class="block-contacts")
+					h2(class="contacts-title section-title") Контакты
+					div(class="contacts-wrapper")
+						h3(class="contacts-subtitle") Наши контакты:
+						div(class="contacts-email")
+							| Email:
+							a(href="mailto:hainanlife@163.com") hainanlife@163.com
+						div(class="contacts-tel")
+							| Тел:
+							span (+86)15008018293
+						div(class="contacts-social")
+							| ВК:
+							a(href="#") https://vk.com/hainanlife
+
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad

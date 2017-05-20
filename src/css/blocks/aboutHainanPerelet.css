@@ -1,0 +1,38 @@
+.block-aboutHainanPerelet {
+	background-color: #f9f4f4;
+}
+
+.block-aboutHainanPerelet .aboutHainanPerelet-wrp{
+	padding: 0 15px;
+}
+
+.aboutHainanPerelet-title {
+	padding-top: 25px;
+}
+
+.block-aboutHainanPerelet .article-wrp {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.block-aboutHainanPerelet p{
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #000;
+	margin-bottom: 18px;
+}
+
+.block-aboutHainanPerelet p:last-child {
+	margin-bottom: 0;
+}
+
+.block-aboutHainanPerelet .img-wrp{
+	padding-bottom: 30px;
+}
+
+.block-aboutHainanPerelet .img-wrp img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
