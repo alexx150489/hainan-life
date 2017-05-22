@@ -385,6 +385,10 @@
 	margin-bottom: 31px;
 }
 
+.blogs-content {
+	display: block;
+}
+
 .blogs-item:last-child {
 	margin-bottom: 0;
 }

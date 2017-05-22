@@ -1,0 +1,65 @@
+.block-forumPreview {
+	padding: 0 15px;
+	padding-top: 29px;
+	padding-bottom: 24px;
+	background-color: #313736;
+}
+
+.block-forumPreview .forumPreview-title {
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ffa726;
+}
+
+.block-forumPreview .forumPreview-title {
+	position: relative;
+	padding-left: 36px;
+}
+
+.block-forumPreview .forumPreview-title::after {
+	position: absolute;
+	content: '';
+	width: 36px;
+	height: 30px;
+	top: -5px;
+	left: -4px;
+	background: url("../../images/sprite.png") -902px -5px no-repeat;
+}
+
+.block-forumPreview .post-title {
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.block-forumPreview .items {
+	padding-top: 20px;
+}
+
+.block-forumPreview .item {
+	display: block;
+	vertical-align: top;
+	margin-bottom: 25px;
+}
+
+.block-forumPreview .item:last-child {
+	margin-bottom: 0;
+}
+
+
+.block-forumPreview .post-text {
+	font-size: 13px;
+	line-height: 19px;
+	font-weight: normal;
+	color: #a3a2a2;
+}
+
+.block-forumPreview .date {
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #a3a2a2;
+}

@@ -57,3 +57,7 @@
 	margin: 14px auto;
 	background: url("../../images/sprite.png") -1035px -5px no-repeat;
 }
+
+.header-sign.logged::after {
+
+}

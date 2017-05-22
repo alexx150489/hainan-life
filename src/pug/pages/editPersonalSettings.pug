@@ -1,0 +1,39 @@
+extends ../layout/layout
+
+block title 
+	| Настройки профиля
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				span(class="breadcrumbs-item current") Настройки профиля
+
+
+			section(class="block-editPersonalSettings")
+				h2(class="editPersonalSettings-title section-title") Редактирование личных данных
+				div(class="form-wrp")
+					form(class="form" action="#" method="post" name="editPersonalSettings-form")
+						div(class="fields")
+							div(class="form-el-wrp")
+								input(type="text" name="user-name" placeholder="Имя")
+							div(class="form-el-wrp")
+								input(type="text" name="user-surname" placeholder="Фамилия")
+							div(class="form-el-wrp")
+								input(type="text" name="user-patronymic" placeholder="Отчество")
+							div(class="form-el-wrp")
+								input(type="email" name="user-email" placeholder="Email")
+							div(class="form-el-wrp")
+								input(type="password" name="user-password" placeholder="Новый пароль")
+							div(class="form-el-wrp")
+								input(type="password" name="user-newpassword" placeholder="Повторите новый пароль")
+						div(class="upload-photo-wrp")
+							div(class="upload-photo-zone")
+							div(class="upload-photo-description")
+								p Загрузите свою фотографию, тогда пользователям будет удобнее с вами общаться
+						button(class="save-changes" type="submit" name="submit") Сохранить
+
+			include ../blocks/forumPreview
+			include ../blocks/ad

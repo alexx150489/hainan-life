@@ -1,0 +1,59 @@
+.block-editPersonalSettings {
+	padding: 0 15px;
+	padding-top: 22px;
+	background-color: #f9f4f4;
+}
+
+.block-editPersonalSettings .form-wrp {
+	padding-top: 26px;
+	padding-bottom: 102px;
+}
+
+.block-editPersonalSettings .fields {
+	padding-bottom: 23px;
+}
+
+.block-editPersonalSettings .form-el-wrp {
+	margin-bottom: 10px;
+}
+
+.block-editPersonalSettings .form-el-wrp:last-child {
+	margin-bottom: 0;
+}
+
+.block-editPersonalSettings input {
+	width: 100%;
+	padding: 8px 0;
+	padding-left: 13px;
+	border: 1px solid #d6d6d6;
+	border-radius: 2px;
+	font-size: 13px;
+}
+
+.block-editPersonalSettings .upload-photo-wrp {
+	padding-bottom: 33px;
+}
+
+.block-editPersonalSettings .upload-photo-zone {
+	width: 103px;
+	height: 103px;
+	margin-bottom: 10px;
+	background: url("../../images/upload-photo.png") 0 0 no-repeat;
+}
+
+.block-editPersonalSettings .upload-photo-description {
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #000;
+}
+
+.block-editPersonalSettings .save-changes {
+	display: inline-block;
+	padding: 10px 51px;
+	border-radius: 5px;
+	vertical-align: top;
+	color: #fff;
+	background-color: #26c6da;
+	border: none;
+}

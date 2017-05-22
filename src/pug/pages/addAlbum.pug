@@ -1,0 +1,61 @@
+extends ../layout/layout
+
+block title 
+	| Добавить альбом
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				span(class="breadcrumbs-item current") Добавить альбом
+
+
+			section(class="block-addAlbum")
+				h2(class="addAlbum-title section-title") Добавить альбом
+				div(class="form-wrp")
+					form(class="form" action="#" method="post" name="addAlbum-form")
+
+						div(class="addAlbum-name")
+							div(class="form-title") Название альбома
+							div(class="form-el-wrp")
+								input(class="post-type" type="text" name="album-name")
+
+						div(class="addAlbum-name-eng")
+							div(class="form-title") Название альбома(англ.)
+							div(class="form-el-wrp")
+								input(class="post-type" type="text" name="album-name-eng")
+
+
+						div(class="addAlbum-upload-photo")
+							div(class="form-title") Фото
+							div(class="upload-photo-zone-wrp")
+								div(class="upload-photo-zone")
+								div(class="upload-photo-zone")
+
+
+						div(class="addAlbum-more-albums")
+							div(class="more-albums-wrp")
+								a(class="more-albums-btn" href="#") Добавить фото
+
+
+						div(class="addAlbum-description")
+							div(class="form-title") Описание:
+							div(class="ta-wrp")
+								textarea(name="description-ta")
+
+						div(class="addAlbum-description-eng")
+							div(class="form-title") Описание(англ.):
+							div(class="ta-wrp")
+								textarea(name="description-ta")
+
+						div(class="addAlbum-visibility")
+							div(class="checkbox-wrp")
+								input(id="only-my-album" type="checkbox")
+								label(for="only-my-album" class="only-my-album") Отображать альбом только на моей странице 
+
+						button(class="save-changes" type="submit" name="submit") Создать альбом
+
+			include ../blocks/forumPreview
+			include ../blocks/ad

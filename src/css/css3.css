@@ -10,8 +10,7 @@
 @import "blocks/ad.css"; 
 @import "blocks/comments.css";
 @import "blocks/events.css";
-@import "blocks/forum.css";
-@import "blocks/similar-events.css";
+@import "blocks/forumPreview.css";
 @import "blocks/breadcrumbs.css";
 @import "blocks/paginator.css";
 @import "blocks/contacts.css";
@@ -27,6 +26,14 @@
 @import "blocks/aboutHainanFotoFull.css";
 @import "blocks/aboutHainanPerelet.css";
 @import "blocks/aboutHainanVideo.css";
+
+
+@import "blocks/editPersonalSettings.css";
+@import "blocks/addObject.css";
+@import "blocks/addEvents.css";
+@import "blocks/addPost.css";
+@import "blocks/addAlbum.css";
+@import "blocks/addVideo.css";
 
 
 * {
@@ -58,32 +65,21 @@
 
 
 
-/*
+
 .gradient {
-	background-image:-webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#000000));
-	background-image:-webkit-linear-gradient(top, #ffffff, #000000);
-	background-image:-moz-linear-gradient(top, #ffffff, #000000);
-	background-image:-ms-linear-gradient(top, #ffffff, #000000);
-	background-image:-o-linear-gradient(top, #ffffff, #000000);
 	background-image:linear-gradient(top, #ffffff, #000000);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#000000');
 }
 
 .box-shadow {
-	-webkit-box-shadow:0px 0px 5px #000000;
-	-moz-box-shadow:0px 0px 5px #000000;
 	-ms-box-shadow:0px 0px 5px #000000;
 	-o-box-shadow:0px 0px 5px #000000;
 	box-shadow:0px 0px 5px #000000;
 }
 
 .transition {
-	-webkit-transition:all 0.2s ease-out;
-	-moz-transition:all 0.2s ease-out;
-	-ms-transition:all 0.2s ease-out;
-	-o-transition:all 0.2s ease-out;
 	transition:all 0.2s ease-out;
 }
-*/
+
 
 

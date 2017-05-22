@@ -1,0 +1,72 @@
+.block-addPost {
+	padding: 0 15px;
+	padding-top: 23px;
+	padding-bottom: 71px;
+	background-color: #f9f4f4;
+	font-size: 13px;
+}
+
+.block-addPost input {
+	width: 100%;
+	padding: 8px 0;
+	padding-right: 32px;
+	padding-left: 16px;
+	border: 1px solid #d6d6d6;
+	border-radius: 2px;
+}
+
+.addPost-title {
+	margin-bottom: 21px;
+}
+
+.block-addPost .form-title {
+	margin-bottom: 12px;
+}
+
+.addPost-type {
+	margin-bottom: 17px;
+}
+
+.addPost-name {
+	margin-bottom: 17px;
+}
+
+.addPost-image {
+	margin-bottom: 20px;
+}
+
+.addPost-image .upload-image-zone {
+	width: 198px;
+	height: 150px;
+	background: url("../../images/upload-image.jpg") 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+
+.addPost-description-short {
+	margin-bottom: 13px;
+}
+
+.addPost-description-short textarea {
+	width: 100%;
+	height: 178px;
+}
+
+.addPost-text {
+	margin-bottom: 15px;
+}
+
+.addPost-text textarea {
+	width: 100%;
+	height: 459px;
+}
+
+
+.block-addPost .save-changes {
+	border: none;
+	padding: 10px 23px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #26c6da;
+	border-radius: 7px;
+}

@@ -1,0 +1,55 @@
+extends ../layout/layout
+
+block title 
+	| Добавить запись в блоге
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				span(class="breadcrumbs-item current") Добавить запись в блоге
+
+
+			section(class="block-addPost")
+				h2(class="addPost-title section-title") Добавить запись в блоге
+				div(class="form-wrp")
+					form(class="form" action="#" method="post" name="addPost-form")
+
+						div(class="addPost-type")
+							div(class="form-title") Тип
+							div(class="form-el-wrp")
+								input(class="post-type" type="text" name="post-type" placeholder="Спешу поделиться впечатлениями")
+
+						div(class="addPost-name")
+							div(class="form-title") Название статьи
+							div(class="form-el-wrp")
+								input(class="post-name" type="text" name="post-name")
+
+
+						div(class="addPost-image")
+							div(class="form-title") Картинка
+							div(class="upload-image-zone")
+
+
+						div(class="addPost-description-short")
+							div(class="form-title") Краткое описание:
+							div(class="ta-wrp")
+								textarea(name="description-ta")
+
+						div(class="addPost-text")
+							div(class="form-title") Текст статьи:
+							div(class="ta-wrp")
+								textarea(name="description-ta")
+
+						div(class="addEvent-tags")
+							div(class="form-title") Тэги:
+							div(class="form-el-wrp")
+								input(type="text" name="tags")
+
+
+						button(class="save-changes" type="submit" name="submit") Создать запись в блоге
+
+			include ../blocks/forumPreview
+			include ../blocks/ad

@@ -1,0 +1,144 @@
+.block-addAlbum {
+	padding: 0 15px;
+	padding-top: 19px;
+	padding-bottom: 53px;
+	background-color: #f9f4f4;
+	font-size: 13px;
+}
+
+.addAlbum-title {
+	margin-bottom: 21px;
+}
+
+.block-addAlbum .form-title {
+	margin-bottom: 5px;
+}
+
+.addAlbum-name {
+	margin-bottom: 20px;
+}
+
+.addAlbum-name-eng {
+	margin-bottom: 20px;
+}
+
+.addAlbum-name input, .addAlbum-name-eng input {
+	width: 100%;
+	padding: 8px 0;
+	padding-right: 32px;
+	padding-left: 16px;
+	border: 1px solid #d6d6d6;
+	border-radius: 2px;
+}
+
+.addAlbum-upload-photo {
+	margin-bottom: 16px;
+}
+
+.addAlbum-upload-photo .upload-photo-zone {
+	display: inline-block;
+	vertical-align: top;
+	width: 142px;
+	height: 108px;
+	margin-right: 6px;
+	background: url("../../images/upload-image.jpg") 0 0 no-repeat;
+	background-size: 100%;
+}
+
+.addAlbum-upload-photo .upload-photo-zone:last-child {
+	margin-right: 0;
+}
+
+.addAlbum-more-albums {
+	margin-bottom: 18px;
+}
+
+.addAlbum-more-albums .more-albums-wrp {
+	width: 290px;
+	height: 78px;
+	margin: 0 auto;
+	background: url("../../images/gray-br.png") 0 0 no-repeat;
+	background-size: 100%;
+	text-align: center;
+}
+
+.addAlbum-more-albums .more-albums-btn {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 600;
+	color: #fff;
+	border: none;
+	background: #00c925 url() 0 0 no-repeat;
+	padding: 9px 0;
+	padding-left: 46px;
+	padding-right: 26px;
+	margin: 17px 0;
+	border-radius: 5px;
+}
+
+.addAlbum-more-albums .more-albums-btn::after {
+	position: absolute;
+	content: '';
+	width: 30px;
+	height: 28px;
+	top: 5px;
+	left: 6px;
+	background: url("../../images/sprite.png") -1605px -5px no-repeat;
+}
+
+.addAlbum-description {
+	margin-bottom: 23px;
+}
+
+.addAlbum-description textarea {
+	width: 100%;
+	height: 457px;
+}
+
+.addAlbum-description-eng {
+	margin-bottom: 14px;
+}
+
+.addAlbum-description-eng textarea {
+	width: 100%;
+	height: 457px;
+}
+
+.addAlbum-visibility {
+	margin-bottom: 27px;
+}
+
+.block-addAlbum input[type="checkbox"] {
+	display: none;
+}
+
+.block-addAlbum label {
+	position: relative;
+	padding-left: 20px;
+}
+
+.block-addAlbum input[type="checkbox"] + label::before {
+	position: absolute;
+	content: '';
+	width: 13px;
+	height: 13px;
+	top: 3px;
+	left: 0;
+	background:	url("../../images/sprite.png") -2427px -5px no-repeat;
+}
+
+.block-addAlbum input[type="checkbox"]:checked + label::before {
+	background:	url("../..//images/sprite.png") -68px -56px no-repeat;
+}
+
+.block-addAlbum .save-changes {
+	border: none;
+	padding: 10px 29px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #26c6da;
+	border-radius: 7px;
+}

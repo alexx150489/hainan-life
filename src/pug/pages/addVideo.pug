@@ -1,0 +1,55 @@
+extends ../layout/layout
+
+block title 
+	| Добавить видео
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				span(class="breadcrumbs-item current") Добавить видео
+
+
+			section(class="block-addVideo")
+				h2(class="addVideo-title section-title") Добавить видео
+				div(class="form-wrp")
+					form(class="form" action="#" method="post" name="addVideo-form")
+
+						div(class="addVideo-name")
+							div(class="form-title") Название альбома
+							div(class="form-el-wrp")
+								input(class="post-type" type="text" name="album-name")
+
+						div(class="addVideo-name-eng")
+							div(class="form-title") Название альбома(англ.)
+							div(class="form-el-wrp")
+								input(class="post-type" type="text" name="album-name-eng")
+
+
+						div(class="addVideo-upload-photo")
+							div(class="form-title") Фото
+							div(class="upload-photo-zone-wrp")
+								div(class="upload-photo-zone")
+
+						div(class="addVideo-code")
+							div(class="form-title") Код для вставки видео:
+							div(class="ta-wrp")
+								textarea(name="code-ta")
+
+						div(class="addVideo-description")
+							div(class="form-title") Описание:
+							div(class="ta-wrp")
+								textarea(name="description-ta")
+
+						div(class="addVideo-description-eng")
+							div(class="form-title") Описание(англ.):
+							div(class="ta-wrp")
+								textarea(name="description-ta")
+
+
+						button(class="save-changes" type="submit" name="submit") Создать видео
+
+			include ../blocks/forumPreview
+			include ../blocks/ad

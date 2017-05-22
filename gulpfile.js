@@ -6,7 +6,7 @@ var less = require("gulp-less");
 var plumber = require("gulp-plumber");
 var postcss = require("gulp-postcss");
 var autoprefixer = require("autoprefixer");
-var browserSync = require("browser-sync");
+var browserSync = require('browser-sync').create();
 var mqpacker = require("css-mqpacker");
 var minify = require("gulp-csso");
 var rename = require("gulp-rename");
@@ -17,13 +17,19 @@ var del = require("del");
 var run = require("run-sequence");
 var pug = require('gulp-pug');
 
+var reload = browserSync.reload;
+
+
 gulp.task('pug', function() {
-	return gulp.src('src/pug/pages/*.pug')
-		.pipe(pug({
-			pretty: true
-		}))
-		.pipe(gulp.dest('src'))
-		.pipe(browserSync.reload({stream: true}))
+	return gulp.src('./src/pug/pages/*.pug')
+		.pipe(pug({pretty: true}))
+		.pipe(gulp.dest('./src'))
+		.pipe(browserSync.stream());
+});
+
+
+gulp.task('reload', function() {
+	reload;
 });
 
 gulp.task("style", function() {
@@ -120,9 +126,9 @@ gulp.task("build", function(fn) {
 });
 
 gulp.task("serve", ["style"], function() {
-	browserSync ({
+	browserSync.init ({
 		server: {
-			baseDir: "src"
+			baseDir: "./src"
 		},
 		open: true,
 		notify: false

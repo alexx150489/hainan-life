@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600,700&amp;amp;subset=cyrillic" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="js/vendor/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/slick.js/slick.css">
+    <link rel="stylesheet" href="css/slick.js/slick-theme.css">
+    <link rel="stylesheet" href="css/css3.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/vendor/jquery-3.2.0.min.js"></script>
+    <script src="js/vendor/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/vendor/jquery.form.min.js"></script>
+    <script src="js/vendor/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="js/vendor/slick.js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <title> Добвать объект
+    </title>
+  </head>
+  <body>
+    <header class="block-header">
+      <div class="site-wrap">
+        <div class="header-wrapper clearfix">
+          <div class="header-menu-toggle"></div>
+          <div class="header-logo-wrapper">
+            <div class="header-logo"><a href="#"><img src="images/main-logo.png" width="186" height="39" alt="Логотип"></a></div>
+          </div>
+          <div class="header-sign"></div>
+        </div>
+      </div>
+    </header>
+    <section class="block-content">
+      <div class="site-wrap">
+        <section class="block-breadcrumbs"><a class="breadcrumbs-item home" href="index.html"></a><span class="breadcrumbs-item current">Добвать объект</span></section>
+        <section class="block-addObject">
+          <h2 class="addObject-title section-title">Добвать объект</h2>
+          <div class="form-wrp">
+            <form class="form" action="#" method="post" name="addObject-form">
+              <div class="addObject-type">
+                <div class="form-title">Тип</div>
+                <div class="select-wrp">
+                  <select class="category-select" id="category-select" name="category-select">
+                    <option value="option1">Значение 1</option>
+                    <option value="option1">Значение 3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="addObject-name">
+                <div class="form-title">Название объекта</div>
+                <div class="form-el-wrp">
+                  <input class="object-name-eng" type="text" name="object-name-eng">
+                </div>
+                <div class="form-el-wrp">
+                  <input class="object-name-ru" type="text" name="object-name-ru">
+                </div>
+                <div class="form-el-wrp">
+                  <input class="object-name-cn" name="object-name-cn">
+                </div>
+                <div class="form-el-wrp">
+                  <input class="object-name-cnpin" type="text" name="object-name-cnpin" placeholder="название на пиньинь">
+                </div>
+              </div>
+              <div class="addObject-upload-photo">
+                <div class="upload-photo-title">Фото объекта</div>
+                <div class="upload-photo-zone-wrp">
+                  <div class="upload-photo-zone"></div>
+                  <div class="upload-photo-zone"></div>
+                  <div class="upload-photo-zone"></div>
+                </div>
+              </div>
+              <div class="addObject-more-albums">
+                <div class="more-albums-wrp"><a class="more-albums-btn" href="#">Показать больше альбомов</a></div>
+              </div>
+              <div class="addObject-contacts">
+                <div class="form-title">Контактные данные</div>
+                <div class="form-el-wrp">
+                  <input type="tel" name="tel" placeholder="Телефон:">
+                </div>
+                <div class="form-el-wrp">
+                  <input type="text" name="web-sait" placeholder="Веб-сайт:">
+                </div>
+                <div class="form-el-wrp">
+                  <input type="text" name="adress-ru" placeholder="Адрес на русском языке:">
+                </div>
+                <div class="form-el-wrp">
+                  <input type="text" name="town" placeholder="Город">
+                </div>
+                <div class="form-el-wrp">
+                  <input type="tel" name="another-town" placeholder="Другой город">
+                </div>
+                <div class="form-el-wrp">
+                  <input type="text" name="adress-eng" placeholder="Адрес на английском языке:">
+                </div>
+                <div class="form-el-wrp">
+                  <input type="text" name="adress-cn" placeholder="Адрес на китайском языке:">
+                </div>
+                <div class="form-el-wrp">
+                  <input type="text" name="adress-pin" placeholder="Адрес на пиньинь:">
+                </div>
+              </div>
+              <div class="addObject-rang">
+                <div class="form-title">Ранг Национального Управления По Туризму КНР:</div>
+                <div class="rang"><span class="rang-title">Выберите ранг: </span><span class="rang-item">A </span><span class="rang-item">A </span><span class="rang-item">A </span><span class="rang-item">A </span><span class="rang-item">A</span></div>
+              </div>
+              <div class="addObject-language">
+                <div class="form-title">Языки обслуживания</div>
+                <div class="checkbox-wrp">
+                  <div class="form-el-wrp">
+                    <input id="language-cn" type="checkbox">
+                    <label for="language-cn">Китайский</label>
+                  </div>
+                  <div class="form-el-wrp">
+                    <input id="language-eng" type="checkbox">
+                    <label for="language-eng">Английский</label>
+                  </div>
+                  <div class="form-el-wrp">
+                    <input id="language-ru" type="checkbox">
+                    <label for="language-ru">Русский</label>
+                  </div>
+                </div>
+              </div>
+              <div class="addObject-payment">
+                <div class="form-title">Способы оплаты</div>
+                <div class="payment-container clearfix">
+                  <div class="form-group group1">
+                    <div class="checkbox-wrp">
+                      <input id="payment-cash" type="checkbox">
+                      <label class="cash" for="payment-cash">Наличные</label>
+                    </div>
+                    <div class="checkbox-wrp">
+                      <input id="payment-up" type="checkbox">
+                      <label class="up" for="payment-up">Union pay</label>
+                    </div>
+                    <div class="checkbox-wrp">
+                      <input id="payment-visa" type="checkbox">
+                      <label class="visa" for="payment-visa">VISA</label>
+                    </div>
+                  </div>
+                  <div class="form-group group2">
+                    <div class="checkbox-wrp">
+                      <input id="payment-mc" type="checkbox">
+                      <label class="mc" for="payment-mc">MasterCard</label>
+                    </div>
+                    <div class="checkbox-wrp">
+                      <input id="payment-ali" type="checkbox">
+                      <label class="ali" for="payment-ali">Alipay</label>
+                    </div>
+                    <div class="checkbox-wrp">
+                      <input id="payment-wcp" type="checkbox">
+                      <label class="wcp" for="payment-wcp">WeChat Pay</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="addObject-whours">
+                <div class="form-title">Время работы</div>
+                <div class="form-el-wrp">
+                  <input type="text" name="days" placeholder="Дни недели:">
+                </div>
+                <div class="form-el-wrp">
+                  <input type="text" name="time" placeholder="Режим работы:">
+                </div>
+                <div class="form-el-wrp">
+                  <input type="text" name="dinner" placeholder="Перерыв на обед:">
+                </div>
+                <div class="checkbox-wrp">
+                  <input class="no-break" id="no-break" type="checkbox">
+                  <label for="no-break">Без перерыва</label>
+                </div>
+              </div>
+              <div class="addObject-addservices">
+                <div class="form-title">Дополнительные услуги:</div>
+                <div class="checkbox-wrp">
+                  <input id="wifi" type="checkbox">
+                  <label class="wifi" for="wifi">Бесплатный WI-FI </label>
+                </div>
+                <div class="checkbox-wrp">
+                  <input id="with-children" type="checkbox">
+                  <label class="with-children" for="with-children">Посещение с детьми </label>
+                </div>
+              </div>
+              <div class="addObject-description">
+                <div class="form-title">Описание:</div>
+                <div class="ta-wrp">
+                  <textarea name="description-ta"></textarea>
+                </div>
+              </div>
+              <div class="addObject-tags">
+                <div class="form-title">Тэги:</div>
+                <div class="form-el-wrp">
+                  <input type="text" name="tags">
+                </div>
+              </div>
+              <button class="save-changes" type="submit" name="submit">Создать объект</button>
+            </form>
+          </div>
+        </section>
+        <section class="block-forumPreview">
+          <h3 class="forumPreview-title">Форум</h3>
+          <div class="items"><a class="item" href="#">
+              <div class="post-title">Тусовки на Хайнане</div>
+              <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
+              <div class="date">28 Января 2017</div></a><a class="item" href="#">
+              <div class="post-title">Тусовки на Хайнане</div>
+              <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
+              <div class="date">28 Января 2017</div></a><a class="item" href="#">
+              <div class="post-title">Тусовки на Хайнане</div>
+              <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
+              <div class="date">28 Января 2017</div></a><a class="item" href="#">
+              <div class="post-title">Тусовки на Хайнане</div>
+              <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
+              <div class="date">28 Января 2017</div></a><a class="item" href="#">
+              <div class="post-title">Тусовки на Хайнане</div>
+              <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
+              <div class="date">28 Января 2017</div></a></div>
+        </section>
+        <section class="block-ad">
+          <h3 class="ad-title title"><span>Реклама </span>на портале</h3>
+          <div class="ad-wrapper">
+            <div class="ad-slider">
+              <div class="slide">
+                <div class="slide-image"><img src="images/ad-img.jpg" alt="Реклама" width="289" height="356"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <footer class="block-footer">
+      <div class="site-wrap">
+        <div class="footer-menu-wrapper">
+          <ul class="footer-menu">
+            <li class="footer-menu-item">
+              <div class="item-title active">О хайнане</div>
+              <ul class="submenu">
+                <li class="submenu-item"><a class="submenu-title" href="#">Карта Хайнаня</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Факты об острове</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Визовый режим</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Перелёт на остров</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Достопримечательности</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Медицина</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Образование</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Проживание на острове</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Хайнаньская кухня</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Фотогалерея</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Видеогалерея</a></li>
+              </ul>
+            </li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Хайнань сегодня</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Сотружество HNL</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Партнеры</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Путеводитель по Хайнаню</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Календарь мероприятий</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Служба знакомств</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Форум</a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-contacts">
+            <div class="footer-contacts-tel">+86-185-059-397-87</div>
+            <div class="footer-contacts-adress">о. Хайнань, г. Хайкоу</div><a class="footer-contacts-mail" href="mailto:hainanlife@163.com">hainanlife@163.com</a>
+          </div>
+          <div class="footer-social"><a class="footer-social-item tw" href="#"></a><a class="footer-social-item rss" href="#"></a><a class="footer-social-item yt" href="#"></a><a class="footer-social-item fb" href="#"></a></div>
+          <div class="footer-description">
+            <p>Остров Хайнань называют «Восточными Гавайями», «Таиландом eв миниатюре». Но зачем клеить чужие ярлыки на то, что достойно своего собственного имени? Это прекрасное место представляет собой неповторимую палитру отдыха и развлечений, а также выбора программ образования и лечения.</p>
+          </div><a class="footer-copyright" href="https://semprogroup.ru/"><span>Под чуткой заботой SEMPROGROUP</span></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

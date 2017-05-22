@@ -1,0 +1,183 @@
+.block-addEvent {
+	padding: 0 15px;
+	padding-top: 21px;
+	padding-bottom: 66px;
+	background-color: #f9f4f4;
+	font-size: 13px;
+}
+
+.addEvent-title {
+	margin-bottom: 19px;
+}
+
+.block-addEvent .form-title {
+	margin-bottom: 12px;
+}
+
+.addEvent-name {
+	margin-bottom: 20px;
+}
+
+.addEvent-name .form-el-wrp {
+	margin-bottom: 12px;
+}
+
+.addEvent-name .form-el-wrp:last-child {
+	margin-bottom: 0;
+}
+
+.addEvent-name input {
+	width: 100%;
+	padding: 8px 0;
+	padding-right: 32px;
+	padding-left: 40px;
+	border: 1px solid #d6d6d6;
+	border-radius: 2px;
+}
+
+.addEvent-name input.event-name-eng {
+	background: #fff url("../../images/flag-eng.png") left 7px top 50% / 24px no-repeat
+}
+
+.addEvent-name input.event-name-ru {
+	background: #fff url("../../images/flag-ru.png") left 7px top 50% / 24px no-repeat
+}
+
+.addEvent-name input.event-name-cn {
+	background: #fff url("../../images/flag-cn.png") left 7px top 50% / 24px no-repeat;
+	background-origin: padding-box;
+}
+
+
+.addEvent-time input {
+	width: 100%;
+	padding: 8px 0;
+	padding-right: 32px;
+	padding-left: 16px;
+	border: 1px solid #d6d6d6;
+	border-radius: 2px;
+}
+
+.addEvent-time .form-el-wrp {
+	margin-bottom: 12px;
+}
+
+.addEvent-time input {
+	background: #fff url("../../images/cal-icon.png") right 7px top 50% / 15px no-repeat;
+	background-origin: padding-box;
+}
+
+.addEvent-image {
+	margin-bottom: 18px;
+}
+
+.addEvent-image .upload-image-zone {
+	width: 198px;
+	height: 150px;
+	background: url("../../images/upload-image.jpg") 0 0 no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+
+.addEvent-description-short {
+	margin-bottom: 22px;
+}
+
+.addEvent-description-short textarea {
+	width: 100%;
+	height: 177px;
+}
+
+.addEvent-description-short textarea {
+	width: 100%;
+	height: 177px;
+}
+
+.addEvent-description {
+	margin-bottom: 27px;
+}
+
+.addEvent-description textarea {
+	width: 100%;
+	height: 454px;
+}
+
+.addEvent-addInfo {
+	margin-bottom: 28px;
+}
+
+
+.addEvent-addInfo select {
+	width: 100%;
+	padding: 5px 0px;
+	padding-right: 32px;
+	padding-left: 13px;
+	border: 1px solid #c4c4c4;
+	color: #000;
+	background-color: #fff;
+	cursor: pointer;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	background: #fff url("../../images/select-dw-icon.png") right 11px top 50% / 10px no-repeat
+}
+
+.addEvent-addInfo .select-wrp {
+	position: relative;
+}
+
+.addEvent-addInfo .select-wrp::after {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 30px;
+	top: 0;
+	right: 32px;
+	background-color: #c4c4c4;
+	cursor: pointer;
+}
+
+.addEvent-addInfo .form-el-wrp {
+	margin-bottom: 12px;
+}
+
+.addEvent-addInfo .form-el-wrp:last-child {
+	margin-bottom: 0;
+}
+
+.addEvent-addInfo .select-wrp {
+	margin-bottom: 12px;
+}
+
+.addEvent-addInfo input {
+	width: 100%;
+	padding: 8px 0;
+	padding-right: 32px;
+	padding-left: 16px;
+	border: 1px solid #d6d6d6;
+	border-radius: 2px;
+}
+
+
+
+.addEvent-tags input {
+	width: 100%;
+	padding: 8px 0;
+	padding-right: 32px;
+	padding-left: 16px;
+	border: 1px solid #d6d6d6;
+	border-radius: 2px;
+}
+
+.addEvent-tags {
+	margin-bottom: 16px;
+}
+
+.block-addEvent .save-changes {
+	border: none;
+	padding: 10px 14px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #26c6da;
+	border-radius: 7px;
+}

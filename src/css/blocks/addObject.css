@@ -1,0 +1,447 @@
+.block-addObject {
+	padding: 0 15px;
+	padding-top: 21px;
+	padding-bottom: 69px;
+	background-color: #f9f4f4;
+	font-size: 13px;
+}
+
+.block-addObject .addObject-title {
+	margin-bottom: 17px;
+}
+
+.block-addObject .form-title {
+	margin-bottom: 12px;
+}
+
+.block-addObject .addObject-type select {
+	width: 100%;
+	padding: 5px 0px;
+	padding-right: 32px;
+	padding-left: 13px;
+	border: 1px solid #c4c4c4;
+	color: #000;
+	background-color: #fff;
+	cursor: pointer;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	background: #fff url("../../images/select-dw-icon.png") right 11px top 50% / 10px no-repeat
+}
+
+.addObject-type .select-wrp {
+	position: relative;
+}
+
+.addObject-type .select-wrp::after {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 30px;
+	top: 0;
+	right: 32px;
+	background-color: #c4c4c4;
+	cursor: pointer;
+}
+
+.addObject-type {
+	margin-bottom: 18px;
+}
+
+.addObject-name {
+	margin-bottom: 16px;
+}
+
+.addObject-name .form-el-wrp {
+	margin-bottom: 12px;
+}
+
+.addObject-name input {
+	width: 100%;
+	padding: 8px 0;
+	padding-right: 32px;
+	padding-left: 40px;
+	border: 1px solid #d6d6d6;
+	border-radius: 2px;
+}
+
+.addObject-name input.object-name-eng {
+	background: #fff url("../../images/flag-eng.png") left 7px top 50% / 24px no-repeat
+}
+
+.addObject-name input.object-name-ru {
+	background: #fff url("../../images/flag-ru.png") left 7px top 50% / 24px no-repeat
+}
+
+.addObject-name input.object-name-cn {
+	background: #fff url("../../images/flag-cn.png") left 7px top 50% / 24px no-repeat;
+	background-origin: padding-box;
+}
+
+.addObject-name input.object-name-cnpin {
+	background: #fff url("../../images/flag-cn.png") left 7px top 50% / 24px no-repeat;
+	background-origin: padding-box;
+}
+
+.addObject-upload-photo {
+	margin-bottom: 9px;
+}
+
+.addObject-upload-photo .upload-photo-zone-wrp {
+	width: 290px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.addObject-upload-photo .upload-photo-title {
+	margin-bottom: 7px;
+	font-size: 13px;
+}
+
+.block-addObject .upload-photo-zone {
+	display: inline-block;
+	vertical-align: top;
+	width: 95px;
+	height: 95px;
+	margin-right: 2px;
+	background: url("../../images/upload-photo.png") 0 0 no-repeat;
+	background-size: 100%;
+}
+
+.block-addObject .upload-photo-zone:last-child {
+	margin-right: 0;
+}
+
+.addObject-more-albums {
+	margin-bottom: 18px;
+}
+
+.addObject-more-albums .more-albums-wrp {
+	width: 290px;
+	height: 78px;
+	margin: 0 auto;
+	background: url("../../images/gray-br.png") 0 0 no-repeat;
+	background-size: 100%;
+	text-align: center;
+}
+
+.addObject-more-albums .more-albums-btn {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 600;
+	color: #fff;
+	border: none;
+	background: #00c925 url() 0 0 no-repeat;
+	padding: 9px 0;
+	padding-left: 39px;
+	padding-right: 19px;
+	margin: 17px 0;
+	border-radius: 5px;
+}
+
+.addObject-more-albums .more-albums-btn::after {
+	position: absolute;
+	content: '';
+	width: 30px;
+	height: 28px;
+	top: 5px;
+	left: 6px;
+	background: url("../../images/sprite.png") -1605px -5px no-repeat;
+}
+
+.addObject-contacts {
+	margin-bottom: 19px;
+}
+
+.addObject-contacts input {
+	width: 100%;
+	padding: 8px 0;
+	padding-right: 32px;
+	padding-left: 16px;
+	border: 1px solid #d6d6d6;
+	border-radius: 2px;
+}
+
+.addObject-contacts .form-el-wrp {
+	margin-bottom: 12px;
+}
+
+.addObject-rang {
+	margin-bottom: 27px;
+}
+
+.addObject-rang .rang-title {
+	padding-left: 17px;
+}
+
+.addObject-rang span {
+	display: inline-block;
+	color: #8c8a8a;
+}
+
+.addObject-rang .rang-title {
+	padding-left: 17px;
+	margin-right: 5px;
+}
+
+.addObject-rang span.rang-item {
+	margin-right: 5px;
+}
+
+.addObject-language {
+	margin-bottom: 21px;
+}
+
+.addObject-language input {
+	display: none;
+}
+
+.addObject-language label {
+	position: relative;
+	padding-left: 20px;
+}
+
+.addObject-language input[type="checkbox"] + label::before {
+	position: absolute;
+	content: '';
+	width: 13px;
+	height: 13px;
+	top: 3px;
+	left: 0;
+	background:	url("../../images/sprite.png") -2427px -5px no-repeat;
+}
+
+.addObject-language input[type="checkbox"]:checked + label::before {
+	background:	url("../..//images/sprite.png") -68px -56px no-repeat;
+}
+
+.addObject-language .form-el-wrp {
+	margin-bottom: 7px;
+}
+
+
+.addObject-payment {
+	margin-bottom: 16px;
+}
+
+.addObject-payment .form-group.group1 {
+	float: left;
+}
+.addObject-payment .form-group.group2 {
+	float: right;
+}
+
+
+.addObject-payment .checkbox-wrp {
+	margin-bottom: 10px;
+}
+
+.addObject-payment input {
+	display: none;
+}
+
+.addObject-payment label {
+	position: relative;
+	padding-left: 56px;
+}
+
+.addObject-payment input[type="checkbox"] + label::before {
+	position: absolute;
+	content: '';
+	width: 13px;
+	height: 13px;
+	top: 3px;
+	left: 0;
+	background:	url("../../images/sprite.png") -2427px -5px no-repeat;
+}
+
+.addObject-payment input[type="checkbox"]:checked + label::before {
+	background:	url("../../images/sprite.png") -68px -56px no-repeat;
+}
+
+.addObject-payment label.cash::after {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 22px;
+	width: 25px;
+	height: 16px;
+	background:	url("../../images/sprite.png") -622px -5px no-repeat;
+}
+
+.addObject-payment label.up::after {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 22px;
+	width: 25px;
+	height: 16px;
+	background:	url("../../images/sprite.png") -2477px -5px no-repeat;
+}
+
+.addObject-payment label.visa::after {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 22px;
+	width: 25px;
+	height: 16px;
+	background:	url("../../images/sprite.png") -2788px -10px no-repeat;
+}
+
+.addObject-payment label.mc::after {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 22px;
+	width: 25px;
+	height: 16px;
+	background:	url("../../images/sprite.png") -1224px -5px no-repeat;
+}
+
+.addObject-payment label.ali::after {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 22px;
+	width: 25px;
+	height: 16px;
+	background:	url("../../images/sprite.png") -1259px -5px no-repeat;
+}
+
+.addObject-payment label.wcp::after {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 22px;
+	width: 25px;
+	height: 16px;
+	background:	url("../../images/sprite.png") -1294px -5px no-repeat;
+}
+
+.addObject-whours {
+	margin-bottom: 24px;
+}
+
+
+.addObject-whours input:not(.no-break) {
+	width: 100%;
+	padding: 8px 0;
+	padding-right: 32px;
+	padding-left: 16px;
+	border: 1px solid #d6d6d6;
+	border-radius: 2px;
+}
+
+.addObject-whours .form-el-wrp {
+		margin-bottom: 12px;
+}
+
+.addObject-whours input[type="checkbox"] {
+	display: none;
+}
+
+.addObject-whours label {
+	position: relative;
+	padding-left: 20px;
+}
+
+.addObject-whours input[type="checkbox"] + label::before {
+	position: absolute;
+	content: '';
+	width: 13px;
+	height: 13px;
+	top: 3px;
+	left: 0;
+	background:	url("../../images/sprite.png") -2427px -5px no-repeat;
+}
+
+.addObject-whours input[type="checkbox"]:checked + label::before {
+	background:	url("../..//images/sprite.png") -68px -56px no-repeat;
+}
+
+.addObject-addservices {
+	margin-bottom: 28px;
+}
+
+.addObject-addservices .checkbox-wrp {
+	margin-bottom: 16px;
+}
+
+.addObject-addservices input {
+	display: none;
+}
+
+.addObject-addservices label {
+	position: relative;
+	padding-left: 61px;
+}
+
+.addObject-addservices input[type="checkbox"] + label::before {
+	position: absolute;
+	content: '';
+	width: 13px;
+	height: 13px;
+	top: 3px;
+	left: 0;
+	background:	url("../../images/sprite.png") -2427px -5px no-repeat;
+}
+
+.addObject-addservices input[type="checkbox"]:checked + label::before {
+	background:	url("../../images/sprite.png") -68px -56px no-repeat;
+}
+
+
+.addObject-addservices label.wifi::after {
+	content: '';
+	position: absolute;
+	top: -1px;
+	left: 22px;
+	width: 28px;
+	height: 20px;
+	background:	url("../../images/sprite.png") -2976px -10px no-repeat;
+}
+
+.addObject-addservices label.with-children::after {
+	content: '';
+	position: absolute;
+	top: -9px;
+	left: 22px;
+	width: 26px;
+	height: 29px;
+	background:	url("../../images/sprite.png") -1420px -5px no-repeat;
+}
+
+.addObject-description {
+	margin-bottom: 12px;
+}
+
+.addObject-description textarea {
+	width: 100%;
+	height: 455px;
+}
+
+.addObject-tags input {
+	width: 100%;
+	padding: 8px 0;
+	padding-right: 32px;
+	padding-left: 16px;
+	border: 1px solid #d6d6d6;
+	border-radius: 2px;
+}
+
+.addObject-tags {
+	margin-bottom: 18px;
+}
+
+.block-addObject .save-changes {
+	border: none;
+	padding: 10px 37px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #26c6da;
+	border-radius: 7px;
+}

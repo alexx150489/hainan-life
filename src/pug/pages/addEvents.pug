@@ -1,0 +1,78 @@
+extends ../layout/layout
+
+block title 
+	| Добвать мероприятие
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				span(class="breadcrumbs-item current") Добвать мероприятие
+
+
+			section(class="block-addEvent")
+				h2(class="addEvent-title section-title") Добвать мероприятие
+				div(class="form-wrp")
+					form(class="form" action="#" method="post" name="addEvent-form")
+
+						div(class="addEvent-name")
+							div(class="form-title") Название мероприятия
+							div(class="form-el-wrp")
+								input(class="event-name-eng" type="text" name="event-name-eng")
+							div(class="form-el-wrp")
+								input(class="event-name-ru" type="text" name="event-name-ru")
+							div(class="form-el-wrp")
+								input(class="event-name-cn" name="event-name-cn")
+
+						div(class="addEvent-time")
+							div(class="form-title") Дата начала мероприятия
+							div(class="form-el-wrp")
+								input(class="time-begin" type="datetime" name="time-begin")
+							div(class="form-title") Дата окончания	мероприятия
+							div(class="form-el-wrp")
+								input(class="time-end" type="datetime" name="time-begin")
+
+						div(class="addEvent-image")
+							div(class="form-title") Картинка
+							div(class="upload-image-zone")
+
+
+						div(class="addEvent-description-short")
+							div(class="form-title") Краткое описание мероприятия:
+							div(class="ta-wrp")
+								textarea(name="description-ta")
+
+						div(class="addEvent-description")
+							div(class="form-title") Описание:
+							div(class="ta-wrp")
+								textarea(name="description-ta")
+
+						div(class="addEvent-addInfo")
+							div(class="form-title") Дополнительные данные:
+							div(class="select-wrp")
+								select(id="category-select" class="category-select" name="category-select")
+									option(value="option1") Значение 1
+									option(value="option1") Значение 3
+							div(class="form-el-wrp")
+								input(class="cost" type="text" name="cost" placeholder="Стоимость")
+							div(class="select-wrp")
+								select(id="category-select" class="category-select" name="category-select")
+									option(value="option1") Значение 1
+									option(value="option1") Значение 3
+							div(class="form-el-wrp")
+								input(class="time-begin" type="text" name="time-begin" placeholder="Время начала")
+
+
+
+						div(class="addEvent-tags")
+							div(class="form-title") Тэги:
+							div(class="form-el-wrp")
+								input(type="text" name="tags")
+
+
+						button(class="save-changes" type="submit" name="submit") Создать мероприятие
+
+			include ../blocks/forumPreview
+			include ../blocks/ad

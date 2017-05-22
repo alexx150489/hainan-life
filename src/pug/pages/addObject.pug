@@ -1,0 +1,150 @@
+extends ../layout/layout
+
+block title 
+	| Добвать объект
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				span(class="breadcrumbs-item current") Добвать объект
+
+
+			section(class="block-addObject")
+				h2(class="addObject-title section-title") Добвать объект
+				div(class="form-wrp")
+					form(class="form" action="#" method="post" name="addObject-form")
+
+						div(class="addObject-type")
+							div(class="form-title") Тип
+							div(class="select-wrp")
+								select(id="category-select" class="category-select" name="category-select")
+									option(value="option1") Значение 1
+									option(value="option1") Значение 3
+
+						div(class="addObject-name")
+							div(class="form-title") Название объекта
+							div(class="form-el-wrp")
+								input(class="object-name-eng" type="text" name="object-name-eng")
+							div(class="form-el-wrp")
+								input(class="object-name-ru" type="text" name="object-name-ru")
+							div(class="form-el-wrp")
+								input(class="object-name-cn" name="object-name-cn")
+							div(class="form-el-wrp")
+								input(class="object-name-cnpin" type="text" name="object-name-cnpin" placeholder="название на пиньинь")
+
+						div(class="addObject-upload-photo")
+							div(class="upload-photo-title") Фото объекта
+							div(class="upload-photo-zone-wrp")
+								div(class="upload-photo-zone")
+								div(class="upload-photo-zone")
+								div(class="upload-photo-zone")
+
+						div(class="addObject-more-albums")
+							div(class="more-albums-wrp")
+								a(class="more-albums-btn" href="#") Показать больше альбомов
+
+						div(class="addObject-contacts")
+							div(class="form-title") Контактные данные
+							div(class="form-el-wrp")
+								input(type="tel" name="tel" placeholder="Телефон:")
+							div(class="form-el-wrp")
+								input(type="text" name="web-sait" placeholder="Веб-сайт:")
+							div(class="form-el-wrp")
+								input(type="text" name="adress-ru" placeholder="Адрес на русском языке:")
+							div(class="form-el-wrp")
+								input(type="text" name="town" placeholder="Город")
+							div(class="form-el-wrp")
+								input(type="tel" name="another-town" placeholder="Другой город")
+							div(class="form-el-wrp")
+								input(type="text" name="adress-eng" placeholder="Адрес на английском языке:")
+							div(class="form-el-wrp")
+								input(type="text" name="adress-cn" placeholder="Адрес на китайском языке:")
+							div(class="form-el-wrp")
+								input(type="text" name="adress-pin" placeholder="Адрес на пиньинь:")
+
+						div(class="addObject-rang")
+							div(class="form-title") Ранг Национального Управления По Туризму КНР:
+							div(class="rang")
+								span(class="rang-title") Выберите ранг: 
+								span(class="rang-item") A 
+								span(class="rang-item") A 
+								span(class="rang-item") A 
+								span(class="rang-item") A 
+								span(class="rang-item") A
+
+						div(class="addObject-language")
+							div(class="form-title") Языки обслуживания
+							div(class="checkbox-wrp")
+								div(class="form-el-wrp")
+									input(id="language-cn" type="checkbox")
+									label(for="language-cn") Китайский
+								div(class="form-el-wrp")
+									input(id="language-eng" type="checkbox")
+									label(for="language-eng") Английский
+								div(class="form-el-wrp")
+									input(id="language-ru" type="checkbox")
+									label(for="language-ru") Русский
+
+						div(class="addObject-payment")
+							div(class="form-title") Способы оплаты
+							div(class="payment-container clearfix")
+								div(class="form-group group1")
+									div(class="checkbox-wrp")
+										input(id="payment-cash" type="checkbox")
+										label(for="payment-cash" class="cash") Наличные
+									div(class="checkbox-wrp")
+										input(id="payment-up" type="checkbox")
+										label(for="payment-up" class="up") Union pay
+									div(class="checkbox-wrp")
+										input(id="payment-visa" type="checkbox")
+										label(for="payment-visa" class="visa") VISA
+								div(class="form-group group2")
+									div(class="checkbox-wrp")
+										input(id="payment-mc" type="checkbox")
+										label(for="payment-mc" class="mc") MasterCard
+									div(class="checkbox-wrp")
+										input(id="payment-ali" type="checkbox")
+										label(for="payment-ali" class="ali") Alipay
+									div(class="checkbox-wrp")
+										input(id="payment-wcp" type="checkbox")
+										label(for="payment-wcp" class="wcp") WeChat Pay
+
+						div(class="addObject-whours")
+							div(class="form-title") Время работы
+							div(class="form-el-wrp")
+								input(type="text" name="days" placeholder="Дни недели:")
+							div(class="form-el-wrp")
+								input(type="text" name="time" placeholder="Режим работы:")
+							div(class="form-el-wrp")
+								input(type="text" name="dinner" placeholder="Перерыв на обед:")
+							div(class="checkbox-wrp")
+								input(class="no-break" id="no-break" type="checkbox")
+								label(for="no-break") Без перерыва
+
+						div(class="addObject-addservices")
+							div(class="form-title") Дополнительные услуги:
+							div(class="checkbox-wrp")
+								input(id="wifi" type="checkbox")
+								label(for="wifi" class="wifi") Бесплатный WI-FI 
+							div(class="checkbox-wrp")
+								input(id="with-children" type="checkbox")
+								label(for="with-children" class="with-children") Посещение с детьми 
+
+						div(class="addObject-description")
+							div(class="form-title") Описание:
+							div(class="ta-wrp")
+								textarea(name="description-ta")
+
+						div(class="addObject-tags")
+							div(class="form-title") Тэги:
+							div(class="form-el-wrp")
+								input(type="text" name="tags")
+
+
+						button(class="save-changes" type="submit" name="submit") Создать объект
+
+			include ../blocks/forumPreview
+			include ../blocks/ad

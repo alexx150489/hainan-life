@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600,700&amp;amp;subset=cyrillic" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="js/vendor/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/slick.js/slick.css">
+    <link rel="stylesheet" href="css/slick.js/slick-theme.css">
+    <link rel="stylesheet" href="css/css3.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/vendor/jquery-3.2.0.min.js"></script>
+    <script src="js/vendor/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/vendor/jquery.form.min.js"></script>
+    <script src="js/vendor/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="js/vendor/slick.js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <title> Добавить запись в блоге
+    </title>
+  </head>
+  <body>
+    <header class="block-header">
+      <div class="site-wrap">
+        <div class="header-wrapper clearfix">
+          <div class="header-menu-toggle"></div>
+          <div class="header-logo-wrapper">
+            <div class="header-logo"><a href="#"><img src="images/main-logo.png" width="186" height="39" alt="Логотип"></a></div>
+          </div>
+          <div class="header-sign"></div>
+        </div>
+      </div>
+    </header>
+    <section class="block-content">
+      <div class="site-wrap">
+        <section class="block-breadcrumbs"><a class="breadcrumbs-item home" href="index.html"></a><span class="breadcrumbs-item current">Добавить запись в блоге</span></section>
+        <section class="block-addPost">
+          <h2 class="addPost-title section-title">Добавить запись в блоге</h2>
+          <div class="form-wrp">
+            <form class="form" action="#" method="post" name="addPost-form">
+              <div class="addPost-type">
+                <div class="form-title">Тип</div>
+                <div class="form-el-wrp">
+                  <input class="post-type" type="text" name="post-type" placeholder="Спешу поделиться впечатлениями">
+                </div>
+              </div>
+              <div class="addPost-name">
+                <div class="form-title">Название статьи</div>
+                <div class="form-el-wrp">
+                  <input class="post-name" type="text" name="post-name">
+                </div>
+              </div>
+              <div class="addPost-image">
+                <div class="form-title">Картинка</div>
+                <div class="upload-image-zone"></div>
+              </div>
+              <div class="addPost-description-short">
+                <div class="form-title">Краткое описание:</div>
+                <div class="ta-wrp">
+                  <textarea name="description-ta"></textarea>
+                </div>
+              </div>
+              <div class="addPost-text">
+                <div class="form-title">Текст статьи:</div>
+                <div class="ta-wrp">
+                  <textarea name="description-ta"></textarea>
+                </div>
+              </div>
+              <div class="addEvent-tags">
+                <div class="form-title">Тэги:</div>
+                <div class="form-el-wrp">
+                  <input type="text" name="tags">
+                </div>
+              </div>
+              <button class="save-changes" type="submit" name="submit">Создать запись в блоге</button>
+            </form>
+          </div>
+        </section>
+        <section class="block-forumPreview">
+          <h3 class="forumPreview-title">Форум</h3>
+          <div class="items"><a class="item" href="#">
+              <div class="post-title">Тусовки на Хайнане</div>
+              <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
+              <div class="date">28 Января 2017</div></a><a class="item" href="#">
+              <div class="post-title">Тусовки на Хайнане</div>
+              <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
+              <div class="date">28 Января 2017</div></a><a class="item" href="#">
+              <div class="post-title">Тусовки на Хайнане</div>
+              <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
+              <div class="date">28 Января 2017</div></a><a class="item" href="#">
+              <div class="post-title">Тусовки на Хайнане</div>
+              <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
+              <div class="date">28 Января 2017</div></a><a class="item" href="#">
+              <div class="post-title">Тусовки на Хайнане</div>
+              <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
+              <div class="date">28 Января 2017</div></a></div>
+        </section>
+        <section class="block-ad">
+          <h3 class="ad-title title"><span>Реклама </span>на портале</h3>
+          <div class="ad-wrapper">
+            <div class="ad-slider">
+              <div class="slide">
+                <div class="slide-image"><img src="images/ad-img.jpg" alt="Реклама" width="289" height="356"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <footer class="block-footer">
+      <div class="site-wrap">
+        <div class="footer-menu-wrapper">
+          <ul class="footer-menu">
+            <li class="footer-menu-item">
+              <div class="item-title active">О хайнане</div>
+              <ul class="submenu">
+                <li class="submenu-item"><a class="submenu-title" href="#">Карта Хайнаня</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Факты об острове</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Визовый режим</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Перелёт на остров</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Достопримечательности</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Медицина</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Образование</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Проживание на острове</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Хайнаньская кухня</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Фотогалерея</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Видеогалерея</a></li>
+              </ul>
+            </li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Хайнань сегодня</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Сотружество HNL</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Партнеры</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Путеводитель по Хайнаню</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Календарь мероприятий</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Служба знакомств</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Форум</a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-contacts">
+            <div class="footer-contacts-tel">+86-185-059-397-87</div>
+            <div class="footer-contacts-adress">о. Хайнань, г. Хайкоу</div><a class="footer-contacts-mail" href="mailto:hainanlife@163.com">hainanlife@163.com</a>
+          </div>
+          <div class="footer-social"><a class="footer-social-item tw" href="#"></a><a class="footer-social-item rss" href="#"></a><a class="footer-social-item yt" href="#"></a><a class="footer-social-item fb" href="#"></a></div>
+          <div class="footer-description">
+            <p>Остров Хайнань называют «Восточными Гавайями», «Таиландом eв миниатюре». Но зачем клеить чужие ярлыки на то, что достойно своего собственного имени? Это прекрасное место представляет собой неповторимую палитру отдыха и развлечений, а также выбора программ образования и лечения.</p>
+          </div><a class="footer-copyright" href="https://semprogroup.ru/"><span>Под чуткой заботой SEMPROGROUP</span></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
