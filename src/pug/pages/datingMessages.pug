@@ -1,0 +1,42 @@
+extends ../layout/layout
+
+block title 
+	| Мои сообщения
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				a(class="breadcrumbs-item" href="#") Служба знакомств
+				span(class="breadcrumbs-item current") Мои сообщения
+
+			section(class="block-datingMessages")
+				h2(class="datingMessages-title section-title") Анкета участника
+
+				include ../blocks/dating-menu
+
+				div(class="datingMessages")
+					div(class="dialogs")
+						div(class="item online")
+							div(class="name")
+								| Макс
+								br 
+								| Дойч
+						div(class="item offline")
+							div(class="name") Макс Дойч
+							div(class="status")
+								span не в сети
+
+
+					div(class="datingMessages-form-wrp")
+						form(class="datingMessages-form" action="#" method="post" name="messange")
+							div(class="ta-wrp")
+								textarea(name="message" placeholder="Введите сообщение ...")
+							button(class="save-changes" type="submit" name="submit") Отправить
+
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad

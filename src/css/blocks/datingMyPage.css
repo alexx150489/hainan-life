@@ -1,0 +1,231 @@
+.block-datingMyPage {
+	padding: 0 15px;
+	padding-top: 17px;
+	padding-bottom: 34px;
+	background-color: #f9f4f4;
+}
+
+.datingMyPage-title {
+	margin-bottom: 19px;
+}
+
+.block-datingMyPage .block-dating-menu {
+	margin-bottom: 10px;
+}
+
+.block-datingMyPage .block-dating-search-form {
+	margin-bottom: 25px;
+}
+
+.mypagage img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.mypagage-top {
+	position: relative;
+	margin-bottom: 11px;
+}
+
+.mypagage-top .verified-flag {
+	position: absolute;
+	width: 21px;
+	height: 30px;
+	top: 237px;
+	right: 41px;
+	background: url("../../images/sprite.png") -5px -5px no-repeat;
+}
+
+.mypagage-top .premium-flag {
+	position: absolute;
+	width: 21px;
+	height: 30px;
+	top: 238px;
+	right: 14px;
+	background: url("../../images/sprite.png") -36px -5px no-repeat;
+}
+
+.mypagage-top .online,	.mypagage-top .info {
+	border: 1px solid #eaeaea;
+	background-color: #fff;
+	border-radius: 2px;
+}
+
+.mypagage-top .online {
+	padding: 10px 0;
+	padding-left: 23px;
+	font-size: 13px;
+}
+
+.mypagage-top .online span {
+	position: relative;
+}
+
+
+.mypagage-top .online span::after {
+	position: absolute;
+	content: '';
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	top: 7px;
+	left: -11px;
+	background-color: #7d7d7d;
+}
+
+.mypagage-top .info {
+	padding: 15px 0;
+	padding-left: 17px;
+	font-size: 13px;
+}
+
+.mypagage-top .age span {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.mypagage-top .photo-nbr {
+	position: relative;
+	padding-left: 43px;
+}
+
+.mypagage-top .photo-nbr::after {
+	position: absolute;
+	content: '';
+	width: 30px;
+	height: 30px;
+	top: -9px;
+	left: 12px;
+	background:	url("../../images/sprite.png") -1456px -5px no-repeat;
+}
+
+.mypagage .send-message {
+	display: inline-block;
+	padding: 10px 47px;
+	border-radius: 5px;
+	background-color: #ff9100;
+	font-size: 13px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 18px;
+}
+
+.mypagage-info {
+	font-size: 13px;
+	margin-bottom: 41px;
+}
+
+
+.mypagage-info .name {
+	margin-bottom: 15px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #26c6da;
+}
+
+.mypagage-info div:not(.name) {
+	margin-bottom: 12px;
+}
+
+.mypagage-wrp span {
+	position: relative;
+	padding-right: 36px;
+}
+
+.mypagage-wrp .eyes::after {
+	position: absolute;
+	content: '';
+	width: 26px;
+	height: 26px;
+	top: -3px;
+	left: 72px;
+	border-radius: 50%;
+	background-color: #9c6001;
+}
+
+.mypagage-wrp .hair::after {
+	position: absolute;
+	content: '';
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	top: -3px;
+	left: 84px;
+	background-color: #48361d;
+}
+
+.mypagage-info span {
+	font-weight: 600;
+}
+
+.mypagage-album {
+	margin-bottom: 9px;
+}
+
+.mypagage-album .title {
+	margin-bottom: 21px;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: none;
+}
+
+.mypagage-album .description {
+	margin-bottom: 17px;
+	font-size: 14px;
+}
+
+.mypagage-album .date {
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+
+.mypagage-album .photo {
+	display: block;
+	position: relative;
+}
+
+.mypagage-album span.all {
+	position: absolute;
+	padding: 25px 0;
+	width: 91px;
+	height: 89px;
+	bottom: 0;
+	right: 0;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	background-color: #ffa726;
+}
+
+.mypagage-album span.all span {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.mypagage-edit a {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 10px;
+	padding-left: 47px;
+	padding-right: 96px;
+	border-radius: 4px;
+	font-size: 13px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #ffa726;
+}
+
+.mypagage-edit a span{
+	position: relative;
+}
+
+.mypagage-edit a span::after{
+	position: absolute;
+	content: '';
+	width: 26px;
+	height: 27px;
+	top: -5px;
+	left: -35px;
+	background: url("../../images/sprite.png") -765px -5px no-repeat;
+}

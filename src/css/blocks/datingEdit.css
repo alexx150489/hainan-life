@@ -1,0 +1,100 @@
+.block-datingEdit {
+	padding: 0 15px;
+	padding-top: 18px;
+	padding-bottom: 60px;
+	background-color: #f9f4f4;
+}
+
+.datingEdit-title {
+	margin-bottom: 16px;
+}
+
+.block-datingEdit .block-dating-menu {
+	margin-bottom: 29px;
+}
+
+.datingEdit-form .form {
+	font-size: 13px;
+}
+
+
+.datingEdit-form .form div{
+	margin-bottom: 13px;
+}
+
+.datingEdit-form input {
+	width: 100%;
+	padding: 8px 0;
+	padding-right: 32px;
+	padding-left: 13px;
+	border: 1px solid #d6d6d6;
+	border-radius: 2px;
+}
+
+.datingEdit-form .bday {
+	background: #fff url("../../images/cal-icon.png") right 7px top 50% / 15px no-repeat;
+	background-origin: padding-box;
+}
+
+.datingEdit-form select {
+	width: 100%;
+	padding: 5px 0px;
+	padding-right: 32px;
+	padding-left: 13px;
+	border: 1px solid #c4c4c4;
+	color: #a0a0a0;
+	background-color: #fff;
+	cursor: pointer;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	background: #fff url("../../images/select-dw-icon.png") right 11px top 50% / 10px no-repeat;
+	border-radius: 2px;
+}
+
+.datingEdit-form select option {
+	color: #000;
+}
+
+.datingEdit-form .select-wrp {
+	position: relative;
+}
+
+.datingEdit-form .select-wrp::after {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 30px;
+	top: 0;
+	right: 32px;
+	background-color: #c4c4c4;
+	cursor: pointer;
+}
+
+.datingEdit-form textarea {
+	display: block;
+	padding: 10px 14px;
+	resize: none;
+	width: 100%;
+	height: 164px;
+}
+
+.datingEdit-form .upload-photo {
+	padding-top: 12px;
+}
+
+.datingEdit-form .upload-photo-zone {
+	width: 198px;
+	height: 150px;
+	background: url("../../images/upload-image.jpg") 0 0 no-repeat;
+	background-size: 100%;
+}
+
+.datingEdit-form .save-changes {
+	border: none;
+	padding: 10px 47px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #26c6da;
+	border-radius: 7px;
+}

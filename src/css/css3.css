@@ -14,12 +14,9 @@
 @import "blocks/breadcrumbs.css";
 @import "blocks/paginator.css";
 @import "blocks/contacts.css";
-
 @import "blocks/partners.css";
 @import "blocks/partners-list.css";
-
 @import "blocks/fraternity.css";
-
 
 @import "blocks/aboutHainan.css";
 @import "blocks/aboutHainanFoto.css";
@@ -27,13 +24,22 @@
 @import "blocks/aboutHainanPerelet.css";
 @import "blocks/aboutHainanVideo.css";
 
-
 @import "blocks/editPersonalSettings.css";
+
 @import "blocks/addObject.css";
 @import "blocks/addEvents.css";
 @import "blocks/addPost.css";
 @import "blocks/addAlbum.css";
 @import "blocks/addVideo.css";
+
+@import "blocks/dating.css";
+@import "blocks/dating-menu.css";
+@import "blocks/dating-search-form.css";
+@import "blocks/datingEdit.css";
+@import "blocks/datingQuestionnaire.css";
+@import "blocks/datingMessages.css";
+@import "blocks/datingMyPage.css";
+
 
 
 * {
@@ -82,4 +88,46 @@
 }
 
 
+/*jQuery UI Range Slider custom css */
 
+span.ui-slider-handle.ui-corner-all.ui-state-default {
+	border-radius: 50%;
+}
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 16px;
+	height: 16px;
+	cursor: default;
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.ui-slider-horizontal {
+		height: 4px;
+}
+
+.ui-widget-header {
+	background: #26c6da;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+	background: #0097a7;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+	border: 1px solid #ffffff;
+}
+
+
+.ui-slider-horizontal .ui-slider-handle {
+	top: -6px;
+}
+
+.ui-widget.ui-widget-content {
+	border:none;
+	background: #0097a7;
+}
+
+span.ui-slider-handle.ui-corner-all.ui-state-default { 	
+	outline: none;
+}

@@ -1,0 +1,48 @@
+div(class="block-dating-search-form")
+	div(class="dating-form-wrp")
+		form(class="form" action="#" method="post" name="dating-form")
+
+				div(class="search-form-sex")
+					div(class="checkbox-wrp")
+							input(id="male" type="checkbox")
+							label(for="male") Парень
+					div(class="checkbox-wrp")
+							input(id="female" type="checkbox")
+							label(for="female") Девушка
+
+				div(class="search-form-location")
+					div(class="form-title") Местонахождение
+					div(class="select-wrp")
+						select(id="category-select" class="location-select" name="location-select")
+							option(value="" disabled selected style='display:none;') Любое
+							option(value="option1") Значение 1
+							option(value="option1") Значение 3
+
+				div(class="search-form-age")
+					div(class="form-title") Возраст
+					div(class="range-slider-wrapper")
+						div(class="range-slider-input")
+							label(class="input-label" for="amount") от
+							input(class="input1" type="text" id="amount")
+						div(class="range-slider-input")
+							label(for="amount") до
+							input(class="input-label"	type="text" id="amount-second")
+					div(id="slider-range-wrapper")
+						div(id="slider-range")
+
+				div(class="search-form-goal")
+					div(class="form-title") Цель
+					div(class="select-wrp")
+						select(id="category-select" class="goal-select" name="goal-select")
+							option(value="" disabled selected style='display:none;') Все цели
+							option(value="option1") Значение 1
+							option(value="option1") Значение 3
+
+				div(class="search-form-have-foto")
+					div(class="checkbox-wrp")
+							input(id="have-foto" type="checkbox")
+							label(for="have-foto") Только с фото
+
+				button(class="search-btn" type="submit" name="search-btn") Найти
+
+				a(class="ex-search" href="#") Расширенный поиск

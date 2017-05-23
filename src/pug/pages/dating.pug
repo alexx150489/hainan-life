@@ -1,0 +1,68 @@
+extends ../layout/layout
+
+block title 
+	| Служба знакомств
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				span(class="breadcrumbs-item current") Служба знакомств
+
+			section(class="block-dating")
+				h2(class="dating-title section-title") Служба знакомств
+
+				include ../blocks/dating-menu
+				include ../blocks/dating-search-form
+
+				div(class="dating-premium-questionnaires")
+					h3(class="premium-questionnaires-title title")
+						span Premium 
+						| анкеты
+					div(class="premium-users")
+						a(class="premium-user" href="#")
+							div(class="photo")
+								img(src="images/dating-man.jpg" alt="Фотография" width="290" height="362")
+							div(class="status") Ищу друзей для переписки
+							div(class="info")
+								div(class="online") Не в сети
+								div(class="name") Макс Дойч 
+								div(class="location") Хайнань
+								div(class="verified-flag")
+								div(class="premium-flag")
+						a(class="premium-user" href="#")
+							div(class="photo")
+								img(src="images/dating-woman.jpg" alt="Фотография" width="290" height="362")
+							div(class="status") Ищу друзей для переписки
+							div(class="info")
+								div(class="online") Не в сети
+								div(class="name") Анастасия Смирнова
+								div(class="location") Хайнань
+								div(class="verified-flag")
+								div(class="premium-flag")
+						a(class="premium-user" href="#")
+							div(class="photo")
+								img(src="images/dating-man.jpg" alt="Фотография" width="290" height="362")
+							div(class="status") Ищу друзей для переписки
+							div(class="info")
+								div(class="online") Не в сети
+								div(class="name") Макс Дойч 
+								div(class="location") Хайнань
+								div(class="verified-flag")
+								div(class="premium-flag")
+						a(class="premium-user" href="#")
+							div(class="photo")
+								img(src="images/dating-woman.jpg" alt="Фотография" width="290" height="362")
+							div(class="status") Ищу друзей для переписки
+							div(class="info")
+								div(class="online") Не в сети
+								div(class="name") Анастасия Смирнова
+								div(class="location") Хайнань
+								div(class="verified-flag")
+								div(class="premium-flag")
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad

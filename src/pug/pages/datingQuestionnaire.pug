@@ -1,0 +1,81 @@
+extends ../layout/layout
+
+block title 
+	| Анкета участника
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				a(class="breadcrumbs-item" href="#") Служба знакомств
+				span(class="breadcrumbs-item current") Анкета участника
+
+			section(class="block-datingQuestionnaire")
+				h2(class="datingQuestionnaire-title section-title") Анкета участника
+
+				include ../blocks/dating-menu
+				include ../blocks/dating-search-form
+
+				div(class="questionnaire")
+					div(class="questionnaire-top")
+						div(class="questionnaire-image")
+							img(src="images/questionnaire-man2.jpg" alt="Фотография" width="290" height="247")
+						div(class="online")
+							span Не в сети
+						div(class="info")
+							span(class="age")
+								span 36 
+								| лет 
+							span(class="photo-nbr") 1 фото
+						div(class="verified-flag")
+						div(class="premium-flag")
+
+					a(class="send-message" href="#") Написать сообщение
+
+					div(class="questionnaire-info")
+						div(class="name") Макс Дойч
+						div(class="status") Ищу друзей для переписки
+						div(class="sex")
+							span Пол: 
+							| Мужской 
+						div(class="finance")
+							span Материальное положение: 
+							| Высокое 
+						div(class="age")
+							span Возраст: 
+							| 36 лет
+						div(class="education")
+							span Образование: 
+							| Высшее 
+						div(class="location")
+							span Местонахождение: 
+							| Хайнань
+						div(class="zodiac")
+							span Знак зодиака: 
+							| Лев
+						div(class="language")
+							span Язык общения: 
+							| Английский 
+						div(class="questionnaire-wrp")
+							span(class="eyes") Цвет глаз: 
+							span(class="hair") Цвет волос: 
+						div(class="growth")
+							span Рост: 
+							| 188 см 
+
+					div(class="questionnaire-album")
+						div(class="title") Альбомы пользователя
+						div(class="description") Это я 
+						div(class="date") 8 мая 2015
+						a(class="photo" href="#")
+							img(src="images/questionnaire-man.jpg" alt="Фотография" width="290" height="290")
+							span(class="all")
+								span 1
+								br
+								| фото
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad

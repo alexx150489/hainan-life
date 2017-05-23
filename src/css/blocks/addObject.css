@@ -215,7 +215,7 @@
 }
 
 .addObject-language input[type="checkbox"]:checked + label::before {
-	background:	url("../..//images/sprite.png") -68px -56px no-repeat;
+	background:	url("../../images/sprite.png") -68px -56px no-repeat;
 }
 
 .addObject-language .form-el-wrp {

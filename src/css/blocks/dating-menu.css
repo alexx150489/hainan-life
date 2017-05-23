@@ -1,0 +1,44 @@
+.block-dating-menu {
+	font-size: 13px;
+	line-height: 30px;
+}
+
+.block-dating-menu .dating-menu-link {
+	display: block;
+	padding-left: 15px;
+	border-left:1px solid #e5e5e5;
+	border-right:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+}
+
+.block-dating-menu li:first-child .dating-menu-link {
+	border: 1px solid #e5e5e5;
+}
+
+.block-dating-menu li:last-child .dating-menu-link {
+	border-bottom: none;
+}
+
+.block-dating-menu .dating-menu-link.active {
+	color: #fff;
+	background-color: #26c6da;
+}
+
+.block-dating-menu .dating-menu-link.colored2 {
+	color: #000;
+	background-color: #e9e9e9;
+	border: 1px solid #f8f8f8;
+}
+
+.block-dating-menu .dating-menu-link.colored1 {
+	color: #000;
+	background-color: #e9e9e9;
+	border-left:1px solid #f8f8f8;
+	border-right:1px solid #f8f8f8;
+	border-top:1px solid #f8f8f8;
+}
+
+.dating-menu-link span {
+	color: #9c6001;
+}
+

@@ -38,6 +38,12 @@
 	text-align: center;
 }
 
+.header-logo a {
+	display: inline-block;
+	padding-right: 8px;
+}
+
+
 .header-sign {
 	display: inline-block;
 	vertical-align: top;

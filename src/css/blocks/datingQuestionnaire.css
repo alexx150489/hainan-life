@@ -1,0 +1,201 @@
+.block-datingQuestionnaire {
+	padding: 0 15px;
+	padding-top: 17px;
+	padding-bottom: 80px;
+	background-color: #f9f4f4;
+}
+
+.datingQuestionnaire-title {
+	margin-bottom: 19px;
+}
+
+.block-datingQuestionnaire .block-dating-menu {
+	margin-bottom: 10px;
+}
+
+.block-datingQuestionnaire .block-dating-search-form {
+	margin-bottom: 25px;
+}
+
+.questionnaire img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.questionnaire-top {
+	position: relative;
+	margin-bottom: 11px;
+}
+
+.questionnaire-top .verified-flag {
+	position: absolute;
+	width: 21px;
+	height: 30px;
+	top: 237px;
+	right: 41px;
+	background: url("../../images/sprite.png") -5px -5px no-repeat;
+}
+
+.questionnaire-top .premium-flag {
+	position: absolute;
+	width: 21px;
+	height: 30px;
+	top: 238px;
+	right: 14px;
+	background: url("../../images/sprite.png") -36px -5px no-repeat;
+}
+
+.questionnaire-top .online,	.questionnaire-top .info {
+	border: 1px solid #eaeaea;
+	background-color: #fff;
+	border-radius: 2px;
+}
+
+.questionnaire-top .online {
+	padding: 10px 0;
+	padding-left: 23px;
+	font-size: 13px;
+}
+
+.questionnaire-top .online span {
+	position: relative;
+}
+
+
+.questionnaire-top .online span::after {
+	position: absolute;
+	content: '';
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	top: 7px;
+	left: -11px;
+	background-color: #7d7d7d;
+}
+
+.questionnaire-top .info {
+	padding: 15px 0;
+	padding-left: 17px;
+	font-size: 13px;
+}
+
+.questionnaire-top .age span {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.questionnaire-top .photo-nbr {
+	position: relative;
+	padding-left: 43px;
+}
+
+.questionnaire-top .photo-nbr::after {
+	position: absolute;
+	content: '';
+	width: 30px;
+	height: 30px;
+	top: -9px;
+	left: 12px;
+	background:	url("../../images/sprite.png") -1456px -5px no-repeat;
+}
+
+.questionnaire .send-message {
+	display: inline-block;
+	padding: 10px 47px;
+	border-radius: 5px;
+	background-color: #ff9100;
+	font-size: 13px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 18px;
+}
+
+.questionnaire-info {
+	font-size: 13px;
+	margin-bottom: 41px;
+}
+
+
+.questionnaire-info .name {
+	margin-bottom: 15px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #26c6da;
+}
+
+.questionnaire-info div:not(.name) {
+	margin-bottom: 12px;
+}
+
+.questionnaire-wrp span {
+	position: relative;
+	padding-right: 36px;
+}
+
+.questionnaire-wrp .eyes::after {
+	position: absolute;
+	content: '';
+	width: 26px;
+	height: 26px;
+	top: -3px;
+	left: 72px;
+	border-radius: 50%;
+	background-color: #9c6001;
+}
+
+.questionnaire-wrp .hair::after {
+	position: absolute;
+	content: '';
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	top: -3px;
+	left: 84px;
+	background-color: #48361d;
+}
+
+.questionnaire-info span {
+	font-weight: 600;
+}
+
+.questionnaire-album .title {
+	margin-bottom: 21px;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: none;
+}
+
+.questionnaire-album .description {
+	margin-bottom: 17px;
+	font-size: 14px;
+}
+
+.questionnaire-album .date {
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+
+.questionnaire-album .photo {
+	display: block;
+	position: relative;
+}
+
+.questionnaire-album span.all {
+	position: absolute;
+	padding: 25px 0;
+	width: 91px;
+	height: 89px;
+	bottom: 0;
+	right: 0;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	background-color: #ffa726;
+}
+
+.questionnaire-album span.all span {
+	font-size: 36px;
+	font-weight: bold;
+}
+

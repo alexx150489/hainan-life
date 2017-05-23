@@ -1,0 +1,97 @@
+extends ../layout/layout
+
+block title 
+	| Редактирование информации
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				a(class="breadcrumbs-item" href="#") Служба знакомств
+				span(class="breadcrumbs-item current") Редактирование информации
+
+			section(class="block-datingEdit")
+				h2(class="datingEdit-title section-title") Редактирование информации
+
+				include ../blocks/dating-menu
+
+				div(class="datingEdit-form")
+					form(class="form" action="#" method="post" name="datingEdit")
+						div(class="form-el-wrp")
+							input(type="tel" name="name" placeholder="Имя:")
+						div(class="form-el-wrp")
+							input(type="text" name="surname" placeholder="Фамилия:")
+						div(class="form-el-wrp")
+							input(type="tel" name="patronymic" placeholder="Отчество:")
+						div(class="form-el-wrp")
+							input(type="text" name="e-mail" placeholder="E-mail:")
+						div(class="form-el-wrp")
+							input(class="bday" type="datetime" name="bday"	placeholder="Дата рождения:")
+						div(class="select-wrp")
+							select(class="sex-select" name="sex")
+								option(value="" disabled selected style='display:none;') Пол:
+								option(value="option1") Значение 1
+								option(value="option1") Значение 3
+						div(class="form-el-wrp")
+							input(type="tel" name="growth" placeholder="Рост(см):")
+						div(class="ta-wrp")
+							textarea(name="about" placeholder="О себе")
+
+						div(class="select-wrp")
+							select(id="category-select" class="category-select" name="goal-select")
+								option(value="" disabled selected style='display:none;') Цель знакомства:
+								option(value="option1") Значение 1
+								option(value="option1") Значение 3
+
+						div(class="select-wrp")
+							select(id="category-select" class="category-select" name="location-select")
+								option(value="" disabled selected style='display:none;') Местоположение:
+								option(value="option1") Значение 1
+								option(value="option1") Значение 3
+
+						div(class="select-wrp")
+							select(id="category-select" class="category-select" name="finance-select")
+								option(value="" disabled selected style='display:none;') Материальное положение:
+								option(value="option1") Значение 1
+								option(value="option1") Значение 3
+
+						div(class="select-wrp")
+							select(id="category-select" class="category-select" name="education-select")
+								option(value="" disabled selected style='display:none;') Образование:
+								option(value="option1") Значение 1
+								option(value="option1") Значение 3
+
+						div(class="select-wrp")
+							select(id="category-select" class="category-select" name="zodiac-select")
+								option(value="" disabled selected style='display:none;') Знак зодиака:
+								option(value="option1") Значение 1
+								option(value="option1") Значение 3
+
+						div(class="select-wrp")
+							select(id="category-select" class="category-select" name="eyecolor-select")
+								option(value="" disabled selected style='display:none;') Цвет глаз:
+								option(value="option1") Значение 1
+								option(value="option1") Значение 3
+
+						div(class="select-wrp")
+							select(id="category-select" class="category-select" name="haircolor-select")
+								option(value="" disabled selected style='display:none;') Цвет волос:
+								option(value="option1") Значение 1
+								option(value="option1") Значение 3
+
+						div(class="select-wrp")
+							select(id="category-select" class="category-select" name="language-select")
+								option(value="" disabled selected style='display:none;') Язык общения:
+								option(value="option1") Значение 1
+								option(value="option1") Значение 3
+
+						div(class="upload-photo")
+							div(class="upload-photo-zone")
+
+						button(class="save-changes" type="submit" name="submit") Сохранить
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad
