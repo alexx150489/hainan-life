@@ -1,0 +1,116 @@
+extends ../layout/layout
+
+block title 
+	| Новости Хайнаня
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				a(class="breadcrumbs-item" href="#") Хайнан сегодня
+				span(class="breadcrumbs-item current") Новости Хайнаня
+
+
+			section(class="block-newsBlog")
+				nav(class="newsBlog-navigation")
+					ul
+						li
+							a(class="item item1 active" href="#")
+								div(class="image")
+								div(class="text") Новости Хайнаня
+						li
+							a(class="item item2" href="#")
+								div(class="image")
+								div(class="text") Блог редакции
+						li
+							a(class="item item3" href="#")
+								div(class="image")
+								div(class="text") Спешу поделиться
+						li
+							a(class="item item4" href="#")
+								div(class="image")
+								div(class="text") Записки путешест...
+
+				h2(class="newsBlog-title section-title") Новости Хайнаня
+
+				a(class="newsBlog-add-post" href="#") Добавить запись
+
+				div(class="newsBlog-items")
+
+					a(class="item" href="#")
+						div(class="image")
+							img(src="images/blog-img1.jpg" alt="Фото" width="290" height="132")
+						div(class="item-wrp")
+							div(class="title") Воплощаем мечты
+							div(class="autor")
+								span(class="name") 悦心 (Yue Xin),
+								time(class="time" datetime="2017-05-8") 8 Марта 2017
+							div(class="text") Талантливых и креативных личностей ждём в Санья для нашего нового проекта!
+
+					a(class="item" href="#")
+						div(class="image")
+							img(src="images/blog-img3.jpg" alt="Фото" width="290" height="132")
+						div(class="item-wrp")
+							div(class="title") С праздником Весны!
+							div(class="autor")
+								span(class="name") Уважаемая,
+								time(class="time" datetime="2017-05-8") 8 Марта 2017
+							div(class="text") Поздравления редакции ХНЛ
+
+					a(class="item" href="#")
+						div(class="image")
+							img(src="images/blog-img4.jpg" alt="Фото" width="290" height="132")
+						div(class="item-wrp")
+							div(class="title") Южная Корея под запретом.
+							div(class="autor")
+								span(class="name") 悦心 (Yue Xin)
+								time(class="time" datetime="2017-05-8") 8 Марта 2017
+							div(class="text") Китай полностью замораживает туристические контакты.
+
+					a(class="item" href="#")
+						div(class="image")
+							img(src="images/blog-img5.jpg" alt="Фото" width="290" height="132")
+						div(class="item-wrp")
+							div(class="title") Сеть островных дорог скоро будет походить ...
+							div(class="autor")
+								span(class="name") 悦心 (Yue Xin)
+								time(class="time" datetime="2017-05-8") 8 Марта 2017
+							div(class="text") Еще 3 автострады будут построены на Хайнане к концу 2018 года
+
+					a(class="item" href="#")
+						div(class="image")
+							img(src="images/blog-img6.jpg" alt="Фото" width="290" height="132")
+						div(class="item-wrp")
+							div(class="title") Финал "Мисс Мира" 2017 в Санья 
+							div(class="autor")
+								span(class="name") 悦心 (Yue Xin)
+								time(class="time" datetime="2017-05-8") 8 Марта 2017
+							div(class="text") Кому Санья подарила корону?
+
+					a(class="item" href="#")
+						div(class="image")
+							img(src="images/blog-img7.jpg" alt="Фото" width="290" height="132")
+						div(class="item-wrp")
+							div(class="title") Вечеринка "Снова в Школу!" 
+							div(class="autor")
+								span(class="name") 悦心 (Yue Xin)
+								time(class="time" datetime="2017-05-8") 8 Марта 2017
+							div(class="text") Хайкоу, 3 марта.
+
+					a(class="item" href="#")
+						div(class="image")
+							img(src="images/blog-img8.jpg" alt="Фото" width="290" height="132")
+						div(class="item-wrp")
+							div(class="title") Космическая музыка в Хайкоу! 
+							div(class="autor")
+								span(class="name") 悦心 (Yue Xin)
+								time(class="time" datetime="2017-05-8") 8 Марта 2017
+							div(class="text") Coconut Music представляет: выступление Антона "Santosh" ...
+
+				include ../blocks/paginator
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad

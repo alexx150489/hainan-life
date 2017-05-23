@@ -40,7 +40,7 @@
 
 .breadcrumbs-item:not(.home) {
 	position: relative;
-	padding: 1px 13px 1px 13px;
+	padding: 1px 9px 1px 9px;
 	margin-left: 15px;
 	border-radius: 20px;
 }

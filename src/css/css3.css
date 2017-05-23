@@ -2,7 +2,7 @@
 	 ����� CSS3
 	 ========================================================================== */
 
-/* @import */
+/* @import blocks */
 
 @import "blocks/header.css"; 
 @import "blocks/footer.css"; 
@@ -40,6 +40,11 @@
 @import "blocks/datingMessages.css";
 @import "blocks/datingMyPage.css";
 
+@import "blocks/forum.css";
+
+@import "blocks/newsBlog.css";
+@import "blocks/newsBlogFull.css";
+
 
 
 * {
@@ -67,9 +72,6 @@
 	color: #26c6da;
 }
 
-.slick-slide:focus { outline: none; }
-
-
 
 
 .gradient {
@@ -88,6 +90,11 @@
 }
 
 
+/* slick.js custom css*/
+
+.slick-slide:focus { outline: none; }
+
+
 /*jQuery UI Range Slider custom css */
 
 span.ui-slider-handle.ui-corner-all.ui-state-default {
@@ -99,7 +106,6 @@ span.ui-slider-handle.ui-corner-all.ui-state-default {
 	width: 16px;
 	height: 16px;
 	cursor: default;
-	-ms-touch-action: none;
 	touch-action: none;
 }
 .ui-slider-horizontal {

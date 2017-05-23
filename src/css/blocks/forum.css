@@ -1,0 +1,150 @@
+.block-forum {
+	padding: 0 15px;
+	padding-top: 16px;
+	padding-bottom: 34px;
+	background-color: #f9f4f4;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.forum-title {
+	margin-bottom: 18px;
+}
+
+.block-forum select {
+	width: 100%;
+	padding: 5px 0px;
+	padding-right: 32px;
+	padding-left: 13px;
+	border: 1px solid #c4c4c4;
+	color: #000;
+	background-color: #fff;
+	cursor: pointer;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	background: #fff url("../../images/select-dw-icon.png") right 11px top 50% / 10px no-repeat;
+	border-radius: 2px;
+}
+
+.filter-select-wrp {
+	margin-bottom: 25px;
+}
+
+.block-forum .filter-select-wrp {
+	position: relative;
+}
+
+.block-forum .filter-select-wrp::after {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 30px;
+	top: 0;
+	right: 32px;
+	background-color: #c4c4c4;
+	cursor: pointer;
+}
+
+.general-forum-section-title {
+	display: block;
+	padding: 13px 0;
+	padding-left: 15px;
+	color: #fff;
+	text-decoration: underline;
+	background-color: #0097a7;
+}
+
+.general-forum-section .section {
+	padding: 10px 15px;
+	border: 1px solid #e1e1e1;
+	border-bottom: none;
+	background-color: #f9f4f4;
+}
+
+.general-forum-section .section:last-child {
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.general-forum-section .section:nth-child(even) {
+	background-color: #e0f2f1;
+}
+
+
+
+.general-forum-section .title {
+	display: block;
+	margin-bottom: 7px;
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: 600;
+	text-transform: none;
+	text-decoration: underline;
+	color: #000;
+}
+
+.general-forum-section .info {
+	margin: 18px 0;
+	font-size: 0;
+}
+
+.general-forum-section .threads {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	font-size: 13px;
+}
+
+.general-forum-section .messages {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 13px;
+}
+
+.general-forum-section .description {
+	color: #292929;
+}
+
+.general-forum-section .post-time {
+	display: block;
+	color: #292929;
+}
+
+.general-forum-section .last-post {
+	color: #3ac9db;
+	text-decoration: underline;
+}
+
+.general-forum-section-title.subscribe {
+	padding-left: 43px;
+}
+
+.general-forum-section-title.subscribe span {
+	position: relative;
+}
+
+.general-forum-section-title.subscribe span::after {
+	position: absolute;
+	content: '';
+	width: 16px;
+	height: 16px;
+	top: 0;
+	left: -24px;
+	background: url(../../images/sprite.png) -1852px -5px no-repeat;
+}
+
+.forum-activity {
+	padding: 20px 0px;
+}
+
+.forum-activity span {
+	font-weight: 600;
+}
+
+.forum-activity .online {
+	margin-bottom: 18px;
+}
+
+.forum-activity .registred {
+	margin-bottom: 19px;
+}

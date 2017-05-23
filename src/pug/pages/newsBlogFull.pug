@@ -1,0 +1,95 @@
+extends ../layout/layout
+
+block title 
+	| Воплощаем мечты 
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				a(class="breadcrumbs-item" href="#") Хайнан сегодня
+				a(class="breadcrumbs-item" href="#") Новости Хайнаня
+				span(class="breadcrumbs-item current") Воплощаем мечты 
+
+
+			section(class="block-newsBlogFull")
+				h2(class="newsBlogFull-title section-title") Воплощаем мечты 
+
+				div(class="newsBlogFull-autor clearfix")
+					div(class="info")
+						div(class="name") 悦心 (Yue Xin) 
+						time(class="date" datetime="2017-05-8") 8 Марта 2016
+						div(class="photo")
+
+					div(class="social")
+						a(class="social-item vk" href="#")
+						a(class="social-item fb" href="#")
+						a(class="social-item tw" href="#")
+						a(class="social-item ok" href="#")
+						a(class="social-item lj" href="#")
+
+				div(class="newsBlogFull-article")
+					div(class="image")
+						img(src="images/dream-img.jpg" alt="Фото" width="320" height="358")
+					div(class="text")
+						p
+							| На наш остров прилетает такое количество талантливых людей, что, действительно, понимаешь, мир состоит из уникальных и удивительных личностей с их историями, вещей с их необычным применением. А Hainanlife просто притягивает всё самое восхитительное и прекрасное на острове (да и по всему миру). Не всегда нам удаётся всё сделать одному, а если и удаётся, то это отнимает слишком много времени и даже может потерять актуальность, ведь сейчас	мы получаем огромное количество информации каждый день. В Санья очень много интересных проектов для иностранцев: съёмки клипов, реализация своих танцевальных или вокального идей,	Dj создают удивительные миксы,	фотографы воплощают нереальные фантазии, есть и те, кто "оживляет" стены своими граффити, а кому-то нравятся трюки с огнём или водой! Друзья, разрешите представить Вам очаровательную Anna Tyab, которая внесёт свежих	красок в жизнь острова!
+
+					div(class="image")
+						img(src="images/dream-img2.jpg" alt="Фото" width="320" height="358")
+					div(class="text")
+						p
+							| Anna Tyab: Прилетела я к Вам из сказочного Дубая. Я художник, создатель , а также креативный дизайнер эксклюзивных вечерних платьев. Хочу предложить вам мой новый концептуальный проект, объединяющий в себе сразу несколько видов творчества: картины, шикарные вечерние платья, представление, фото и видеосъёмку. Все это закручено в интересную 3D-инсталляцию, которая, я уверена, не оставит равнодушным даже самого привередливого ценителя искусства.
+
+					div(class="image")
+						img(src="images/dream-img3.jpg" alt="Фото" width="320" height="358")
+					div(class="text")
+						p
+							| В данный момент набираю команду творческих, позитивно настроенных людей, готовых вложить часть себя в общее дело, а, возможно, и продолжить реализацию проекта в других странах. Мы будем рады сотрудничать со всеми ,но если Вы художник, владеющий навыком работы с широкоформатными картинами/граффити или конструктор-модельер, имеющий опыт работы с женскими вечерними платьями - свяжитесь с нами, и мы вместе дотянемся до звёзд!	А, может, Вы умеете рисовать на	ткани или окрашивать её? Или Вы мастер по работе с 3D-изображениями, хороший фотограф и видеограф - всех талантливых и заинтересованных в реализации своего потенциала - искренне будем рады видеть в нашей команде.	
+
+					div(class="image")
+						img(src="images/dream-img4.jpg" alt="Фото" width="320" height="358")
+					div(class="text")
+						p
+							| Более подробно с моим творчеством можно ознакомиться на моем официальном сайте 
+							a(href="#") Imperial19.com
+							|, в Вк 
+							a(href="#") vk.com/anastasiatyab
+							|, на Фейсбуке 
+							a(href="#") facebook.com/anna_tyab
+							|, а также в Инстаграмме 
+							a(href="#") Instagram.com/anna_tyab
+							|.
+						p
+							| На последнем фото представлен образец проекта, который представляет Anna Tyab! Это воплощение сказки в жизнь. Здесь, как в рекламе Баунти: "Трудно понять, где заканчивается реальность, и начинается мечта".
+
+				div(class="newsBlogFull-similar-events")
+					h3(class="title") Похожие события
+					div(class="slider-wrapper")
+						div(class="slider")
+							div(class="slide")
+								div(class="autor")
+									div(class="name") 悦心 (Yue Xin) 
+									time(class="date" datetime="2017-05-8") 8 Марта 2016
+									div(class="photo")
+								a(class="event" href="#")
+									div(class="image")
+										img(src="images/blog-img3.jpg" alt="Фото" width="290" height="132")
+									div(class="event-wrp")
+										div(class="title") С праздником Весны!
+										div(class="text") Поздравления редакции ХНЛ
+
+				div(class="newsBlogFull-comments")
+					h3(class="title") Оставить комментарий:
+					div(class="text")
+						p
+							| Для того, чтобы добавить новый комментарий необходимо 
+							a(href="#") авторизоваться 
+							| на сайте.
+
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad

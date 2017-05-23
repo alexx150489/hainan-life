@@ -1,0 +1,104 @@
+extends ../layout/layout
+
+block title 
+	| Форум
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				span(class="breadcrumbs-item current") Форум
+
+
+			section(class="block-forum")
+				h2(class="forum-title section-title") Форум
+				div(class="filter-select-wrp")
+					select(class="filter-select" name="filter-select")
+						option(value="" disabled selected style='display:none;') Обновления
+						option(value="option1") Значение 1
+						option(value="option1") Значение 3
+				
+
+				div(class="forum-container")
+					div(class="general-forum-section open")
+						a(class="general-forum-section-title" href="#") Открытые форумы
+
+						div(class="section")
+							a(class="title" href="#") Хайнань - гостям
+							div(class="description")
+								p Вы гость острова? Хотите задать вопрос другим гостям или тем, кто живет на острове постоянно? Вам сюда! 
+							a(class="last-post" href="#") Ужасное наводнение на Х... (Daria Tariashinova)
+							time(class="post-time" datetime="2016-12-22") 22.12.2016 01:30:21
+
+						div(class="section")
+							a(class="title" href="#") Хайнань - остравитянам
+							div(class="description")
+								p Вы гость острова? Хотите задать вопрос другим гостям или тем, кто живет на острове постоянно? Вам сюда! 
+							div(class="info")
+								div(class="threads") Темы 3 
+								div(class="messages") Сообщения 9
+							a(class="last-post" href="#") Ужасное наводнение на Х... (Daria Tariashinova)
+							time(class="post-time" datetime="2016-12-22") 22.12.2016 01:30:21
+
+						div(class="section")
+							a(class="title" href="#") Хайнань - гостям
+							div(class="description")
+								p Вы гость острова? Хотите задать вопрос другим гостям или тем, кто живет на острове постоянно? Вам сюда! 
+							div(class="info")
+								div(class="threads") Темы 3 
+								div(class="messages") Сообщения 9
+							a(class="last-post" href="#") Ужасное наводнение на Х... (Daria Tariashinova)
+							time(class="post-time" datetime="2016-12-22") 22.12.2016 01:30:21
+
+						div(class="section")
+							a(class="title" href="#") Хайнань - остравитянам
+							div(class="description")
+								p Вы гость острова? Хотите задать вопрос другим гостям или тем, кто живет на острове постоянно? Вам сюда! 
+							div(class="info")
+								div(class="threads") Темы 3 
+								div(class="messages") Сообщения 9
+							a(class="last-post" href="#") Ужасное наводнение на Х... (Daria Tariashinova)
+							time(class="post-time" datetime="2016-12-22") 22.12.2016 01:30:21
+
+						div(class="section")
+							a(class="title" href="#") Хайнань - гостям
+							div(class="description")
+								p Вы гость острова? Хотите задать вопрос другим гостям или тем, кто живет на острове постоянно? Вам сюда! 
+							div(class="info")
+								div(class="threads") Темы 3 
+								div(class="messages") Сообщения 9
+							a(class="last-post" href="#") Ужасное наводнение на Х... (Daria Tariashinova)
+							time(class="post-time" datetime="2016-12-22") 22.12.2016 01:30:21
+
+						div(class="section")
+							a(class="title" href="#") Хайнань - гостям
+							div(class="description")
+								p Вы гость острова? Хотите задать вопрос другим гостям или тем, кто живет на острове постоянно? Вам сюда! 
+							div(class="info")
+								div(class="threads") Темы 3 
+								div(class="messages") Сообщения 9
+							a(class="last-post" href="#") Ужасное наводнение на Х... (Daria Tariashinova)
+							time(class="post-time" datetime="2016-12-22") 22.12.2016 01:30:21
+
+
+					div(class="general-forum-section close")
+						a(class="general-forum-section-title" href="#") Закрытые форумы
+						div(class="section")
+							a(class="title" href="#") Форум знатоков
+
+					a(class="general-forum-section-title subscribe" href="#")
+						span Подписаться на новые темы
+
+					div(class="forum-activity")
+						div(class="online") Сейчас на форуме (гостей: #[span 1])
+						div(class="registred") Всего зарегистрированных пользователей: #[span 1340]
+						div(class="discuss") Приняло участие в обсуждении: #[span 29]
+						div(class="all-threads") Всего тем: #[span 15]
+						div(class="all-messages") Всего сообщений: #[span 106]
+
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad
