@@ -23,7 +23,7 @@
     <script src="js/vendor/fancybox/jquery.fancybox.pack.js"></script>
     <script src="js/vendor/slick.js/slick.min.js"></script>
     <script src="js/main.js"></script>
-    <title> Анкета участника
+    <title> Страница пользователя
     </title>
   </head>
   <body>
@@ -82,104 +82,71 @@
     </header>
     <section class="block-content">
       <div class="site-wrap">
-        <section class="block-breadcrumbs"><a class="breadcrumbs-item home" href="index.html"></a><a class="breadcrumbs-item" href="#">Служба знакомств</a><span class="breadcrumbs-item current">Анкета участника</span></section>
-        <section class="block-datingQuestionnaire">
-          <h2 class="datingQuestionnaire-title section-title">Анкета участника</h2>
-          <div class="block-dating-menu">
-            <ul>
-              <li><a class="dating-menu-link active" href="#">Главная</a></li>
-              <li><a class="dating-menu-link" href="#">Моя страница</a></li>
-              <li><a class="dating-menu-link" href="#">Мои сообщения</a></li>
-              <li><a class="dating-menu-link" href="#"><span>Premium </span>анкеты</a></li>
-              <li><a class="dating-menu-link" href="#">Поиск анкет</a></li>
-              <li><a class="dating-menu-link colored1" href="#">Редактировать информацию</a></li>
-              <li><a class="dating-menu-link colored2" href="#">Выход</a></li>
-            </ul>
+        <section class="block-breadcrumbs"><a class="breadcrumbs-item home" href="index.html"></a><span class="breadcrumbs-item current">Страница пользователя</span></section>
+        <section class="block-profile">
+          <div class="profile-top">
+            <div class="photo"><img src="images/photo-sample.png" alt="Фотография" width="196" height="196"></div>
+            <div class="description">Обычная карта</div>
           </div>
-          <div class="block-dating-search-form">
-            <div class="dating-form-wrp">
-              <form class="form" action="#" method="post" name="dating-form">
-                <div class="search-form-sex">
-                  <div class="checkbox-wrp">
-                    <input id="male" type="checkbox">
-                    <label for="male">Парень</label>
-                  </div>
-                  <div class="checkbox-wrp">
-                    <input id="female" type="checkbox">
-                    <label for="female">Девушка</label>
-                  </div>
-                </div>
-                <div class="search-form-location">
-                  <div class="form-title">Местонахождение</div>
-                  <div class="select-wrp">
-                    <select class="location-select" id="category-select" name="location-select">
-                      <option value="" disabled selected style="display:none;">Любое</option>
-                      <option value="option1">Значение 1</option>
-                      <option value="option1">Значение 3</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="search-form-age">
-                  <div class="form-title">Возраст</div>
-                  <div class="range-slider-wrapper">
-                    <div class="range-slider-input">
-                      <label class="input-label" for="amount">от</label>
-                      <input class="input1" type="text" id="amount">
-                    </div>
-                    <div class="range-slider-input">
-                      <label for="amount">до</label>
-                      <input class="input-label" type="text" id="amount-second">
-                    </div>
-                  </div>
-                  <div id="slider-range-wrapper">
-                    <div id="slider-range"></div>
-                  </div>
-                </div>
-                <div class="search-form-goal">
-                  <div class="form-title">Цель</div>
-                  <div class="select-wrp">
-                    <select class="goal-select" id="category-select" name="goal-select">
-                      <option value="" disabled selected style="display:none;">Все цели</option>
-                      <option value="option1">Значение 1</option>
-                      <option value="option1">Значение 3</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="search-form-have-foto">
-                  <div class="checkbox-wrp">
-                    <input id="have-foto" type="checkbox">
-                    <label for="have-foto">Только с фото</label>
-                  </div>
-                </div>
-                <button class="search-btn" type="submit" name="search-btn">Найти</button><a class="ex-search" href="#">Расширенный поиск</a>
-              </form>
+          <div class="profile-rating">
+            <div class="rating-sum">
+              <div class="title">Суммарный рейтинг:</div>
+              <div class="rating-wrp"><span class="num">0</span><span class="items"><span class="item item1"></span><span class="item item2"></span><span class="item item3"></span><span class="item item4"></span><span class="item item5"></span></span></div>
+            </div>
+            <div class="rating-month">
+              <div class="title">За месяц:</div>
+              <div class="rating-wrp"><span class="num">0</span><span class="items"><span class="item item1"></span><span class="item item2"></span><span class="item item3"></span><span class="item item4"></span><span class="item item5"></span></span></div>
             </div>
           </div>
-          <div class="questionnaire">
-            <div class="questionnaire-top">
-              <div class="questionnaire-image"><img src="images/questionnaire-man2.jpg" alt="Фотография" width="290" height="247"></div>
-              <div class="online"><span>Не в сети</span></div>
-              <div class="info"><span class="age"><span>36 </span>лет </span><span class="photo-nbr">1 фото</span></div>
-              <div class="verified-flag"></div>
-              <div class="premium-flag"></div>
-            </div><a class="send-message" href="#">Написать сообщение</a>
-            <div class="questionnaire-info">
-              <div class="name">Макс Дойч</div>
-              <div class="status">Ищу друзей для переписки</div>
-              <div class="sex"><span>Пол: </span>Мужской </div>
-              <div class="finance"><span>Материальное положение: </span>Высокое </div>
-              <div class="age"><span>Возраст: </span>36 лет</div>
-              <div class="education"><span>Образование: </span>Высшее </div>
-              <div class="location"><span>Местонахождение: </span>Хайнань</div>
-              <div class="zodiac"><span>Знак зодиака: </span>Лев</div>
-              <div class="language"><span>Язык общения: </span>Английский </div>
-              <div class="questionnaire-wrp"><span class="eyes">Цвет глаз: </span><span class="hair">Цвет волос: </span></div>
-              <div class="growth"><span>Рост: </span>188 см </div>
+          <div class="profile-user">
+            <div class="profile-wrp">
+              <div class="name">Roberttourf Roberttourf</div>
+              <div class="since">на портале с <span>09.03.2017 </span></div>
+              <div class="dating"><a href="#">в службе знакомств</a></div>
+              <div class="settings"><a href="#">Настройка профиля</a></div>
+              <div class="select-wrp">
+                <select class="add" name="add">
+                  <option value="" disabled selected style="display:none;">Добавить</option>
+                  <option value="option1">Значение 1</option>
+                  <option value="option1">Значение 3</option>
+                </select>
+              </div>
             </div>
-            <div class="questionnaire-album">
-              <div class="title">Альбомы пользователя</div>
-              <div class="description">Это я </div>
-              <div class="date">8 мая 2015</div><a class="photo" href="#"><img src="images/questionnaire-man.jpg" alt="Фотография" width="290" height="290"><span class="all"><span>1</span><br>фото</span></a>
+            <div class="image"><img src="images/sun.jpg" alt="Фотография" width="240" height="225"></div>
+          </div>
+          <div class="profile-categories">
+            <div class="categories-wrp">
+              <div class="row row1">
+                <div class="item item1 active"><a href="#">Всего (12)</a></div>
+                <div class="item item2"><a href="#">Объекты 0</a></div>
+                <div class="item item3"><a href="#">События 0</a></div>
+              </div>
+              <div class="row row2">
+                <div class="item item1"><a href="#">Запись в блоге 0</a></div>
+                <div class="item item2"><a href="#">Фото 0</a></div>
+                <div class="item item3"><a href="#">Видео 1</a></div>
+              </div>
+            </div>
+            <div class="categories-show">
+              <div class="show-item">
+                <div class="autor">
+                  <div class="name">悦心 (Yue Xin) </div>
+                  <div class="date">30 Января 2017</div>
+                  <div class="foto"></div>
+                </div><a class="photo-wrapper" href="#">
+                  <div class="big-photo"><img src="images/gal1-big.jpg" alt="Фото" width="290" height="164"></div>
+                  <div class="mini-photos">
+                    <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
+                    <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
+                    <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
+                    <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
+                    <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
+                    <div class="itm all" href="#"><span>6 </span>фото</div>
+                  </div></a>
+              </div>
+              <div class="show-more-albums">
+                <div class="more-albums-wrp"><a class="more-albums-btn" href="#">Показать больше альбомов</a></div>
+              </div>
             </div>
           </div>
         </section>

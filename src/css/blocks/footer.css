@@ -30,8 +30,9 @@
 	border-bottom: none;
 }
 
-.footer-menu-item .item-title.active {
+.footer-menu-item .item-title.toggle.active {
 	border-bottom: 5px solid #00c8dd;
+	transition: border-bottom .2s ease-out;
 }
 
 .footer-menu-item .item-title::after {
@@ -45,13 +46,14 @@
 	background: url("../../images/sprite.png") -378px -5px no-repeat;
 }
 
-.footer-menu-item .item-title.active::after {
+.footer-menu-item .item-title.toggle.active::after {
 	width: 11px;
 	height: 6px;
 	background: url("../../images/sprite.png") -394px -5px no-repeat;
 }
 
 .footer-menu .submenu {
+	display: none;
 	margin: 0;
 	background-color: rgba(0, 37, 58, .7);
 }
@@ -159,10 +161,6 @@
 	height: 32px;
 }
 
-
-
-
-
 .footer-description {
 	padding-bottom: 24px;
 	font-size: 13px;
@@ -172,7 +170,6 @@
 }
 
 .footer-copyright {
-
 	display: block;
 	padding-bottom: 20px;
 	font-size: 13px;

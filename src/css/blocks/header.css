@@ -1,4 +1,6 @@
 .block-header {
+	position: relative;
+	font-size: 13px;
 	background-color: #006873;
 }
 
@@ -7,7 +9,6 @@
 }
 
 .header-menu-toggle {
-
 	width: 15%;
 	min-width: 43px;
 	display: inline-block;
@@ -64,6 +65,245 @@
 	background: url("../../images/sprite.png") -1035px -5px no-repeat;
 }
 
-.header-sign.logged::after {
+.header-sign.active {
+	background-color: #f2f2f2
+}
 
+.header-sign.logged::after {
+	width: 28px;
+	height: 28px;
+	background: url("../../images/logged-user.png") 0 0 no-repeat;
+}
+
+/* !!!authorization!!! */
+
+.header-authorization {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	clear: both;
+	background-color: #f2f2f2;
+	z-index: 999;
+	padding: 0 15px;
+	padding-top: 34px;
+	padding-bottom: 56px;
+}
+
+
+.header-authorization .authorization-title {
+	font-size: 30px;
+	font-weight: bold;
+	color: #26c6da;
+}
+
+.header-authorization .authorization-title-eng {
+	font-size: 18px;
+	font-weight: bold;
+	color: #26c6da;
+	margin-bottom: 23px;
+}
+
+
+
+.authorization-form .input-email, .authorization-form .input-password {
+	width: 100%;
+	padding: 8px 0;
+	padding-right: 32px;
+	padding-left: 13px;
+	margin-bottom: 11px;
+	border: 1px solid #d6d6d6;
+	border-radius: 2px;
+}
+
+
+.authorization-form input[type="checkbox"] {
+	display: none;
+}
+
+.authorization-form label {
+	position: relative;
+	padding-left: 20px;
+}
+
+.authorization-form input[type="checkbox"] + label::before {
+	position: absolute;
+	content: '';
+	width: 13px;
+	height: 13px;
+	top: 3px;
+	left: 0;
+	background:	url("../../images/sprite.png") -2427px -5px no-repeat;
+}
+
+.authorization-form input[type="checkbox"]:checked + label::before {
+	background:	url("../../images/sprite.png") -68px -56px no-repeat;
+}
+
+.remember-me-wrp {
+	padding-top: 6px;
+	margin-bottom: 14px;
+}
+
+.authorization-form .remember-me-wrp label {
+	display: inline-block;
+}
+
+.authorization-form .remember-me-wrp span {
+	display: block;
+}
+
+.authorization-form .authorization-submit {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 30px;
+	background-color: #26c6da;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+}
+
+.authorization-info {
+	padding-top: 22px;
+}
+
+.authorization-info .title {
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	color: #26c6da;
+	text-transform: none;
+	margin-bottom: 5px;
+}
+
+.authorization-info .description-eng {
+	color: #858585;
+}
+
+
+/* !!!user-profile!!! */
+
+.header-profile {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	clear: both;
+	background-color: #fff;
+	z-index: 999;
+	padding: 0 15px;
+	padding-top: 35px;
+}
+
+.header-profile .profile-top {
+	position: relative;
+	margin-bottom: 35px;
+}
+
+.header-profile .profile-user {
+	padding-left: 102px;
+	margin-bottom: 17px;
+}
+
+.header-profile .surname {
+	margin-bottom: 10px;
+}
+
+.header-profile .dashboard {
+	color: #3ecadc;
+	text-decoration: underline;
+}
+
+.header-profile .photo {
+	position: absolute;
+	content: '';
+	width: 74px;
+	height: 74px;
+	top: -7px;
+	left: 13px;
+	background:	url("../../images/profile-sample.png") 0 0 no-repeat;
+}
+
+.profile-add {
+	padding-left: 13px;
+}
+
+.profile-add .title {
+	font-size: 13px;
+	font-weight: normal;
+	color: #b6b6b6;
+	text-transform: none;
+	margin-bottom: 7px;
+}
+
+.profile-add .items {
+	width: 220px;
+	font-size: 0;
+}
+
+.profile-add .item {
+	display: inline-block;
+	vertical-align: top;
+	width: 32px;
+	height: 32px;
+	margin-right: 15px;
+}
+
+.profile-add .item:last-child {
+	margin-right: 0;
+}
+
+.profile-add .item.item1 {
+	background: url("../../images/sprite.png") -2512px -5px no-repeat;
+}
+
+.profile-add .item.item2 {
+	background: url("../../images/sprite.png") -2554px -5px no-repeat;
+}
+
+.profile-add .item.item3 {
+	background: url("../../images/sprite.png") -2596px -5px no-repeat;
+}
+
+.profile-add .item.item4 {
+	background: url("../../images/sprite.png") -2643px -10px no-repeat;
+}
+
+.profile-add .item.item5 {
+	background: url("../../images/sprite.png") -2695px -10px no-repeat;
+}
+
+.header-profile .profile-bottom {
+	background-color: #d3d3d3;
+	margin-right: -15px;
+	margin-left: -15px;
+	padding: 16px 0;
+}
+
+.profile-bottom-wrp {
+	text-align: center;
+	margin-bottom: 7px;
+}
+
+.profile-bottom-wrp:last-child {
+	margin-bottom: 0;
+}
+
+.profile-bottom	a {
+	display: inline-block;
+	vertical-align: top;
+	font-weight: 600;
+	color: #fff;
+	background-color: #0097a7;
+	border-radius: 5px;
+}
+
+.profile-bottom	.create-dating-acc {
+	padding: 10px 10px;
+}
+
+.profile-bottom	.logout {
+	padding: 10px 109px;
 }

@@ -1,9 +1,65 @@
 header(class="block-header")
 	div(class="site-wrap")
 		div(class="header-wrapper clearfix")
-			div(class="header-menu-toggle")
+			div(class="header-menu-toggle active")
 			div(class="header-logo-wrapper")
 				div(class="header-logo")
 					a(href="#")
 						img(src="images/main-logo.png" width="186" height="39" alt="Логотип")
-			div(class="header-sign")
+			div(class="header-sign auth-btn-js")
+
+	div(class="header-authorization authorization-js")
+		h3(class="authorization-title") Вход на сайт
+		h3(class="authorization-title-eng") Authorization page
+		form(class="authorization-form" action="#" method="post" name="authorization-form")
+			div(class="form-el-wrp")
+				input(class="input-email" type="email" name="email" placeholder="Email 邮箱号:" tabindex="1")
+			div(class="form-el-wrp")
+				input(class="input-password" type="password" name="password" placeholder="Пароль/Password/请设置登录密码:" tabindex="2")
+			div(class="remember-me-wrp")
+				input(id="remember-me" type="checkbox")
+				label(for="remember-me")
+					span Запомнить меня на этом компьютере
+					span Remember me for this device
+					span 记住我
+
+			button(class="authorization-submit" type="submit") Войти Enter
+
+
+		div(class="authorization-info forget")
+			a(class="title" href="#") Забыли свой пароль? Forgot your password?
+			div(class="description") Если вы не помните свой пароль, то перейдите по ссылке на страницу с восстановлением пароля
+			div(class="description-eng") Please follow this link for password recovery page
+
+		div(class="authorization-info register")
+			a(class="title" href="#") Зарегистрироваться. Register.
+			div(class="description") Если вы впервые на сайте, заполните, пожалуйста, регистрационную форму
+			div(class="description-eng") If you are new here, please register with us
+
+
+
+	div(class="header-profile profile-js")
+		div(class="profile-top")
+			div(class="profile-user")
+				div(class="name") Иван
+				div(class="surname") Пупкин
+				a(class="dashboard" href="#") Личный кабинет
+				div(class="photo")
+
+			div(class="profile-add")
+				div(class="title") Добавить материалы
+				div(class="items")
+					a(class="item item1" href="#")
+					a(class="item item2" href="#")
+					a(class="item item3" href="#")
+					a(class="item item4" href="#")
+					a(class="item item5" href="#")
+
+		div(class="profile-bottom")
+			div(class="profile-bottom-wrp")
+				a(class="create-dating-acc" href="#") Создать аккаунт в службе знакомств
+			div(class="profile-bottom-wrp")
+				a(class="logout" href="#") Выход
+
+
+
