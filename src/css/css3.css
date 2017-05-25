@@ -16,7 +16,7 @@
 @import "blocks/contacts.css";
 @import "blocks/partners.css";
 @import "blocks/partners-list.css";
-@import "blocks/fraternity.css";
+
 
 @import "blocks/aboutHainan.css";
 @import "blocks/aboutHainanFoto.css";
@@ -39,6 +39,13 @@
 @import "blocks/datingQuestionnaire.css";
 @import "blocks/datingMessages.css";
 @import "blocks/datingMyPage.css";
+
+@import "blocks/fraternity.css";
+@import "blocks/contributorList.css";
+@import "blocks/contestList.css";
+@import "blocks/contestTsigun.css";
+@import "blocks/contestTsigunWomen.css";
+@import "blocks/contestTsigunWoman.css";
 
 @import "blocks/forum.css";
 @import "blocks/profile.css";

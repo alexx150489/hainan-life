@@ -1,0 +1,73 @@
+extends ../layout/layout
+
+block title 
+	| Список участниц 
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				a(class="breadcrumbs-item" href="#") Содружество HNL
+				a(class="breadcrumbs-item" href="#") Конкурсы
+				a(class="breadcrumbs-item" href="#") Конкурс моделей Цзингун
+				a(class="breadcrumbs-item" href="#") Участницы...
+				span(class="breadcrumbs-item current") Aleksandra
+
+			section(class="block-contestTsigunWoman")
+
+				h2(class="contestTsigunWoman-title section-title") Aleksandra Gatalskaya
+
+				div(class="contestTsigunWoman-info-top")
+					div(class="location") Страна: Belarus
+					div(class="place") Участница занимает #[span 20] место
+
+				div(class="contestTsigunWoman-gallery")
+					div(class="slider-wrp main")
+						div(class="slider")
+							div(class="slide")
+								img(src="images/gallery-full-foto.jpg" alt="Фото" width="290" height="315")
+							div(class="slide")
+								img(src="images/gallery-full-foto2.jpg" alt="Фото" width="290" height="315")
+							div(class="slide")
+								img(src="images/gallery-full-foto.jpg" alt="Фото" width="290" height="315")
+
+					div(class="slider-wrp mini")
+						div(class="slider2")
+							div(class="slide")
+								img(src="images/cart.jpg" alt="Фото" width="84" height="89")
+							div(class="slide")
+								img(src="images/cart2.jpg" alt="Фото" width="84" height="89")
+							div(class="slide")
+								img(src="images/cart.jpg" alt="Фото" width="84" height="89")
+						button(type="button" class="custom-prev")
+						button(type="button" class="custom-next")
+
+				div(class="contestTsigunWoman-info")
+					div(class="sex") #[span Пол:] Женский
+					div(class="age") #[span Возраст (лет):] 26
+					div(class="growth") #[span Рост:] 169 см
+					div(class="weight") #[span Вес:] 47 кг
+					div(class="breast") #[span Грудь:] 85 см
+					div(class="waist") #[span Талия:] 60 см
+					div(class="thighs") #[span Бедра:] 88 см
+					div(class="homeland") #[span Родная страна:] Belarus
+					div(class="homeland-town") #[span Родной город (в своей стране):] Gomel
+					div(class="china-town") #[span Город (в Китае):] Shanghai
+					div(class="education") #[span Образование: ] higher
+					div(class="skills") #[span Артистические навыки: ] Handicrafts, photography, dance, floristics
+
+					div(class="nav-buttons")
+						div(class="nav-button")
+							a(class="next-btn btn" href="#") #[span Следующая учатница]
+						div(class="nav-button")
+							a(class="back-btn btn" href="#") #[span Назад к списку участниц]
+
+				div(class="contestTsigunWoman-comments")
+					h3(class="title") Оставить комментарий:
+					div(class="text")
+						p Для того, чтобы добавить новый комментарий необходимо #[a(href="#") авторизоваться] на сайте.
+
+			include ../blocks/comments
+			include ../blocks/ad

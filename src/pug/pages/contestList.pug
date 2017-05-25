@@ -1,0 +1,65 @@
+extends ../layout/layout
+
+block title 
+	| Конкурсы
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				a(class="breadcrumbs-item" href="#") Содружество HNL
+				span(class="breadcrumbs-item current") Конкурсы
+
+			section(class="block-contestList")
+				nav(class="contestList-navigation")
+					ul
+						li
+							a(class="item item1 active" href="#")
+								div(class="image")
+								div(class="text") Текущие конкурсы
+						li
+							a(class="item item2" href="#")
+								div(class="image")
+								div(class="text") Будущие конкурсы
+						li
+							a(class="item item3" href="#")
+								div(class="image")
+								div(class="text") Архив конкурсов
+						li
+							a(class="item item4" href="#")
+								div(class="image")
+								div(class="text") Архив награжде...
+
+				h2(class="contestList-title section-title") Конкурсы
+
+				div(class="contestList-items")
+
+					a(class="item" href="#")
+						div(class="image")
+							img(src="images/konkurs2.jpg" alt="Фото" width="290" height="132")
+						div(class="item-wrp")
+							div(class="title") Конкурс моделей "Цзингун"
+							time(class="time" datetime="2017-05-8") 8 Марта 2017
+
+					a(class="item" href="#")
+						div(class="image")
+							img(src="images/konkurs3.jpg" alt="Фото" width="290" height="132")
+						div(class="item-wrp")
+							div(class="title") Конкурс "Островитянка"
+							time(class="time" datetime="2017-05-8") 8 Марта 2017
+
+					a(class="item" href="#")
+						div(class="image")
+							img(src="images/konkurs1.jpg" alt="Фото" width="290" height="132")
+						div(class="item-wrp")
+							div(class="title") Lost in Translation
+							time(class="time" datetime="2017-05-8") 8 Марта 2017
+
+
+				include ../blocks/paginator
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad

@@ -75,9 +75,35 @@ $(document).ready(function() {
 		
 		if(!/\d/.test(keyChar)) return false;
 
-
 	});
 
+	// slcik slider http://kenwheeler.github.io/slick/
 
+	$('.contestTsigunWoman-gallery .slider').slick({
+		arrows: false,
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 2000,
+		dots: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		asNavFor: '.slider2'
+	});
+
+	$('.contestTsigunWoman-gallery .slider2').slick({
+		variableWidth: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		asNavFor: '.slider',
+		focusOnSelect: true
+	});
+
+	$('.custom-prev').click(function(){
+		$('.slider').slick('slickPrev');
+	})
+
+	$('.custom-next').click(function(){
+		$('.slider').slick('slickNext');
+	})
 
 });

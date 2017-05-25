@@ -1,0 +1,156 @@
+.block-contestTsigunWomen {
+	padding: 0 15px;
+	padding-bottom: 49px;
+	padding-top: 16px;
+	font-size: 13px;
+	background-color: #f9f4f4;
+}
+
+.contestTsigunWomen-title {
+	margin-bottom: 24px;
+}
+
+.contestTsigunWomen-filter .filter-title {
+	margin-bottom: 7px;
+}
+
+.contestTsigunWomen-description a {
+	word-break: break-all;
+	color: #72d2e1;
+}
+
+.contestTsigunWomen-filter select	{
+	width: 100%;
+	padding: 5px 0px;
+	padding-right: 32px;
+	padding-left: 13px;
+	border: 1px solid #c4c4c4;
+	color: #000;
+	background-color: #fff;
+	cursor: pointer;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	background: #fff url("../../images/select-dw-icon.png") right 11px top 50% / 10px no-repeat
+}
+
+.contestTsigunWomen-filter .filter-select {
+	position: relative;
+}
+
+.contestTsigunWomen-filter .filter-select::after {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 30px;
+	top: 0;
+	right: 32px;
+	background-color: #c4c4c4;
+	cursor: pointer;
+}
+
+.contestTsigunWomen-items {
+	padding-top: 32px;
+}
+
+.contestTsigunWomen-items .image img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.contestTsigunWomen-items .image {
+	position: relative;
+}
+
+.contestTsigunWomen-items .flag {
+	position: absolute;
+	content: '';
+	width: 60px;
+	height: 60px;
+	top: 9px;
+	right: 7px;
+	padding: 11px 4px;
+	background-color: #ff9100;
+	color: #fff;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.contestTsigunWomen-items .flag span{
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.contestTsigunWomen-items .item {
+	display: block;
+	margin-bottom: 10px;
+	border: 1px solid #dbdbdb;
+	background-color: #fff;
+	overflow: hidden;
+	border-radius: 4px;
+}
+
+.contestTsigunWomen-items .item:last-item {
+	margin-bottom: 0;
+}
+
+.contestTsigunWomen-items .item:last-child {
+	margin-bottom: 0;
+}
+
+.contestTsigunWomen-items .item-wrp {
+	padding: 16px 16px;
+	padding-bottom: 20px;
+}
+
+.contestTsigunWomen-items .name {
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: none;
+	margin-bottom: 5px;
+}
+
+.contestTsigunWomen-items .location {
+	margin-bottom: 18px;
+	color: #757575;
+}
+
+.contestTsigunWomen-items .text {
+	margin-bottom: 10px;
+}
+
+.contestTsigunWomen-items .scale {
+	position: relative;
+	background-color: #dbdbdb;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.contestTsigunWomen-items .scale-fill {
+	height: 13px;
+}
+
+.contestTsigunWomen-items .scale-num {
+	position: absolute;
+	top: -3px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	z-index: 999;
+}
+
+.contestTsigunWomen-items .forward {
+	padding: 0 23px;
+	text-align: center;
+}
+
+.contestTsigunWomen-items .forward-btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 23px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #ff9100;
+	border-radius: 5px;
+}

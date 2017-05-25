@@ -1,0 +1,96 @@
+extends ../layout/layout
+
+block title 
+	| Список участниц 
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				a(class="breadcrumbs-item" href="#") Содружество HNL
+				a(class="breadcrumbs-item" href="#") Конкурсы
+				a(class="breadcrumbs-item" href="#") Конкурс моделей Цзингун
+				span(class="breadcrumbs-item current") Участницы...
+
+			section(class="block-contestTsigunWomen")
+
+				h2(class="contestTsigunWomen-title section-title") Список участниц конкурса моделей "Цзингун" Registered Contestants: girls
+
+				div(class="contestTsigunWomen-filter")
+					div(class="filter-title") Сортировать по
+					div(class="filter-select")
+						select(class="sex-select" name="sex")
+							option(value="" disabled selected style='display:none;') Стране
+							option(value="option1") Значение 1
+							option(value="option1") Значение 3
+
+
+				div(class="contestTsigunWomen-items")
+
+					a(class="item" href="#")
+						div(class="image")
+							img(src="images/dev1.jpg" alt="Фото" width="290" height="214")
+							div(class="flag") #[span 20] место
+						div(class="item-wrp")
+							div(class="tenderer")
+								div(class="name") Aleksandra Gatalskaya
+								div(class="location") Belarus 
+							div(class="votes")
+								div(class="description") 
+								div(class="text") Этой участнице отдали голосов:
+								div(class="scale")
+									div(class="scale-fill")
+									div(class="scale-num") 0,14%
+
+					a(class="item" href="#")
+						div(class="image")
+							img(src="images/dev2.jpg" alt="Фото" width="290" height="214")
+							div(class="flag") #[span 20] место
+						div(class="item-wrp")
+							div(class="tenderer")
+								div(class="name") Anita Tihanova
+								div(class="location") Belarus 
+							div(class="votes")
+								div(class="description") 
+								div(class="text") Этой участнице отдали голосов:
+								div(class="scale")
+									div(class="scale-fill")
+									div(class="scale-num") 0,14%
+
+					a(class="item" href="#")
+						div(class="image")
+							img(src="images/dev3.jpg" alt="Фото" width="290" height="214")
+							div(class="flag") #[span 20] место
+						div(class="item-wrp")
+							div(class="tenderer")
+								div(class="name") Darya Sakalova
+								div(class="location") Belarus 
+							div(class="votes")
+								div(class="description") 
+								div(class="text") Этой участнице отдали голосов:
+								div(class="scale")
+									div(class="scale-fill")
+									div(class="scale-num") 0,14%
+
+					a(class="item" href="#")
+						div(class="image")
+							img(src="images/dev4.jpg" alt="Фото" width="290" height="214")
+							div(class="flag") #[span 20] место
+						div(class="item-wrp")
+							div(class="tenderer")
+								div(class="name") Ekaterina Nesterovich
+								div(class="location") Belarus 
+							div(class="votes")
+								div(class="description") 
+								div(class="text") Этой участнице отдали голосов:
+								div(class="scale")
+									div(class="scale-fill")
+									div(class="scale-num") 0,14%
+
+					div(class="forward")
+						a(class="forward-btn" href="#") Перейти к списку участников#[br]forward to male contestants
+
+			include ../blocks/comments
+			include ../blocks/ad

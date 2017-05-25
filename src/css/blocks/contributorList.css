@@ -1,0 +1,159 @@
+.block-contributorList {
+	padding: 0 15px;
+	padding-top: 30px;
+	padding-bottom: 46px;
+	font-size: 13px;
+	background-color: #f9f4f4;
+}
+
+.contributorList-title {
+	margin-bottom: 24px;
+}
+
+.contributorList-categories {
+	margin-bottom: 13px;
+}
+
+.contributorList-categories .row {
+	font-size: 0;
+}
+
+.contributorList-categories .item {
+	padding: 5px 0px;
+	font-size: 13px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	border: 1px solid #26c6da;
+}
+
+.contributorList-categories .item a {
+	display: inline-block;
+	vertical-align: top;
+	color: #26c6da;
+	border-bottom: 1px dashed #26c6da;
+}
+
+.contributorList-categories .item.active{
+	background-color: #26c6da;
+}
+
+.contributorList-categories .item.active a{
+	color: #fff;
+}
+
+.contributorList-categories .row .item {
+	border-left: none;
+}
+
+.contributorList-categories .row .item:first-child {
+	border-left: 1px solid #26c6da;
+}
+
+.contributorList-categories .row .item1 {
+	width: 40%;
+}
+
+.contributorList-categories .row .item2 {
+	width: 30%;
+}
+
+.contributorList-categories .row .item3 {
+	width: 30%;
+}
+
+.contributorList-items .title {
+	margin-bottom: 6px;
+	font-size: 13px;
+	font-weight: normal;
+	text-transform: none;
+}
+
+.contributorList-items {
+	font-size: 0;
+	border: 1px solid #e1e1e1;
+}
+
+.contributorList-item {
+	padding: 8px 13px;
+	font-size: 0;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.contributorList-item:nth-child(even) {
+	background-color: #fff;
+}
+
+.contributorList-item:last-child {
+	border-bottom: none;
+}
+
+.contributorList-items .contributor {
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+}
+
+.contributorList-items .contributor-wrp {
+	display: block;
+	position: relative;
+	padding-left: 38px;
+	margin-bottom: 17px;
+	font-size: 13px;
+	font-weight: normal;
+	color: #676767;
+}
+
+.contributorList-items .contributor-photo {
+	position: absolute;
+	content: '';
+	width: 30px;
+	height: 30px;
+	top: 0;
+	left: 0;
+	background: url("../../images/sprite.png") -105px -5px no-repeat;
+}
+
+.contributorList-items .ratings {
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+}
+
+.contributorList-items .ratings-num {
+	margin-bottom: 3px;
+	font-size: 13px;
+}
+
+.contributorList-items .materials-wrp {
+	font-size: 0;
+}
+
+.contributorList-items .materials-item {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 4px;
+}
+
+.contributorList-items .materials-item:last-item {
+	margin-right: 0;
+}
+
+.ratings-all {
+	margin-bottom: 17px;
+}
+
+.contributorList-items .ratings-items .items {
+	font-size: 0;
+}
+
+.ratings-items .item {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5px;
+}
+
+.ratings-items .item:last-child {
+	margin-right: 0;
+}
+

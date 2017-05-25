@@ -1,0 +1,131 @@
+.block-contestTsigun {
+	padding: 0 15px;
+	padding-bottom: 49px;
+	padding-top: 16px;
+	font-size: 13px;
+	background-color: #f9f4f4;
+}
+
+.contestTsigun-title {
+	margin-bottom: 10px;
+}
+
+.contestTsigun-description a {
+	word-break: break-all;
+	color: #72d2e1;
+}
+
+.items-title-wrp {
+	margin-bottom: 12px;
+}
+
+.contestTsigun-items-title {
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+}
+
+.contestTsigun-items {
+	padding-top: 32px;
+}
+
+.contestTsigun-items .image img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.contestTsigun-items .image {
+	position: relative;
+}
+
+.contestTsigun-items .flag {
+	position: absolute;
+	content: '';
+	width: 60px;
+	height: 60px;
+	top: 9px;
+	right: 7px;
+	padding: 11px 4px;
+	background-color: #ff9100;
+	color: #fff;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.contestTsigun-items .flag span{
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.contestTsigun-items .item {
+	display: block;
+	margin-bottom: 10px;
+	border: 1px solid #dbdbdb;
+	background-color: #fff;
+	overflow: hidden;
+	border-radius: 4px;
+}
+
+.contestTsigun-items .item:last-item {
+	margin-bottom: 0;
+}
+
+.contestTsigun-items .item:last-child {
+	margin-bottom: 0;
+}
+
+.contestTsigun-items .item-wrp {
+	padding: 16px 16px;
+	padding-bottom: 20px;
+}
+
+.contestTsigun-items .name {
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: none;
+	margin-bottom: 5px;
+}
+
+.contestTsigun-items .location {
+	margin-bottom: 18px;
+	color: #757575;
+}
+
+.contestTsigun-items .text {
+	margin-bottom: 10px;
+}
+
+.contestTsigun-items .scale {
+	position: relative;
+	background-color: #dbdbdb;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.contestTsigun-items .scale-fill {
+	height: 13px;
+}
+
+.contestTsigun-items .scale-num {
+	position: absolute;
+	top: -3px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	z-index: 999;
+}
+
+.contestTsigun-items .show-all {
+	text-align: center;
+}
+
+.contestTsigun-items .show-all-btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 23px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #ff9100;
+	border-radius: 5px;
+}

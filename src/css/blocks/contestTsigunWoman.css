@@ -1,0 +1,152 @@
+.block-contestTsigunWoman {
+	padding: 0 15px;
+	padding-bottom: 49px;
+	padding-top: 16px;
+	font-size: 13px;
+	background-color: #f9f4f4;
+}
+
+.contestTsigunWoman-title {
+	margin-bottom: 11px;
+}
+
+.contestTsigunWoman-info-top {
+	margin-bottom: 16px;
+	font-size: 14px;
+}
+
+.contestTsigunWoman-info-top span {
+	font-size: 18px;
+	font-weight: bold;
+	color: #ff9100;
+}
+
+.contestTsigunWoman-gallery {
+	background-color: #fff;
+	padding: 0 15px;
+	padding-top: 17px;
+	padding-bottom: 22px;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.contestTsigunWoman-gallery .slider-wrp.main {
+	margin-bottom: 13px;
+}
+
+.contestTsigunWoman-gallery .slider-wrp.main img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.contestTsigunWoman-gallery .slider-wrp.mini img {
+	margin: 0 auto;
+}
+
+
+.contestTsigunWoman-gallery .slider-wrp.mini {
+	position: relative;
+	width: 261px;
+	margin: 0 auto;
+}
+
+.contestTsigunWoman-gallery .custom-prev {
+	position: absolute;
+	width: 6px;
+	height: 15px;
+	top: 42px;
+	left: -15px;
+	border: none;
+	background: url("../../images/sprite.png") -2019px -5px no-repeat;
+	}
+
+.contestTsigunWoman-gallery .custom-next {
+	position: absolute;
+	width: 6px;
+	height: 15px;
+	top: 41px;
+	right: -22px;
+	border: none;
+	background: url("../../images/sprite.png") -2035px -5px no-repeat;
+	}
+
+.slider-wrp.mini .slick-slide {
+	width: 84px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.contestTsigunWoman-info {
+	padding: 0 15px;
+	margin-right: -15px;
+	margin-left: -15px;
+	background-color: #fff;
+}
+
+.contestTsigunWoman-info span {
+	font-weight: 600;
+}
+
+.contestTsigunWoman-info .nav-buttons {
+	padding: 38px 0;
+}
+
+.contestTsigunWoman-info .nav-button {
+	margin-bottom: 8px;
+}
+
+.contestTsigunWoman-info .btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 23px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #ff9100;
+	border-radius: 5px;
+}
+
+.contestTsigunWoman-info .btn span{
+	position: relative;
+}
+
+.contestTsigunWoman-info .next-btn span::after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	height: 11px;
+	top: 4px;
+	right: -13px;
+	background: url("../../images/sprite.png") -415px -5px no-repeat;
+}
+
+.contestTsigunWoman-info .back-btn span::after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	height: 11px;
+	top: 3px;
+	left: -14px;
+	background: url("../../images/sprite.png") -452px -5px no-repeat;
+}
+
+.contestTsigunWoman-comments {
+	padding: 0 15px;
+	padding-top: 22px;
+	padding-bottom: 36px;
+}
+
+
+.contestTsigunWoman-comments .title {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 600;
+	color: #000;
+	text-transform: none;
+	margin-bottom: 9px;
+}
+
+.contestTsigunWoman-comments .text a {
+	color: #3ec9dc;
+	text-decoration: underline;
+}

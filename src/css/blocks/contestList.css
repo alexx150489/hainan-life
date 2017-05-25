@@ -1,0 +1,100 @@
+.block-contestList {
+	padding: 0 15px;
+	padding-bottom: 44px;
+	font-size: 13px;
+	background-color: #f9f4f4;
+}
+
+.contestList-navigation {
+	margin-bottom: 40px;
+	font-size: 0;
+}
+
+.contestList-title {
+	margin-bottom: 17px;
+}
+
+.contestList-navigation li {
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+}
+
+.contestList-navigation .item {
+	display: block;
+	padding: 0 5px;
+	font-size: 11px;
+	line-height: 14px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.contestList-navigation .item .image {
+	width: 100%;
+	height: 72px;
+}
+
+.contestList-navigation .item1 .image {
+	width: 100%;
+	height: 72px;
+	background:	url("../../images/blog-img2.png") center center no-repeat;
+}
+
+.contestList-navigation .item2 .image {
+	width: 100%;
+	height: 72px;
+	background:	url("../../images/blog-img1.png") center center no-repeat;
+}
+
+.contestList-navigation .item3 .image {
+	width: 100%;
+	height: 72px;
+	background:	url("../../images/blog-img3.png") center center no-repeat;
+}
+
+.contestList-navigation .item4 .image {
+	width: 100%;
+	height: 72px;
+	background:	url("../../images/blog-img4.png") center center no-repeat;
+}
+
+.contestList-items {
+	padding-top: 11px;
+}
+
+.contestList-items .image img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.contestList-items .item {
+	display: block;
+	margin-bottom: 10px;
+	border: 1px solid #dbdbdb;
+	background-color: #fff;
+	overflow: hidden;
+	border-radius: 4px;
+}
+
+.contestList-items .item:last-child {
+	margin-bottom: 0;
+}
+
+.contestList-items .item-wrp {
+	padding: 16px 16px;
+	padding-bottom: 32px;
+}
+
+.contestList-items .title {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: none;
+	margin-bottom: 9px;
+}
+
+.contestList-item .time {
+	display: block;
+	color: #757575;
+}
+
