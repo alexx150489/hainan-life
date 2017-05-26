@@ -6,23 +6,23 @@
 	background-color: #f9f4f4;
 }
 
-.profile-top {
+.block-profile .profile-top {
 	margin-bottom: 27px;
 	border: 1px solid #26c6da;
 }
 
-.profile-top img {
+.block-profile .profile-top img {
 	width: 100%;
 	max-width: 100%;
 	height: auto;
 }
 
-.profile-top .photo {
+.block-profile .profile-top .photo {
 	text-align: center;
 	background-color: #ededed;
 }
 
-.profile-top .description {
+.block-profile .profile-top .description {
 	position: relative;
 	padding: 7px 69px;
 	font-weight: 600;
@@ -30,7 +30,7 @@
 	background-color: #26c6da;
 }
 
-.profile-top .description::after {
+.block-profile .profile-top .description::after {
 	position: absolute;
 	content: '';
 	width: 54px;
@@ -40,62 +40,62 @@
 	background: url("../../images/sprite.png") -1071px -5px no-repeat;
 }
 
-.profile-rating {
+.block-profile .profile-rating {
 	padding-left: 14px;
 	margin-bottom: 29px;
 }
 
-.profile-rating .title {
+.block-profile .profile-rating .title {
 	margin-bottom: 6px;
 	font-size: 13px;
 	font-weight: normal;
 	text-transform: none;
 }
 
-.profile-rating .num, .profile-rating .items {
+.block-profile .profile-rating .num, .profile-rating .items {
 	display: inline-block;
 	vertical-align: top;
 }
 
-.profile-rating .num {
+.block-profile .profile-rating .num {
 	margin-right: 31px;
 }
 
-.profile-rating .items {
+.block-profile .profile-rating .items {
 	font-size: 0;
 }
 
-.profile-rating .item {
+.block-profile .profile-rating .item {
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 5px;
 }
 
-.rating-sum {
+.block-profile .rating-sum {
 	margin-bottom: 10px;
 }
 
-.rating-sum .item {
+.block-profile .rating-sum .item {
 	width: 13px;
 	height: 13px;
 	background: url("../../images/sprite.png") -91px -56px no-repeat;
 }
 
-.rating-month .item {
+.block-profile .rating-month .item {
 	width: 13px;
 	height: 13px;
 	background: url("../../images/sprite.png") -115px -56px no-repeat;
 }
 
-.profile-categories .categories-wrp {
+.block-profile .profile-categories .categories-wrp {
 	margin-bottom: 25px;
 }
 
-.profile-categories .row {
+.block-profile .profile-categories .row {
 	font-size: 0;
 }
 
-.profile-categories .item {
+.block-profile .profile-categories .item {
 	padding: 5px 0px;
 	font-size: 13px;
 	display: inline-block;
@@ -104,74 +104,74 @@
 	border: 1px solid #26c6da;
 }
 
-.profile-categories .item a {
+.block-profile .profile-categories .item a {
 	display: inline-block;
 	vertical-align: top;
 	color: #26c6da;
 	border-bottom: 1px dashed #26c6da;
 }
 
-.profile-categories .item.active{
+.block-profile .profile-categories .item.active{
 	background-color: #26c6da;
 }
 
-.profile-categories .item.active a{
+.block-profile .profile-categories .item.active a{
 	color: #fff;
 }
 
-.profile-categories .row1 .item {
+.block-profile .profile-categories .row1 .item {
 	border-left: none;
 }
 
-.profile-categories .row1 .item:first-child {
+.block-profile .profile-categories .row1 .item:first-child {
 	border-left: 1px solid #26c6da;
 }
 
-.profile-categories .row1 .item1 {
+.block-profile .profile-categories .row1 .item1 {
 	width: 40%;
 }
 
-.profile-categories .row1 .item2 {
+.block-profile .profile-categories .row1 .item2 {
 	width: 30%;
 }
 
-.profile-categories .row1 .item3 {
+.block-profile .profile-categories .row1 .item3 {
 	width: 30%;
 }
 
-.profile-categories .row2 .item {
+.block-profile .profile-categories .row2 .item {
 	border-top: none;
 	border-left: none;
 }
 
-.profile-categories .row2 .item:first-child {
+.block-profile .profile-categories .row2 .item:first-child {
 	border-top: none;
 	border-left: 1px solid #26c6da;
 }
 
-.profile-categories .row2 .item1 {
+.block-profile .profile-categories .row2 .item1 {
 	width: 50%;
 }
 
-.profile-categories .row2 .item2 {
+.block-profile .profile-categories .row2 .item2 {
 	width: 25%;
 }
 
-.profile-categories .row2 .item3 {
+.block-profile .profile-categories .row2 .item3 {
 	width: 25%;
 }
 
-.show-item {
+.block-profile .show-item {
 	margin-bottom: 29px;
 }
 
-.categories-show .autor {
+.block-profile .categories-show .autor {
 	position: relative;
 	padding-left: 60px;
 	margin-bottom: 22px;
 }
 
-.categories-show .foto {
+.block-profile .categories-show .foto {
 	position: absolute;
 	content: '';
 	width: 52px;
@@ -180,32 +180,32 @@
 	left: 0;
 }
 
-.categories-show .name {
+.block-profile .categories-show .name {
 	font-size: 13px;
 	line-height: 18px;
 	font-weight: normal;
 	color: #000;
 }
 
-.categories-show .date {
+.block-profile .categories-show .date {
 	font-size: 12px;
 	line-height: 18px;
 	font-weight: normal;
 	color: #000;
 }
 
-.categories-show .foto {
+.block-profile .categories-show .foto {
 	background:	url("../../images/avatar.png") 0 0 no-repeat;
 }
 
-.categories-show .photo-wrapper {
+.block-profile .categories-show .photo-wrapper {
 	display: block;
 	width: 290px;
 	margin: 0 auto;
 	background-color: #fff;
 }
 
-.categories-show .big-photo img {
+.block-profile .categories-show .big-photo img {
 	width: 100%;
 	display: block;
 }
@@ -214,23 +214,23 @@
 	display: block;
 }
 
-.categories-show .mini-photos {
+.block-profile .categories-show .mini-photos {
 	padding: 0 5px;
 	font-size: 0;
 }
 
-.categories-show .mini-photos .itm {
+.block-profile .categories-show .mini-photos .itm {
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 5px;
 	margin-bottom: 5px;
 }
 
-.categories-show .mini-photos .itm:nth-child(3n) {
+.block-profile .categories-show .mini-photos .itm:nth-child(3n) {
 	margin-right: 0;
 }
 
-.categories-show .mini-photos .all {
+.block-profile .categories-show .mini-photos .all {
 	width: 90px;
 	height: 89px;
 	padding: 22px 18px;
@@ -243,7 +243,7 @@
 	text-align: center;
 }
 
-.categories-show .mini-photos .all span {
+.block-profile .categories-show .mini-photos .all span {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 36px;
 	line-height: 18px;
@@ -251,7 +251,7 @@
 	color: #fff;
 }
 
-.show-more-albums .more-albums-wrp {
+.block-profile .show-more-albums .more-albums-wrp {
 	width: 290px;
 	height: 78px;
 	margin: 0 auto;
@@ -260,7 +260,7 @@
 	text-align: center;
 }
 
-.show-more-albums .more-albums-btn {
+.block-profile .show-more-albums .more-albums-btn {
 	position: relative;
 	display: inline-block;
 	vertical-align: top;
@@ -277,7 +277,7 @@
 	border-radius: 5px;
 }
 
-.show-more-albums .more-albums-btn::after {
+.block-profile .show-more-albums .more-albums-btn::after {
 	position: absolute;
 	content: '';
 	width: 30px;
@@ -287,45 +287,45 @@
 	background: url("../../images/sprite.png") -1605px -5px no-repeat;
 }
 
-.profile-user {
+.block-profile .profile-user {
 	margin-bottom: 41px;
 	border: 1px solid #eeeeee;
 	background-color: #fff;
 }
 
-.profile-user img {
+.block-profile .profile-user img {
 	width: 100%;
 	max-width: 100%;
 	height: auto;
 }
 
-.profile-user .profile-wrp {
+.block-profile .profile-user .profile-wrp {
 	padding: 14px 13px;
 }
 
-.profile-user .name {
+.block-profile .profile-user .name {
 	margin-bottom: 10px;
 	font-size: 18px;
 	font-weight: bold;
 	color: #26c6da;
 }
 
-.profile-user .since {
+.block-profile .profile-user .since {
 	margin-bottom: 5px;
 }
 
-.profile-user .dating {
+.block-profile .profile-user .dating {
 	margin-bottom: 12px;
 	padding-left: 26px;
 }
 
-.profile-user .dating a{
+.block-profile .profile-user .dating a{
 	position: relative;
 	color: #004c54;
 	text-decoration: underline;
 }
 
-.profile-user .dating a::after {
+.block-profile .profile-user .dating a::after {
 	position: absolute;
 	content: '';
 	width: 18px;
@@ -335,18 +335,18 @@
 	background: url("../../images/sprite.png") -3076px -10px no-repeat;
 }
 
-.profile-user .settings {
+.block-profile .profile-user .settings {
 	margin-bottom: 17px;
 	padding-left: 26px;
 }
 
-.profile-user .settings a{
+.block-profile .profile-user .settings a{
 	position: relative;
 	color: #26c6da;
 	text-decoration: underline;
 }
 
-.profile-user .settings a::after {
+.block-profile .profile-user .settings a::after {
 	position: absolute;
 	content: '';
 	width: 19px;
@@ -356,7 +356,7 @@
 	background: url("../../images/sprite.png") -1990px -5px no-repeat;
 }
 
-.profile-user select {
+.block-profile .profile-user select {
 	width: 100%;
 	padding: 7px 0px;
 	padding-right: 32px;
@@ -372,12 +372,12 @@
 	background-color: #00c925;
 }
 
-.profile-user select option {
+.block-profile .profile-user select option {
 	color: #000;
 	background-color: #fff;
 }
 
-.profile-user .image {
+.block-profile .profile-user .image {
 	border-top: 1px solid #eeeeee;
 	text-align: center;
 }

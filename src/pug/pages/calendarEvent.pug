@@ -1,0 +1,122 @@
+extends ../layout/layout
+
+block title 
+	| Событие
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				a(class="breadcrumbs-item" href="#") Календарь мероприятий
+				span(class="breadcrumbs-item current") Котельная Вечеринка 
+
+
+			section(class="block-calendarEvent")
+				h2(class="calendarEvent-title section-title") Котельная Вечеринка 
+				div(class="calendarEvent-title-description") Ladies Night
+
+				div(class="calendarEvent-item")
+					div(class="image")
+						img(src="images/calendar-img.jpg" alt="Фото" width="290" height="281")
+					div(class="date-wrp")
+						time(class="date" datetime="2017-05-23") 23 Марта 2017
+						span(class="time") 20:00
+
+					div(class="calendarEvent-item-title") Вход свободный ¥
+
+					div(class="location")
+						div(class="location-description") Место проведения:
+						div(class="location-address") Улица Ю-Я 99-6, Дадунхай
+						a(class="location-object" href="#") Бар у Яна
+
+					div(class="tenderers")
+						div(class="tenderers-info") #[span 0] участников 
+						div(class="tenderers-description") пойдет на мероприятие
+						div(class="tenderers-description eng") members already registered
+
+					div(class="go-wrp")
+						a(class="go-btn" href="#") Я пойду! / I'll be there 
+
+					div(class="location-bottom")
+						div(class="places-wrapper")
+											a(class="image" href="#")
+												img(src="images/yan.jpg" alt="Партнер" width="289" height="156")
+												div(class="label") Бары
+											div(class="text-wrapper")
+												div(class="name") Бар у Яна Young Bar
+												div(class="address")
+													span No 99-6 Yuya Road, Dadonghai, Sanya
+												div(class="testimonials")
+													a(class="testimonials-title" href="#") Отзывов: 1
+													span(class="testimonials-items")
+														span(class="testimonials-item")
+														span(class="testimonials-item")
+														span(class="testimonials-item")
+														span(class="testimonials-item")
+														span(class="testimonials-item")
+
+				div(class="calendarEvent-similar-events")
+					h3(class="similar-events-title") Похожие события:
+					div(class="similar-events-items")
+
+						a(class="similar-events-item" href="#")
+							div(class="image")
+								img(src="images/calendar-img3.jpg" alt="Похожие события" width="290" height="148")
+							div(class="similar-events-wrp")
+								div(class="title") Женский День в Дельфине 
+								div(class="description") Развлекательное:
+								div(class="place") "Дельфин" - бар-ресторан 
+								div(class="info clearfix")
+									div(class="info-left") Вход свободный ¥
+									div(class="info-right")
+										span(class="time") 20:00
+										time(class="date" datetime="2017-05-23") 23 Марта 2017
+
+						a(class="similar-events-item" href="#")
+							div(class="image")
+								img(src="images/calendar-img4.jpg" alt="Похожие события" width="290" height="148")
+							div(class="similar-events-wrp")
+								div(class="title") Королевская Ночь и DUO COX 
+								div(class="description") Развлекательное:
+								div(class="place") "Дельфин" - бар-ресторан 
+								div(class="info clearfix")
+									div(class="info-left") Вход свободный ¥
+									div(class="info-right")
+										span(class="time") 20:00
+										time(class="date" datetime="2017-05-23") 23 Марта 2017
+
+						a(class="similar-events-item" href="#")
+							div(class="image")
+								img(src="images/calendar-img5.jpg" alt="Похожие события" width="290" height="148")
+							div(class="similar-events-wrp")
+								div(class="title") Вечеринка для прекрасных дам
+								div(class="description") Развлекательное:
+								div(class="place") "Дельфин" - бар-ресторан 
+								div(class="info clearfix")
+									div(class="info-left") Вход свободный ¥
+									div(class="info-right")
+										span(class="time") 20:00
+										time(class="date" datetime="2017-05-23") 23 Марта 2017
+
+						a(class="similar-events-item" href="#")
+							div(class="image")
+								img(src="images/calendar-img6.jpg" alt="Похожие события" width="290" height="148")
+							div(class="similar-events-wrp")
+								div(class="title") Мужской вечер 
+								div(class="description") Развлекательное:
+								div(class="place") "Дельфин" - бар-ресторан 
+								div(class="info clearfix")
+									div(class="info-left") Вход свободный ¥
+									div(class="info-right")
+										span(class="time") 20:00
+										time(class="date" datetime="2017-05-23") 23 Марта 2017
+
+				div(class="calendarEvent-comments")
+					h3(class="title") Оставить комментарий:
+					div(class="text")
+						p Для того, чтобы добавить новый комментарий необходимо #[a(href="#") авторизоваться] на сайте.
+
+			include ../blocks/comments
+			include ../blocks/ad

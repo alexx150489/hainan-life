@@ -17,6 +17,12 @@
 @import "blocks/partners.css";
 @import "blocks/partners-list.css";
 
+@import "blocks/guide.css";
+@import "blocks/guideObject.css";
+@import "blocks/registration.css";
+@import "blocks/calendar.css";
+@import "blocks/calendarEvent.css";
+
 
 @import "blocks/aboutHainan.css";
 @import "blocks/aboutHainanFoto.css";

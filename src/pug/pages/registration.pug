@@ -1,0 +1,69 @@
+extends ../layout/layout
+
+block title 
+	| Регистрация на портале
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				span(class="breadcrumbs-item current") Регистрация
+
+			section(class="block-registration")
+
+				div(class="registration-title-wrp")
+					h2(class="registration-title section-title") Регистрация на портале
+					h2(class="registration-title eng") website registration form
+
+				div(class="registration-form-wrp")
+					form(class="registration-form" action="#" method="post" name="registration-form")
+						div(class="form-el-wrp")
+							input(type="email" name="email" placeholder="Email 邮箱号:")
+						div(class="form-el-wrp")
+							input(type="password" name="password" placeholder="Пароль/Password/请设置登录密码:")
+						div(class="password-description-wrp")
+							div(class="description") Пароль должен быть не менее 6 символов длиной
+							div(class="description eng") Password must be at least 6 symbols long
+							div(class="description cn") 密码必须不少于6位数，仅包含字母及数字 
+						div(class="form-el-wrp")
+							input(type="password" name="re-password" placeholder="Повторите пароль/请再次输入密码:")
+						div(class="form-el-wrp")
+							input(type="text" name="name" placeholder="Имя/First name/名:")
+						div(class="form-el-wrp")
+							input(type="text" name="surname" placeholder="Фамилия/Family name//姓:")
+
+						div(class="registration-upload-photo")
+							div(class="upload-photo-zone-wrp")
+								div(class="upload-photo-zone")
+							div(class="upload-photo-description-wrp")
+								div(class="description") Загрузите свою фотографию, тогда пользователям будет удобнее с вами общаться
+								div(class="description eng") Please upload your profile photo
+								div(class="description cn") 请提供上传您将来使用的头像照片
+
+						div(class="create-questionnaire-checkbox")
+								input(id="create-questionnaire" type="checkbox")
+								label(for="create-questionnaire")
+									span(class="description") Создать анкету в службе знакомств
+									span(class="description eng") Create a dating service entry
+									span(class="description cn") 创建相亲交友网站的履历表 
+
+						div(class="conditions-checkbox")
+								input(id="conditions" type="checkbox")
+								label(for="conditions")
+									div(class="description") Я принимаю условия #[br] #[a(href="#") Пользовательского соглашения]
+									div(class="description eng") I accept #[a(href="#") users terms and conditions]
+									div(class="description cn") 我无条件接受用户协议条款 
+
+						div(class="captcha-wrp")
+							div(class="captcha-img")
+								img(src="images/capcha.png" alt="капча" width="131" height="42")
+							div(class="form-el-wrp")
+								input(type="text" name="captcha-word" placeholder="Введите слово с картинки")
+
+						div(class="submit-wrp")
+							button(class="submit-btn" type="submit") Регистрация Submit
+ 
+			include ../blocks/forumPreview
+			include ../blocks/ad

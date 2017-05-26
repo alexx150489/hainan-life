@@ -1,0 +1,113 @@
+.block-registration {
+	font-size: 13px;
+	padding: 0 15px;
+	padding-top: 20px;
+	padding-bottom: 28px;
+	background-color: #f9f4f4;
+}
+
+.block-registration .registration-title.eng {
+	font-size: 18px;
+	font-weight: bold;
+	color: #26c6da;
+}
+
+.block-registration .registration-form-wrp {
+	padding-top: 22px;
+}
+
+.block-registration .form-el-wrp {
+		margin-bottom: 11px;
+}
+
+.block-registration .password-description-wrp {
+	padding: 0px 16px;
+	padding-bottom: 20px;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.block-registration .registration-upload-photo {
+	margin-bottom: 36px;
+}
+
+.block-registration .upload-photo-zone-wrp {
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.block-registration .upload-photo-zone {
+	width: 103px;
+	height: 103px;
+	background: url("../../images/upload-photo.png") 0 0 no-repeat;
+}
+
+.create-questionnaire-checkbox span{
+	display: block;
+}
+
+.block-registration .create-questionnaire-checkbox {
+	margin-bottom: 18px;
+}
+
+.block-registration .conditions-checkbox a {
+	color: #26c6da;
+	text-decoration: underline;
+}
+
+.block-registration .conditions-checkbox {
+	margin-bottom: 34px;
+} 
+
+.captcha-wrp {
+	padding-bottom: 1px;
+	margin-bottom: 6px;
+}
+
+.block-registration .captcha-img {
+	margin-bottom: 9px;
+}
+
+.block-registration .submit-btn {
+	display: inline-block;
+	vertical-align: top;
+	border: none;
+	padding: 10px 21px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #26c6da;
+	border-radius: 7px;
+}
+
+.block-registration input[type="checkbox"] {
+	display: none;
+}
+
+.block-registration label {
+	position: relative;
+	display: block;
+	padding-left: 26px;
+}
+
+.block-registration input[type="checkbox"] + label::before {
+	position: absolute;
+	content: '';
+	width: 13px;
+	height: 13px;
+	top: 3px;
+	left: 0;
+	background:	url("../../images/sprite.png") -2427px -5px no-repeat;
+}
+
+.block-registration input[type="checkbox"]:checked + label::before {
+	background:	url("../../images/sprite.png") -68px -56px no-repeat;
+}
+
+.block-registration input {
+	width: 100%;
+	padding: 8px 0;
+	padding-right: 32px;
+	padding-left: 15px;
+	border: 1px solid #d6d6d6;
+	border-radius: 2px;
+}

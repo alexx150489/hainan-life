@@ -1,0 +1,322 @@
+.block-calendarEvent {
+	padding: 0 15px;
+	padding-top: 16px;
+	padding-bottom: 64px;
+	font-size: 13px;
+	background-color: #f9f4f4;
+}
+
+.block-calendarEvent img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.block-calendarEvent .calendarEvent-title {
+	margin-bottom: 9px;
+}
+
+.block-calendarEvent .calendarEvent-title-description {
+	margin-bottom: 15px;
+}
+
+.block-calendarEvent .calendarEvent-item {
+	padding: 18px 15px;
+	padding-bottom: 41px;
+	margin-left: -15px;
+	margin-right: -15px;
+	background-color: #fff;
+}
+
+.calendarEvent-item .image {
+	margin-bottom: 19px;
+}
+
+.calendarEvent-item .date-wrp .date {
+	margin-right: 19px;
+	color: #26c6da;
+}
+
+.calendarEvent-item-title {
+	margin-bottom: 16px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #26c6da;
+}
+
+.calendarEvent-item .date-wrp .time {
+	font-weight: bold;
+	color: #26c6da;
+}
+
+.calendarEvent-item .location {
+	margin-bottom: 22px;
+}
+
+.calendarEvent-item .location-description {
+	margin-bottom: 6px;
+	font-style: italic;
+	font-weight: 200;
+	color: #909090;
+}
+
+.calendarEvent-item .location-address {
+	position: relative;
+	padding-left: 20px;
+	margin-bottom: 7px;
+}
+
+.calendarEvent-item .location-address::after {
+	position: absolute;
+	content: '';
+	width: 13px;
+	height: 18px;
+	left: 0;
+	top: 0;
+	background:	url("../../images/sprite.png") -1181px -5px no-repeat;
+}
+
+.calendarEvent-item .location-object {
+	color: #26c6da;
+	text-decoration: underline;
+}
+
+.calendarEvent-item .tenderers {
+	margin-bottom: 25px;
+}
+
+.calendarEvent-item .tenderers-info {
+	font-size: 15px;
+	font-weight: 600;
+	color: #000;
+}
+
+.calendarEvent-item .tenderers-info span {
+	font-size: 36px;
+	font-weight: bold;
+	color: #000;
+}
+
+.calendarEvent-item .tenderers-description {
+	font-style: italic;
+	font-weight: 200;
+	color: #909090;
+}
+
+.go-wrp {
+	margin-bottom: 33px;
+}
+
+.block-calendarEvent .go-btn {
+	display: inline-block;
+	border: none;
+	padding: 10px 23px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #ff9100;
+	border-radius: 7px;
+}
+
+.block-calendarEvent .places-wrapper {
+	padding-bottom: 43px;
+	border: 1px solid #dbdbdb;
+	border-radius: 2px;
+}
+
+.block-calendarEvent .title {
+	margin-bottom: 14px;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 600;
+	color: #292929;
+}
+
+.block-calendarEvent .location-bottom .image {
+	display: block;
+	position: relative;
+}
+
+.block-calendarEvent .location-bottom .label{
+	display: inline-block;
+	padding: 0 14px;
+	position: absolute;
+	top: 8px;
+	left: -2px;
+	background-color: #26c6da;
+	font-size: 13px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.block-calendarEvent .text-wrapper {
+	padding-left: 14px;
+}
+
+.block-calendarEvent .name {
+	margin-bottom: 4px;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #292929;
+}
+
+.block-calendarEvent .address {
+	font-size: 13px;
+	line-height: 30px;
+	font-weight: normal;
+	color: #686868;
+}
+
+.block-calendarEvent .address span {
+	position: relative;
+	padding-left: 21px;
+}
+
+.block-calendarEvent .address span::after {
+	position: absolute;
+	content: '';
+	width: 13px;
+	height: 18px;
+	left: 0;
+	top: 0;
+	background:	url("../../images/sprite.png") -1181px -5px no-repeat;
+}
+
+.block-calendarEvent .testimonials {
+	display: block;
+	text-decoration: underline;
+}
+
+.block-calendarEvent .testimonials-title {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 13px;
+	font-size: 13px;
+	text-decoration: underline;
+}
+
+.block-calendarEvent .testimonials-items {
+	font-size: 0;
+}
+
+.block-calendarEvent .testimonials-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 17px;
+	height: 13px;
+	background: url("../../images/sprite.png") -2450px -5px no-repeat;
+}
+
+.block-calendarEvent .testimonials-item {
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: underline;
+}
+
+.calendarEvent-similar-events {
+	padding-top: 26px;
+}
+
+.similar-events-item {
+	display: block;
+	margin-bottom: 12px;
+	padding-bottom: 27px;
+	background-color: #fff;
+	border: 1px solid #e0e0e0;
+}
+
+.calendarEvent-similar-events .similar-events-title {
+	margin-bottom: 16px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #000;
+}
+
+.calendarEvent-similar-events .image {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.similar-events-item .similar-events-wrp {
+	padding: 0 15px;
+}
+
+.similar-events-item .title {
+	margin-bottom: 6px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #000;
+	text-transform: none;
+}
+
+
+.similar-events-item .description {
+	margin-bottom: 4px;
+	font-style: italic;
+	font-weight: 200;
+	color: #909090;
+}
+
+.similar-events-item .place {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 11px;
+	padding-left: 22px;
+	color: #696969;
+	text-decoration: underline;
+}
+
+.similar-events-item .place::after {
+	position: absolute;
+	content: '';
+	width: 13px;
+	height: 13px;
+	left: 3px;
+	top: 3px;
+	background:	url("../../images/sprite.png") -2311px -5px no-repeat;
+}
+
+.similar-events-item .info-left {
+	float: left;
+	padding-top: 19px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #26c6da;
+}
+
+.similar-events-item .info-right {
+	float: right;
+	text-align: right;
+	color: #26c6da;
+}
+
+.similar-events-item .info-right .date {
+	display: block;
+}
+
+.similar-events-item .info-right .time {
+	display: block;
+	font-weight: bold;
+}
+
+.calendarEvent-comments {
+	padding-top: 22px;
+	padding-bottom: 36px;
+}
+
+
+.calendarEvent-comments .title {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 600;
+	color: #000;
+	text-transform: none;
+	margin-bottom: 9px;
+}
+
+.calendarEvent-comments .text a {
+	color: #3ec9dc;
+	text-decoration: underline;
+}
