@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600,700&amp;amp;subset=cyrillic" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="js/vendor/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/slick.js/slick.css">
+    <link rel="stylesheet" href="css/slick.js/slick-theme.css">
+    <link rel="stylesheet" href="css/css3.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/vendor/jquery-3.2.0.min.js"></script>
+    <script src="js/vendor/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/vendor/jquery.form.min.js"></script>
+    <script src="js/vendor/jquery-ui/jquery-ui.min.js"></script>
+    <script src="js/vendor/jquery-ui/jquery.ui.datepicker-ru.js"></script>
+    <script src="js/vendor/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="js/vendor/slick.js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <title> Путеводитель по Хайнаню
+    </title>
+  </head>
+  <body>
+    <header class="block-header">
+      <div class="site-wrap">
+        <div class="header-wrapper clearfix">
+          <div class="header-menu-toggle active"></div>
+          <div class="header-logo-wrapper">
+            <div class="header-logo"><a href="#"><img src="images/main-logo.png" width="186" height="39" alt="Логотип"></a></div>
+          </div>
+          <div class="header-sign auth-btn-js"></div>
+        </div>
+      </div>
+      <div class="header-authorization authorization-js">
+        <h3 class="authorization-title">Вход на сайт</h3>
+        <h3 class="authorization-title-eng">Authorization page</h3>
+        <form class="authorization-form" action="#" method="post" name="authorization-form">
+          <div class="form-el-wrp">
+            <input class="input-email" type="email" name="email" placeholder="Email 邮箱号:" tabindex="1">
+          </div>
+          <div class="form-el-wrp">
+            <input class="input-password" type="password" name="password" placeholder="Пароль/Password/请设置登录密码:" tabindex="2">
+          </div>
+          <div class="remember-me-wrp">
+            <input id="remember-me" type="checkbox">
+            <label for="remember-me"><span>Запомнить меня на этом компьютере</span><span>Remember me for this device</span><span>记住我</span></label>
+          </div>
+          <button class="authorization-submit" type="submit">Войти Enter</button>
+        </form>
+        <div class="authorization-info forget"><a class="title" href="#">Забыли свой пароль? Forgot your password?</a>
+          <div class="description">Если вы не помните свой пароль, то перейдите по ссылке на страницу с восстановлением пароля</div>
+          <div class="description-eng">Please follow this link for password recovery page</div>
+        </div>
+        <div class="authorization-info register"><a class="title" href="#">Зарегистрироваться. Register.</a>
+          <div class="description">Если вы впервые на сайте, заполните, пожалуйста, регистрационную форму</div>
+          <div class="description-eng">If you are new here, please register with us</div>
+        </div>
+      </div>
+      <div class="header-profile profile-js">
+        <div class="profile-top">
+          <div class="profile-user">
+            <div class="name">Иван</div>
+            <div class="surname">Пупкин</div><a class="dashboard" href="#">Личный кабинет</a>
+            <div class="photo"></div>
+          </div>
+          <div class="profile-add">
+            <div class="title">Добавить материалы</div>
+            <div class="items"><a class="item item1" href="#"></a><a class="item item2" href="#"></a><a class="item item3" href="#"></a><a class="item item4" href="#"></a><a class="item item5" href="#"></a></div>
+          </div>
+        </div>
+        <div class="profile-bottom">
+          <div class="profile-bottom-wrp"><a class="create-dating-acc" href="#">Создать аккаунт в службе знакомств</a></div>
+          <div class="profile-bottom-wrp"><a class="logout" href="#">Выход</a></div>
+        </div>
+      </div>
+    </header>
+    <section class="block-content">
+      <div class="site-wrap">
+        <section class="block-breadcrumbs"><a class="breadcrumbs-item home" href="index.html"></a><span class="breadcrumbs-item current">Путеводитель по Хайнаню</span></section>
+        <section class="block-guide">
+          <nav class="guide-menu">
+            <ul class="guide-menu-list">
+              <li class="guide-menu-item"><a class="guide-menu-link sights" href="#">Достопримечательности <span>(57)</span></a></li>
+              <li class="guide-menu-item"><a class="guide-menu-link shows" href="#">Шоу, театры, кино, др зрелища <span>(16)</span></a></li>
+              <li class="guide-menu-item"><a class="guide-menu-link aquapark" href="#">Аквапарки <span>(3)</span></a></li>
+              <li class="guide-menu-item"><a class="guide-menu-link beach" href="#">Бухты, пляжи <span>(14)</span></a></li>
+              <li class="guide-menu-item"><a class="guide-menu-link hotels" href="#">Отели <span>(116)</span></a></li>
+              <li class="guide-menu-item"><a class="guide-menu-link kids" href="#">Для детей <span>(6)</span></a></li>
+              <li class="guide-menu-item"><a class="guide-menu-link restaurants" href="#">Рестораны <span>(85)</span></a></li>
+              <li class="guide-menu-item"><a class="guide-menu-link cafe" href="#">Кафетерии <span>(44)</span></a></li>
+            </ul>
+            <div class="guide-buttons-wrp clearfix"><a class="show-all" href="#">все категории</a><a class="add-object" href="#">Добавить объект</a></div>
+          </nav>
+          <h2 class="guide-title section-title">Путеводитель по Хайнаню</h2>
+          <div class="guide-filters">
+            <form class="form" action="#" method="post" name="guide-filter-form">
+              <div class="filter-item filter-location">
+                <div class="select-title">Местонахождение</div>
+                <div class="select-wrp">
+                  <select class="location-select" id="location-select" name="location-select">
+                    <option value="" disabled selected style="display:none;">Весь остров</option>
+                    <option value="option1">Значение 1</option>
+                    <option value="option1">Значение 3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="filter-item filter-price">
+                <div class="select-title">Уровень цен</div>
+                <div class="select-wrp">
+                  <select class="location-select" id="price-select" name="price-select">
+                    <option value="" disabled selected style="display:none;">Все цены</option>
+                    <option value="option1">Значение 1</option>
+                    <option value="option1">Значение 3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="filter-item filter-language">
+                <div class="select-title">Язык</div>
+                <div class="select-wrp">
+                  <select class="language-select" id="language-select" name="language-select">
+                    <option value="" disabled selected style="display:none;">Все языки</option>
+                    <option value="option1">Значение 1</option>
+                    <option value="option1">Значение 3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="filter-item filter-payment">
+                <div class="select-title">Способы оплаты</div>
+                <div class="select-wrp">
+                  <select class="language-select" id="payment-select" name="payment-select">
+                    <option value="" disabled selected style="display:none;">Наличными</option>
+                    <option value="option1">Значение 1</option>
+                    <option value="option1">Значение 3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="only-partners">
+                <div class="checkbox-wrp">
+                  <input id="partners" type="checkbox">
+                  <label for="partners">Показывать только парнеров</label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="guide-sort">
+            <div class="select-title">Сортировать по</div>
+            <div class="select-wrp">
+              <select class="sort" id="sort" name="sort">
+                <option value="" disabled selected style="display:none;">Рейтингу</option>
+                <option value="option1">Значение 1</option>
+                <option value="option1">Значение 3</option>
+              </select>
+            </div>
+          </div>
+          <div class="guide-items">
+            <div class="guide-item">
+              <div class="category-title">Рестораны</div><a class="guide-item-image" href="#"><img src="images/guide1.jpg" alt="Рестораны" width="286" height="140"></a>
+              <div class="guide-item-description">
+                <h3 class="description-title">"Лемон грасс" - тайский ресторан</h3>
+                <div class="description-text">Санья, Улица Саньявань Лу 88, комплекс "Берег ...</div>
+                <div class="guide-item-testimonials"><a class="text" href="#">Отзывов: 1</a>
+                  <div class="guide-item-likes"> <span class="like"></span><span class="like"></span><span class="like"></span><span class="like"></span><span class="like"></span></div>
+                </div>
+              </div>
+            </div>
+            <div class="guide-item">
+              <div class="category-title">Учреждения здравоохранения</div><a class="guide-item-image" href="#"><img src="images/guide2.jpg" alt="Рестораны" width="286" height="140"></a>
+              <div class="guide-item-description">
+                <h3 class="description-title">Центр Лазерной Коррекции Зрения "Hi-Vision"	</h3>
+                <div class="description-text">Хайкоу, Мэйлань, остров Хайдень ...</div>
+                <div class="guide-item-testimonials"><a class="text" href="#">Отзывов: 1</a>
+                  <div class="guide-item-likes"> <span class="like"></span><span class="like"></span><span class="like"></span><span class="like"></span><span class="like"></span></div>
+                </div>
+              </div>
+            </div>
+            <div class="guide-item">
+              <div class="category-title">Учреждения здравоохранения</div><a class="guide-item-image" href="#"><img src="images/guide3.jpg" alt="Рестораны" width="286" height="140"></a>
+              <div class="guide-item-description">
+                <h3 class="description-title">Санаторий "Источник Здоровья"</h3>
+                <div class="description-text">Санья, район Хунша, ул. Юйхай 1</div>
+                <div class="guide-item-testimonials"><a class="text" href="#">Отзывов: 1</a>
+                  <div class="guide-item-likes"> <span class="like"></span><span class="like"></span><span class="like"></span><span class="like"></span><span class="like"></span></div>
+                </div>
+              </div>
+            </div>
+            <div class="guide-item">
+              <div class="category-title">Рестораны</div><a class="guide-item-image" href="#"><img src="images/guide4.jpg" alt="Рестораны" width="286" height="140"></a>
+              <div class="guide-item-description">
+                <h3 class="description-title">"Каса Миа" (ресторан на Санья-Бэй)</h3>
+                <div class="description-text">Санья, Бухта Санья вань, Санья бэй ...</div>
+                <div class="guide-item-testimonials"><a class="text" href="#">Отзывов: 1</a>
+                  <div class="guide-item-likes"> <span class="like"></span><span class="like"></span><span class="like"></span><span class="like"></span><span class="like"></span></div>
+                </div>
+              </div>
+            </div>
+            <div class="guide-item">
+              <div class="category-title">Рестораны</div><a class="guide-item-image" href="#"><img src="images/guide5.jpg" alt="Рестораны" width="286" height="140"></a>
+              <div class="guide-item-description">
+                <h3 class="description-title">"Веранда" - Филиппинское кафе</h3>
+                <div class="description-text">Хайкоу, Мэйлань, остров Хайдень (Meilan ...</div>
+                <div class="guide-item-testimonials"><a class="text" href="#">Отзывов: 1</a>
+                  <div class="guide-item-likes"> <span class="like"></span><span class="like"></span><span class="like"></span><span class="like"></span><span class="like"></span></div>
+                </div>
+              </div>
+            </div>
+            <div class="guide-item">
+              <div class="category-title">Салоны красоты</div><a class="guide-item-image" href="#"><img src="images/guide6.jpg" alt="Рестораны" width="286" height="140"></a>
+              <div class="guide-item-description">
+                <h3 class="description-title">Эстетика красоты от Инны Бейдерман - Made In Israel </h3>
+                <div class="description-text">Санья</div>
+                <div class="guide-item-testimonials"><a class="text" href="#">Отзывов: 1</a>
+                  <div class="guide-item-likes"> <span class="like"></span><span class="like"></span><span class="like"></span><span class="like"></span><span class="like"></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="block-paginator">
+            <div class="paginator-wrp"><a class="paginator-item prev" href="#">Назад</a><a class="paginator-item" href="#">1</a><a class="paginator-item" href="#">2</a><a class="paginator-item active">3</a><a class="paginator-item" href="#">4</a><a class="paginator-item" href="#">5</a><a class="paginator-item next" href="#">Вперед</a></div>
+          </div>
+        </section>
+        <section class="block-events">
+          <h3 class="events-title title"><span>События </span></h3>
+          <div class="calendar-wrapper">
+            <table class="calendar-panel">
+              <tr>
+                <td><a href="#">Сегодня</a></td>
+                <td><a href="#">Завтра</a></td>
+                <td><a href="#">Послезавтра</a></td>
+                <td class="show-calendar"></td>
+              </tr>
+            </table>
+            <div class="events-wrapper">
+              <div class="event">
+                <div class="event-date"><span>2 февраля</span><span>10:00</span></div>
+                <div class="event-title">Бесплатно в один из парков "Романтики тысячелетий"</div>
+                <div class="event-description">28.01.2017 - 11.02.2017 Театр "Романтика тысячелетий"</div>
+              </div>
+              <div class="event">
+                <div class="event-date"><span>2 февраля</span><span>20:00</span></div>
+                <div class="event-title">Золотая лихорадка в Мьюзе</div>
+                <div class="event-description">2.02.2017 - S’MUSE</div>
+              </div>
+            </div>
+            <div class="previews-show-all"><a href="#">все события</a></div>
+          </div>
+        </section>
+        <section class="block-comments">
+          <div class="comments-title title">Комментарии</div>
+          <div class="comments-items">
+            <div class="comments-item sec1">
+              <div class="comments-wrapper">
+                <div class="comments-name">悦心 (Yue Xin) </div>
+                <div class="comments-date">28 Января 2017</div>
+                <div class="comments-foto"></div>
+              </div>
+              <div class="comments-message">Это не Эрик.... Юра, но не Эрик! </div>
+              <div class="comments-description">в теме:<a href="#">Дикий Пляж в Санья</a></div>
+            </div>
+            <div class="comments-item sec2">
+              <div class="comments-wrapper">
+                <div class="comments-name">悦心 (Yue Xin)	</div>
+                <div class="comments-date">26 Января 2017</div>
+                <div class="comments-foto"></div>
+              </div>
+              <div class="comments-message">Лора, это вопросы к создателям топа :)</div>
+              <div class="comments-description">в теме:<a href="#">Санья в ТОП-20 New York Times</a></div>
+            </div>
+            <div class="comments-item sec3">
+              <div class="comments-wrapper">
+                <div class="comments-name">悦心 (Yue Xin) </div>
+                <div class="comments-date">28 Января 2017</div>
+                <div class="comments-foto"></div>
+              </div>
+              <div class="comments-message">Кстати, других китайских городов в списке нет.</div>
+              <div class="comments-description">в теме:<a href="#">Дикий Пляж в Санья</a></div>
+            </div>
+          </div>
+        </section>
+        <section class="block-ad">
+          <h3 class="ad-title title"><span>Реклама </span>на портале</h3>
+          <div class="ad-wrapper">
+            <div class="ad-slider">
+              <div class="slide">
+                <div class="slide-image"><img src="images/ad-img.jpg" alt="Реклама" width="289" height="356"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <footer class="block-footer">
+      <div class="site-wrap">
+        <div class="footer-menu-wrapper">
+          <ul class="footer-menu">
+            <li class="footer-menu-item">
+              <div class="item-title toggle toggle-js">О хайнане</div>
+              <ul class="submenu footer-submenu-js">
+                <li class="submenu-item"><a class="submenu-title" href="#">Карта Хайнаня</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Факты об острове</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Визовый режим</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Перелёт на остров</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Достопримечательности</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Медицина</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Образование</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Проживание на острове</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Хайнаньская кухня</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Фотогалерея</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Видеогалерея</a></li>
+              </ul>
+            </li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Хайнань сегодня</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Сотружество HNL</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Партнеры</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Путеводитель по Хайнаню</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Календарь мероприятий</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Служба знакомств</a></li>
+            <li class="footer-menu-item"><a class="item-title" href="#">Форум</a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-contacts">
+            <div class="footer-contacts-tel">+86-185-059-397-87</div>
+            <div class="footer-contacts-adress">о. Хайнань, г. Хайкоу</div><a class="footer-contacts-mail" href="mailto:hainanlife@163.com">hainanlife@163.com</a>
+          </div>
+          <div class="footer-social"><a class="footer-social-item tw" href="#"></a><a class="footer-social-item rss" href="#"></a><a class="footer-social-item yt" href="#"></a><a class="footer-social-item fb" href="#"></a></div>
+          <div class="footer-description">
+            <p>Остров Хайнань называют «Восточными Гавайями», «Таиландом eв миниатюре». Но зачем клеить чужие ярлыки на то, что достойно своего собственного имени? Это прекрасное место представляет собой неповторимую палитру отдыха и развлечений, а также выбора программ образования и лечения.</p>
+          </div><a class="footer-copyright" href="https://semprogroup.ru/"><span>Под чуткой заботой SEMPROGROUP</span></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

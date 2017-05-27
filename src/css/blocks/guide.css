@@ -1,0 +1,293 @@
+.block-guide {
+	padding: 0 15px;
+	padding-top: 17px;
+	padding-bottom: 110px;
+	font-size: 13px;
+	background-color: #f9f4f4;
+}
+
+.guide-menu {
+	margin-bottom: 34px;
+}
+
+.guide-menu	.guide-menu-list {
+	margin-bottom: 15px;
+}
+
+.guide-menu .guide-menu-link {
+	position: relative;
+	display: block;
+	padding: 10px 32px;
+	border-bottom: 1px solid #d1d0d0;
+}
+
+.guide-menu .guide-menu-link::after {
+	content: '';
+	position: absolute;
+}
+
+.guide-menu .guide-menu-link.sights::after {
+	width: 17px;
+	height: 16px;
+	top: 11px;
+	left: 4px;
+	background: url("../../images/sprite.png") -145px -5px no-repeat;
+}
+
+.guide-menu .guide-menu-link.shows::after {
+	width: 17px;
+	height: 16px;
+	top: 11px;
+	left: 4px;
+	background: url("../../images/sprite.png") -330px -5px no-repeat;
+}
+
+.guide-menu .guide-menu-link.aquapark::after {
+	width: 17px;
+	height: 17px;
+	top: 11px;
+	left: 4px;
+	background: url("../../images/sprite.png") -303px -5px no-repeat;
+}
+
+.guide-menu .guide-menu-link.beach::after {
+	width: 20px;
+	height: 12px;
+	top: 11px;
+	left: 4px;
+	background: url("../../images/sprite.png") -273px -5px no-repeat;
+}
+
+.guide-menu .guide-menu-link.hotels::after {
+	width: 15px;
+	height: 13px;
+	top: 11px;
+	left: 4px;
+	background: url("../../images/sprite.png") -248px -5px no-repeat;
+}
+
+.guide-menu .guide-menu-link.kids::after {
+	width: 13px;
+	height: 17px;
+	top: 11px;
+	left: 4px;
+	background: url("../../images/sprite.png") -225px -5px no-repeat;
+}
+
+.guide-menu .guide-menu-link.restaurants::after {
+	width: 17px;
+	height: 14px;
+	top: 11px;
+	left: 4px;
+	background: url("../../images/sprite.png") -198px -5px no-repeat;
+}
+
+.guide-menu .guide-menu-link.cafe::after {
+	width: 16px;
+	height: 17px;
+	top: 11px;
+	left: 4px;
+	background: url("../../images/sprite.png") -172px -5px no-repeat;
+}
+
+.guide-menu .guide-menu-item:last-child .guide-menu-link {
+	border-bottom: none;
+}
+
+.guide-menu .guide-menu-link span {
+	color: #26c6da;
+}
+
+.guide-buttons-wrp a {
+	display: inline-block;
+	vertical-align: top;
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+}
+
+.guide-buttons-wrp a.show-all {
+	float: left;
+	padding: 8px 24px;
+	font-weight: 600;
+	background-color: #26c6da;
+}
+
+.guide-buttons-wrp a.add-object {
+	float: right;
+	padding: 8px 11px;
+	background-color: #ffa726;
+}
+
+.guide-filters {
+	padding: 0 15px;
+	padding-top: 19px;
+	padding-bottom: 30px;
+	margin-left: -15px;
+	margin-right: -15px;
+	background-color: #fff;
+}
+
+.guide-filters .filter-item {
+	margin-bottom: 8px;
+}
+
+.block-guide select	{
+	width: 100%;
+	padding: 5px 0px;
+	padding-right: 32px;
+	padding-left: 13px;
+	border: 1px solid #c4c4c4;
+	color: #000;
+	background-color: #fff;
+	cursor: pointer;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance:none;
+	background: #fff url("../../images/select-dw-icon.png") right 11px top 50% / 10px no-repeat
+}
+
+.block-guide .select-wrp {
+	position: relative;
+}
+
+.block-guide .select-wrp::after {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 30px;
+	top: 0;
+	right: 32px;
+	background-color: #c4c4c4;
+	cursor: pointer;
+}
+
+.block-guide .select-title {
+	margin-bottom: 8px;
+}
+
+.block-guide .guide-title {
+	margin-bottom: 20px;
+}
+
+.only-partners {
+	padding-top: 8px;
+}
+
+.block-guide input[type="checkbox"] {
+	display: none;
+}
+
+.block-guide label {
+	position: relative;
+	padding-left: 20px;
+}
+
+.block-guide input[type="checkbox"] + label::before {
+	position: absolute;
+	content: '';
+	width: 13px;
+	height: 13px;
+	top: 3px;
+	left: 0;
+	background:	url("../../images/sprite.png") -2427px -5px no-repeat;
+}
+
+.block-guide input[type="checkbox"]:checked + label::before {
+	background:	url("../../images/sprite.png") -68px -56px no-repeat;
+}
+
+.guide-sort {
+	padding: 22px 0;
+}
+
+.guide-item {
+	display: block;
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 11px;
+	border: 2px solid #ffa726;
+	border-radius: 4px;
+	background-color: #fff;
+}
+
+.guide-item .category-title {
+	display: inline;
+	position: absolute;
+	top: 9px;
+	left: 0;
+	color: #fff;
+	font-weight: 600;
+	padding: 6px 0;
+	padding-left: 70px;
+	padding-right: 13px;
+	background-color: #ffa726;
+	white-space: nowrap;
+}
+
+.guide-item .category-title::after {
+	position: absolute;
+	content: '';
+	top: -3px;
+	left: 5px;
+	width: 54px;
+	height: 43px;
+	background: url("../../images/sprite.png") -1071px -5px no-repeat;
+}
+
+.guide-item-image {
+	display: block;
+	padding: 18px 0;
+}
+
+.guide-item-image img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.guide-item-description {
+	padding: 0 18px;
+}
+
+.guide-item-description .description-title {
+	margin-bottom: 8px;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 600;
+	color: #000;
+}
+
+.guide-item-description .description-text {
+	margin-bottom: 4px;
+	font-size: 13px;
+	line-height: 21px;
+	font-weight: normal;
+	color: #686868;
+}
+
+.guide-item-testimonials {
+	font-size: 0;
+}
+
+.guide-item-testimonials .text {
+	margin-right: 10px;
+	font-size: 13px;
+	display: inline-block;
+	vertical-align: top;
+	color: #686868;
+	text-decoration: underline;
+}
+
+.guide-item .guide-item-likes {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.guide-item .like {
+	display: inline-block;
+	vertical-align: top;
+	width: 17px;
+	height: 13px;
+	background: url("../../images/sprite.png") -948px -5px no-repeat;
+}

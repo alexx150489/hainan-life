@@ -1,0 +1,175 @@
+extends ../layout/layout
+
+block title 
+	| "Лемон грасс" - тайский ресторан
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				a(class="breadcrumbs-item" href="#") Путоведитель по Хайнаню
+				a(class="breadcrumbs-item" href="#") Рестораны
+				span(class="breadcrumbs-item current") "Лемон грасс" - тайский ресторан
+
+
+			section(class="block-guideObject")
+
+				div(class="guideObject-category")
+					span(class="title") Категория: 
+					span(class="category") Рестораны 
+					a(class="show-all" href="#") Посмотреть все
+
+				h2(class="guideObject-title section-title") "Лемон грасс" - тайский ресторан
+
+				div(class="guideObject-container")
+
+						div(class="guideObject-testimonials")
+							a(class="text" href="#") Отзывов: 1
+							div(class="guideObject-likes") 
+								span(class="like")
+								span(class="like")
+								span(class="like")
+								span(class="like")
+								span(class="like")
+
+						div(class="guideObject-address") 
+							p Улица Саньявань Лу 88, комплекс "Берег голубого моря", 3я очередь, ресторанный комплекс, 2 этаж
+
+						div(class="guideObject-partner") 
+							span Партнер Содружества HainanLife
+
+						div(class="guideObject-gallery")
+
+							div(class="slider-wrp main")
+								div(class="slider")
+									div(class="slide")
+										img(src="images/gallery-full-foto.jpg" alt="Фото" width="290" height="315")
+									div(class="slide")
+										img(src="images/gallery-full-foto2.jpg" alt="Фото" width="290" height="315")
+									div(class="slide")
+										img(src="images/gallery-full-foto.jpg" alt="Фото" width="290" height="315")
+
+							div(class="slider-wrp mini")
+								div(class="slider2")
+									div(class="slide")
+										img(src="images/cart.jpg" alt="Фото" width="84" height="89")
+									div(class="slide")
+										img(src="images/cart2.jpg" alt="Фото" width="84" height="89")
+									div(class="slide")
+										img(src="images/cart.jpg" alt="Фото" width="84" height="89")
+								button(type="button" class="custom-prev")
+								button(type="button" class="custom-next")
+
+						div(class="guideObject-wrp")
+							div(class="guideObject-names")
+								div(class="guideObject-name-title") Lemon Grass Thai Restaurant 
+								div(class="guideObject-names-wrp")
+									div(class="name eng")
+										span Lemon Grass Thai Restaurant
+									div(class="name ru")
+										span "Лемон грасс" - тайский ресторан
+									div(class="name cn")
+										span 柠檬草泰式餐厅
+									div(class="name cn2")
+										span níngméngcǎo tàishì cāntīng
+
+							div(class="guideObject-wdays")
+								div(class="wdays-title") Дни недели
+								div(class="wdays-text") Пн-Вс
+
+							div(class="guideObject-payment")
+								div(class="payment-title") Способы оплаты
+								div(class="payment-wrp")
+									div(class="cash") 
+										span Наличными
+									div(class="up")
+										span Union Pay
+
+							div(class="guideObject-contacts")
+								div(class="tel")
+									span Телефон: 0898-88290819;
+									span 0898-88281214
+								div(class="town") #[span Город:] Санья
+								div(class="address") #[span Адрес:] Улица Саньявань Лу 88, комплекс "Берег голубого моря", 3я очередь, ресторанный комплекс, 2 этаж
+
+								div(class="address eng") 3rd Complex of Blue Sea condominium, (88, Sanyabay ave), restaurants arcade, 2nd floor
+
+							div(class="guideObject-features")
+								div(class="features-title") Для вас
+								div(class="features-wrp")
+									div(class="feature wifi") Бесплатный WI-FI
+									div(class="feature vine") Можно принести свое вино
+
+							div(class="guideObject-wtime")
+								div(class="wtime-title") Время работы
+								div(class="wtime-text") Режим работы: 11:30 - 21:30
+
+							div(class="guideObject-map") 
+								a(class="map-link" href="#") Показать на карте
+
+							div(class="guideObject-description")
+								p Лучшие блюда тайской кухни в шикарном месте. Окунитесь в пряный мир Тайланда
+
+							div(class="guideObject-edit")
+								a(class="edit-link" href="#") Внести изменения в объект
+
+						div(class="guideObject-similar-object")
+							h3(class="title") Похожие объекты
+							div(class="slider-wrapper")
+								div(class="slider")
+									div(class="slide")
+										div(class="object")
+											a(class="image" href="#")
+												img(src="images/other-obj.jpg" alt="Фото" width="290" height="161")
+											div(class="object-wrp")
+												div(class="title") "Большая Пицца" - ресторан-шведский стол 
+												div(class="address") Хайкоу, Улица Юйша 16-1, ...
+												a(class="testimonials" href="#") Отзывов: 1
+
+						div(class="guideObject-reviews")
+							div(class="reviews-title") Оставить рецензию:
+							div(class="reviews-description") Для того, чтобы добавить новую рецензию, необходимо #[a(href="#") авторизоваться] на сайте.
+							div(class="reviews-items")
+								div(class="reviews-item")
+									div(class="autor")
+										div(class="name") 悦心 (Yue Xin) 
+										time(class="date" datetime="2017-05-8") 8 Марта 2016
+										div(class="photo")
+									div(class="msg") 
+										p Понравился дизайн и обслуживание. Тайская кухня вкуууусная! Заказала креветки - "Thai style prawns with lemon-grass". Очень понравилось блюдо. И ещё здорово, что меню с фотографиями блюд - так хоть примерно понимаешь, что будешь кушать :)
+
+						div(class="guideObject-evaluations")
+							div(class="evaluations-title") Поставить оценку:
+							div(class="evaluations-description") Для того, чтобы добавить новый комментарий, необходимо #[a(href="#") авторизоваться] на сайте.
+							div(class="evaluations-items")
+								div(class="evaluations-item")
+									div(class="autor")
+										div(class="name") 悦心 (Yue Xin) 
+										time(class="date" datetime="2017-05-8") 8 Марта 2016
+										div(class="photo")
+									div(class="msg")
+										p Отличное романтическое место!
+
+
+
+						div(class="guideObject-changes")
+							div(class="changes-title") История изменений объекта:
+							div(class="changes-top")
+								div(class="changes-top-title") Дата 
+								div(class="changes-top-title") Автор
+								div(class="changes-top-title") Действие
+								div(class="changes-list")
+							a(class="changes-show-all" href="#") Показать
+
+						div(class="guideObject-error")
+							div(class="error-text")
+								p Если вы нашли ошибку, сообщите об этом пожалуйста администратору
+							a(class="error-btn" href="#") Нашел ошибку
+
+
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad

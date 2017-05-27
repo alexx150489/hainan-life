@@ -1,0 +1,151 @@
+extends ../layout/layout
+
+block title 
+	| Календарь мероприятий
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				span(class="breadcrumbs-item current") Календарь мероприятий
+
+
+			section(class="block-calendarEvents")
+
+
+
+				div(class="calendarEvents-calendar")
+
+				div(class="calendarEvents-slider")
+					div(class="slide-next")
+					div(class="slide-prev")
+
+					div(class="slider")
+
+						a(class="slide" href="#")
+							div(class="image")
+								img(src="images/calendar-img7.jpg" alt="Слайдер" width="290" height="188")
+								div(class="description")
+									div(class="title") Костюмированная карнавальная вечеринка 
+									time(class="date" datetime="2017-02-28") 28 февраля 2017
+
+						a(class="slide" href="#")
+							div(class="image")
+								img(src="images/calendar-img7.jpg" alt="Слайдер" width="290" height="188")
+								div(class="description")
+									div(class="title") Костюмированная карнавальная вечеринка 
+									time(class="date" datetime="2017-02-28") 28 февраля 2017
+
+				h2(class="calendar-title section-title") Календарь мероприятий
+
+				div(class="calendarEvents-filters")
+
+					form(class="form" action="#" method="post" name="calendarEvents-filter-form")
+
+						div(class="filter-item filter-object")
+							div(class="select-title") Мероприятия
+							div(class="select-wrp")
+								select(id="object-select" class="object-select" name="object-select")
+									option(value="" disabled selected style='display:none;') Все мероприятия
+									option(value="option1") Значение 1
+									option(value="option1") Значение 3
+
+						div(class="filter-item filter-location")
+							div(class="select-title") Местонахождение
+							div(class="select-wrp")
+								select(id="location-select" class="location-select" name="location-select")
+									option(value="" disabled selected style='display:none;') Весь остров
+									option(value="option1") Значение 1
+									option(value="option1") Значение 3
+
+					a(class="add-object" href="#") Добавить мероприятие
+
+				div(class="calendarEvents-items")
+
+					div(class="calendarEvents-item")
+						a(class="image" href="#")
+							img(src="images/calendar-img12.jpg" alt="Событие" width="290" height="138")
+						div(class="item-wrp")
+							div(class="category")
+								div(class="description") Развлекательное
+								h3(class="title") Зумба-вечеринка 
+							div(class="location")
+								div(class="description") Место проведения:
+								a(class="object" href="#") "Дельфин" - бар-ресторан 
+							div(class="tenderers") #[span 0] участников пойдет на мероприятие
+							div(class="date-wrp")
+								div(class="item") 23 Марта 2017
+								div(class="item") 20:00
+							div(class="info") Вход свободный ¥
+
+					div(class="calendarEvents-item")
+						a(class="image" href="#")
+							img(src="images/calendar-img9.jpg" alt="Событие" width="290" height="138")
+						div(class="item-wrp")
+							div(class="category")
+								div(class="description") Развлекательное
+								h3(class="title") Водка Фэст
+							div(class="location")
+								div(class="description") Место проведения:
+								a(class="object" href="#") Бар у Яна 
+							div(class="tenderers") #[span 0] участников пойдет на мероприятие
+							div(class="date-wrp")
+								div(class="item") 23 Марта 2017
+								div(class="item") 20:00
+							div(class="info") Вход свободный ¥
+
+					div(class="calendarEvents-item")
+						a(class="image" href="#")
+							img(src="images/calendar-img10.jpg" alt="Событие" width="290" height="138")
+						div(class="item-wrp")
+							div(class="category")
+								div(class="description") Развлекательное
+								h3(class="title") Милитари Вечеринка
+							div(class="location")
+								div(class="description") Место проведения:
+								a(class="object" href="#") "Дельфин" - бар-ресторан 
+							div(class="tenderers") #[span 0] участников пойдет на мероприятие
+							div(class="date-wrp")
+								div(class="item") 23 Марта 2017
+								div(class="item") 20:00
+							div(class="info") Вход свободный ¥
+
+					div(class="calendarEvents-item")
+						a(class="image" href="#")
+							img(src="images/calendar-img11.jpg" alt="Событие" width="290" height="138")
+						div(class="item-wrp")
+							div(class="category")
+								div(class="description") Развлекательное
+								h3(class="title") Котельная Вечеринка 
+							div(class="location")
+								div(class="description") Место проведения:
+								a(class="object" href="#") Бар у Яна
+							div(class="tenderers") #[span 0] участников пойдет на мероприятие
+							div(class="date-wrp")
+								div(class="item") 23 Марта 2017
+								div(class="item") 20:00
+							div(class="info") Вход свободный ¥
+
+					div(class="calendarEvents-item")
+						a(class="image" href="#")
+							img(src="images/calendar-img12.jpg" alt="Событие" width="290" height="138")
+						div(class="item-wrp")
+							div(class="category")
+								div(class="description") Развлекательное
+								h3(class="title") Зумба-вечеринка 
+							div(class="location")
+								div(class="description") Место проведения:
+								a(class="object" href="#") "Дельфин" - бар-ресторан 
+							div(class="tenderers") #[span 0] участников пойдет на мероприятие
+							div(class="date-wrp")
+								div(class="item") 23 Марта 2017
+								div(class="item") 20:00
+							div(class="info") Вход свободный ¥
+
+				include ../blocks/paginator
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad

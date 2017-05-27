@@ -1,0 +1,196 @@
+extends ../layout/layout
+
+block title 
+	| Путеводитель по Хайнаню
+
+block content
+
+	section(class="block-content")
+		div(class="site-wrap")
+			section(class="block-breadcrumbs")
+				a(class="breadcrumbs-item home" href="index.html")
+				span(class="breadcrumbs-item current") Путеводитель по Хайнаню
+
+
+			section(class="block-guide")
+
+				nav(class="guide-menu")
+					ul(class="guide-menu-list")
+						li(class="guide-menu-item")
+							a(class="guide-menu-link sights" href="#") Достопримечательности #[span (57)]
+						li(class="guide-menu-item")
+							a(class="guide-menu-link shows" href="#") Шоу, театры, кино, др зрелища #[span (16)]
+						li(class="guide-menu-item")
+							a(class="guide-menu-link aquapark" href="#") Аквапарки #[span (3)]
+						li(class="guide-menu-item")
+							a(class="guide-menu-link beach" href="#") Бухты, пляжи #[span (14)]
+						li(class="guide-menu-item")
+							a(class="guide-menu-link hotels" href="#") Отели #[span (116)]
+						li(class="guide-menu-item")
+							a(class="guide-menu-link kids" href="#") Для детей #[span (6)]
+						li(class="guide-menu-item")
+							a(class="guide-menu-link restaurants" href="#") Рестораны #[span (85)]
+						li(class="guide-menu-item")
+							a(class="guide-menu-link cafe" href="#") Кафетерии #[span (44)]
+
+					div(class="guide-buttons-wrp clearfix")
+						a(class="show-all" href="#") все категории
+						a(class="add-object" href="#") Добавить объект
+
+
+
+				h2(class="guide-title section-title") Путеводитель по Хайнаню
+
+				div(class="guide-filters")
+
+					form(class="form" action="#" method="post" name="guide-filter-form")
+
+						div(class="filter-item filter-location")
+							div(class="select-title") Местонахождение
+							div(class="select-wrp")
+								select(id="location-select" class="location-select" name="location-select")
+									option(value="" disabled selected style='display:none;') Весь остров
+									option(value="option1") Значение 1
+									option(value="option1") Значение 3
+
+						div(class="filter-item filter-price")
+							div(class="select-title") Уровень цен
+							div(class="select-wrp")
+								select(id="price-select" class="location-select" name="price-select")
+									option(value="" disabled selected style='display:none;') Все цены
+									option(value="option1") Значение 1
+									option(value="option1") Значение 3
+
+						div(class="filter-item filter-language")
+							div(class="select-title") Язык
+							div(class="select-wrp")
+								select(id="language-select" class="language-select" name="language-select")
+									option(value="" disabled selected style='display:none;') Все языки
+									option(value="option1") Значение 1
+									option(value="option1") Значение 3
+
+						div(class="filter-item filter-payment")
+							div(class="select-title") Способы оплаты
+							div(class="select-wrp")
+								select(id="payment-select" class="language-select" name="payment-select")
+									option(value="" disabled selected style='display:none;') Наличными
+									option(value="option1") Значение 1
+									option(value="option1") Значение 3
+
+						div(class="only-partners")
+							div(class="checkbox-wrp")
+								input(id="partners" type="checkbox")
+								label(for="partners") Показывать только парнеров
+
+
+				div(class="guide-sort")
+						div(class="select-title") Сортировать по
+						div(class="select-wrp")
+							select(id="sort" class="sort" name="sort")
+								option(value="" disabled selected style='display:none;') Рейтингу
+								option(value="option1") Значение 1
+								option(value="option1") Значение 3
+
+				div(class="guide-items")
+
+					div(class="guide-item")
+						div(class="category-title") Рестораны
+						a(class="guide-item-image" href="#")
+							img(src="images/guide1.jpg" alt="Рестораны" width="286" height="140")
+						div(class="guide-item-description")
+							h3(class="description-title") "Лемон грасс" - тайский ресторан
+							div(class="description-text") Санья, Улица Саньявань Лу 88, комплекс "Берег ...
+							div(class="guide-item-testimonials")
+								a(class="text" href="#") Отзывов: 1
+								div(class="guide-item-likes") 
+									span(class="like")
+									span(class="like")
+									span(class="like")
+									span(class="like")
+									span(class="like")
+
+					div(class="guide-item")
+						div(class="category-title") Учреждения здравоохранения
+						a(class="guide-item-image" href="#")
+							img(src="images/guide2.jpg" alt="Рестораны" width="286" height="140")
+						div(class="guide-item-description")
+							h3(class="description-title") Центр Лазерной Коррекции Зрения "Hi-Vision"	
+							div(class="description-text") Хайкоу, Мэйлань, остров Хайдень ...
+							div(class="guide-item-testimonials")
+								a(class="text" href="#") Отзывов: 1
+								div(class="guide-item-likes") 
+									span(class="like")
+									span(class="like")
+									span(class="like")
+									span(class="like")
+									span(class="like")
+
+					div(class="guide-item")
+						div(class="category-title") Учреждения здравоохранения
+						a(class="guide-item-image" href="#")
+							img(src="images/guide3.jpg" alt="Рестораны" width="286" height="140")
+						div(class="guide-item-description")
+							h3(class="description-title") Санаторий "Источник Здоровья"
+							div(class="description-text") Санья, район Хунша, ул. Юйхай 1
+							div(class="guide-item-testimonials")
+								a(class="text" href="#") Отзывов: 1
+								div(class="guide-item-likes") 
+									span(class="like")
+									span(class="like")
+									span(class="like")
+									span(class="like")
+									span(class="like")
+
+					div(class="guide-item")
+						div(class="category-title") Рестораны
+						a(class="guide-item-image" href="#")
+							img(src="images/guide4.jpg" alt="Рестораны" width="286" height="140")
+						div(class="guide-item-description")
+							h3(class="description-title") "Каса Миа" (ресторан на Санья-Бэй)
+							div(class="description-text") Санья, Бухта Санья вань, Санья бэй ...
+							div(class="guide-item-testimonials")
+								a(class="text" href="#") Отзывов: 1
+								div(class="guide-item-likes") 
+									span(class="like")
+									span(class="like")
+									span(class="like")
+									span(class="like")
+									span(class="like")
+
+					div(class="guide-item")
+						div(class="category-title") Рестораны
+						a(class="guide-item-image" href="#")
+							img(src="images/guide5.jpg" alt="Рестораны" width="286" height="140")
+						div(class="guide-item-description")
+							h3(class="description-title") "Веранда" - Филиппинское кафе
+							div(class="description-text") Хайкоу, Мэйлань, остров Хайдень (Meilan ...
+							div(class="guide-item-testimonials")
+								a(class="text" href="#") Отзывов: 1
+								div(class="guide-item-likes") 
+									span(class="like")
+									span(class="like")
+									span(class="like")
+									span(class="like")
+									span(class="like")
+
+					div(class="guide-item")
+						div(class="category-title") Салоны красоты
+						a(class="guide-item-image" href="#")
+							img(src="images/guide6.jpg" alt="Рестораны" width="286" height="140")
+						div(class="guide-item-description")
+							h3(class="description-title") Эстетика красоты от Инны Бейдерман - Made In Israel 
+							div(class="description-text") Санья
+							div(class="guide-item-testimonials")
+								a(class="text" href="#") Отзывов: 1
+								div(class="guide-item-likes") 
+									span(class="like")
+									span(class="like")
+									span(class="like")
+									span(class="like")
+									span(class="like")
+
+				include ../blocks/paginator
+
+			include ../blocks/events
+			include ../blocks/comments
+			include ../blocks/ad

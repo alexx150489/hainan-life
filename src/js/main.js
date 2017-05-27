@@ -77,16 +77,23 @@ $(document).ready(function() {
 
 	});
 
+	// jQuery UI DataPicker https://jqueryui.com/datepicker
+
+	$( ".calendarEvents-calendar" ).datepicker( $.datepicker.regional[ "ru" ] );
+
 	// slcik slider http://kenwheeler.github.io/slick/
 
+	// .block-contestTsigunWoman
 	$('.contestTsigunWoman-gallery .slider').slick({
-		arrows: false,
+		arrows: true,
 		autoplay: true,
 		pauseOnHover: true,
 		autoplaySpeed: 2000,
 		dots: false,
 		slidesToShow: 1,
 		slidesToScroll: 1,
+		prevArrow: $('.contestTsigunWoman-gallery .custom-prev'),
+		nextArrow: $('.contestTsigunWoman-gallery .custom-next'),
 		asNavFor: '.slider2'
 	});
 
@@ -98,12 +105,41 @@ $(document).ready(function() {
 		focusOnSelect: true
 	});
 
-	$('.custom-prev').click(function(){
-		$('.slider').slick('slickPrev');
-	})
+	// block-guideObject
+	$('.guideObject-gallery .slider').slick({
+		arrows: true,
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 2000,
+		dots: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.guideObject-gallery .custom-prev'),
+		nextArrow: $('.guideObject-gallery .custom-next'),
+		asNavFor: '.slider2'
+	});
 
-	$('.custom-next').click(function(){
-		$('.slider').slick('slickNext');
-	})
+	$('.guideObject-gallery .slider2').slick({
+		variableWidth: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		asNavFor: '.slider',
+		focusOnSelect: true
+	});
+
+	// block-calendarEvents
+	$('.calendarEvents-slider .slider').slick({
+		arrows: true,
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 2000,
+		dots: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.calendarEvents-slider .slide-prev'),
+		nextArrow: $('.calendarEvents-slider .slide-next')
+	});
+
+
 
 });

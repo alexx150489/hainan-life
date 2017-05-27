@@ -24,7 +24,7 @@
     <script src="js/vendor/fancybox/jquery.fancybox.pack.js"></script>
     <script src="js/vendor/slick.js/slick.min.js"></script>
     <script src="js/main.js"></script>
-    <title> Фотогалерея
+    <title> Календарь мероприятий
     </title>
   </head>
   <body>
@@ -83,57 +83,136 @@
     </header>
     <section class="block-content">
       <div class="site-wrap">
-        <section class="block-breadcrumbs"><a class="breadcrumbs-item home" href="index.html"></a><a class="breadcrumbs-item" href="#">О Хайнане</a><span class="breadcrumbs-item current">Фотогалерея</span></section>
-        <section class="block-aboutHainanFoto">
-          <h2 class="aboutHainanFoto-title section-title">Фотогалерея</h2>
-          <div class="aboutHainanFoto-items">
-            <div class="aboutHainanFoto-item">
-              <div class="aboutHainanFoto-autor">
-                <div class="name">悦心 (Yue Xin) </div>
-                <div class="date">30 Января 2017</div>
-                <div class="autor-foto"></div>
-              </div><a class="aboutHainanFoto photo-wrapper" href="#">
-                <div class="big-photo"><img src="images/gal1-big.jpg" alt="Фото" width="290" height="164"></div>
-                <div class="mini-photos">
-                  <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
-                  <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
-                  <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
-                  <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
-                  <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
-                  <div class="itm all" href="#"><span>6 </span>фото</div>
-                </div></a>
+        <section class="block-breadcrumbs"><a class="breadcrumbs-item home" href="index.html"></a><span class="breadcrumbs-item current">Календарь мероприятий</span></section>
+        <section class="block-calendarEvents">
+          <div class="calendarEvents-calendar"></div>
+          <div class="calendarEvents-slider">
+            <div class="slide-next"></div>
+            <div class="slide-prev"></div>
+            <div class="slider"><a class="slide" href="#">
+                <div class="image"><img src="images/calendar-img7.jpg" alt="Слайдер" width="290" height="188">
+                  <div class="description">
+                    <div class="title">Костюмированная карнавальная вечеринка </div>
+                    <time class="date" datetime="2017-02-28">28 февраля 2017</time>
+                  </div>
+                </div></a><a class="slide" href="#">
+                <div class="image"><img src="images/calendar-img7.jpg" alt="Слайдер" width="290" height="188">
+                  <div class="description">
+                    <div class="title">Костюмированная карнавальная вечеринка </div>
+                    <time class="date" datetime="2017-02-28">28 февраля 2017</time>
+                  </div>
+                </div></a></div>
+          </div>
+          <h2 class="calendar-title section-title">Календарь мероприятий</h2>
+          <div class="calendarEvents-filters">
+            <form class="form" action="#" method="post" name="calendarEvents-filter-form">
+              <div class="filter-item filter-object">
+                <div class="select-title">Мероприятия</div>
+                <div class="select-wrp">
+                  <select class="object-select" id="object-select" name="object-select">
+                    <option value="" disabled selected style="display:none;">Все мероприятия</option>
+                    <option value="option1">Значение 1</option>
+                    <option value="option1">Значение 3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="filter-item filter-location">
+                <div class="select-title">Местонахождение</div>
+                <div class="select-wrp">
+                  <select class="location-select" id="location-select" name="location-select">
+                    <option value="" disabled selected style="display:none;">Весь остров</option>
+                    <option value="option1">Значение 1</option>
+                    <option value="option1">Значение 3</option>
+                  </select>
+                </div>
+              </div>
+            </form><a class="add-object" href="#">Добавить мероприятие</a>
+          </div>
+          <div class="calendarEvents-items">
+            <div class="calendarEvents-item"><a class="image" href="#"><img src="images/calendar-img12.jpg" alt="Событие" width="290" height="138"></a>
+              <div class="item-wrp">
+                <div class="category">
+                  <div class="description">Развлекательное</div>
+                  <h3 class="title">Зумба-вечеринка </h3>
+                </div>
+                <div class="location">
+                  <div class="description">Место проведения:</div><a class="object" href="#">"Дельфин" - бар-ресторан </a>
+                </div>
+                <div class="tenderers"><span>0</span> участников пойдет на мероприятие</div>
+                <div class="date-wrp">
+                  <div class="item">23 Марта 2017</div>
+                  <div class="item">20:00</div>
+                </div>
+                <div class="info">Вход свободный ¥</div>
+              </div>
             </div>
-            <div class="aboutHainanFoto-item">
-              <div class="aboutHainanFoto-autor">
-                <div class="name">悦心 (Yue Xin) </div>
-                <div class="date">30 Января 2017</div>
-                <div class="autor-foto"></div>
-              </div><a class="aboutHainanFoto photo-wrapper" href="#">
-                <div class="big-photo"><img src="images/gal1-big.jpg" alt="Фото" width="290" height="164"></div>
-                <div class="mini-photos">
-                  <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
-                  <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
-                  <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
-                  <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
-                  <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
-                  <div class="itm all"><span>8 </span>фото</div>
-                </div></a>
+            <div class="calendarEvents-item"><a class="image" href="#"><img src="images/calendar-img9.jpg" alt="Событие" width="290" height="138"></a>
+              <div class="item-wrp">
+                <div class="category">
+                  <div class="description">Развлекательное</div>
+                  <h3 class="title">Водка Фэст</h3>
+                </div>
+                <div class="location">
+                  <div class="description">Место проведения:</div><a class="object" href="#">Бар у Яна </a>
+                </div>
+                <div class="tenderers"><span>0</span> участников пойдет на мероприятие</div>
+                <div class="date-wrp">
+                  <div class="item">23 Марта 2017</div>
+                  <div class="item">20:00</div>
+                </div>
+                <div class="info">Вход свободный ¥</div>
+              </div>
             </div>
-            <div class="aboutHainanFoto-item">
-              <div class="aboutHainanFoto-autor">
-                <div class="name">悦心 (Yue Xin) </div>
-                <div class="date">30 Января 2017</div>
-                <div class="autor-foto"></div>
-              </div><a class="aboutHainanFoto photo-wrapper" href="#">
-                <div class="big-photo"><img src="images/gal1-big.jpg" alt="Фото" width="280" height="164"></div>
-                <div class="mini-photos">
-                  <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
-                  <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
-                  <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
-                  <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
-                  <div class="itm"><img src="images/gal-mini.jpg" alt="Фото" width="90" height="89"></div>
-                  <div class="itm all"><span>11 </span>фото</div>
-                </div></a>
+            <div class="calendarEvents-item"><a class="image" href="#"><img src="images/calendar-img10.jpg" alt="Событие" width="290" height="138"></a>
+              <div class="item-wrp">
+                <div class="category">
+                  <div class="description">Развлекательное</div>
+                  <h3 class="title">Милитари Вечеринка</h3>
+                </div>
+                <div class="location">
+                  <div class="description">Место проведения:</div><a class="object" href="#">"Дельфин" - бар-ресторан </a>
+                </div>
+                <div class="tenderers"><span>0</span> участников пойдет на мероприятие</div>
+                <div class="date-wrp">
+                  <div class="item">23 Марта 2017</div>
+                  <div class="item">20:00</div>
+                </div>
+                <div class="info">Вход свободный ¥</div>
+              </div>
+            </div>
+            <div class="calendarEvents-item"><a class="image" href="#"><img src="images/calendar-img11.jpg" alt="Событие" width="290" height="138"></a>
+              <div class="item-wrp">
+                <div class="category">
+                  <div class="description">Развлекательное</div>
+                  <h3 class="title">Котельная Вечеринка </h3>
+                </div>
+                <div class="location">
+                  <div class="description">Место проведения:</div><a class="object" href="#">Бар у Яна</a>
+                </div>
+                <div class="tenderers"><span>0</span> участников пойдет на мероприятие</div>
+                <div class="date-wrp">
+                  <div class="item">23 Марта 2017</div>
+                  <div class="item">20:00</div>
+                </div>
+                <div class="info">Вход свободный ¥</div>
+              </div>
+            </div>
+            <div class="calendarEvents-item"><a class="image" href="#"><img src="images/calendar-img12.jpg" alt="Событие" width="290" height="138"></a>
+              <div class="item-wrp">
+                <div class="category">
+                  <div class="description">Развлекательное</div>
+                  <h3 class="title">Зумба-вечеринка </h3>
+                </div>
+                <div class="location">
+                  <div class="description">Место проведения:</div><a class="object" href="#">"Дельфин" - бар-ресторан </a>
+                </div>
+                <div class="tenderers"><span>0</span> участников пойдет на мероприятие</div>
+                <div class="date-wrp">
+                  <div class="item">23 Марта 2017</div>
+                  <div class="item">20:00</div>
+                </div>
+                <div class="info">Вход свободный ¥</div>
+              </div>
             </div>
           </div>
           <div class="block-paginator">
