@@ -18,9 +18,11 @@ block content
 					h2(class="partners-list-title section-title") Список партнеров
 					div(class="partners-list-category")
 						form(action="#" method="post" name="select-category-form")
-							select(class="partners-list-select" name="select-category" tabindex="1")
-								option(value="option1") Значение 1
-								option(value="option1") Значение 3
+							div(class="select-wrp")
+								select(id="category-select" class="location-select" name="location-select")
+									option(value="" disabled selected style='display:none;') Выберите категорию
+									option(value="option1") Значение 1
+									option(value="option1") Значение 3
 
 				div(class="partners-list-items")
 					div(class="item-wrapper")
@@ -55,7 +57,7 @@ block content
 									div(class="discounts-card gold")
 										| Золотая карта:
 										span 20%
-							div(class="info")
+							div(class="info partners-info-js")
 								div(class="partners-list-about")
 									div(class="title") О компании
 									div(class="text")
@@ -73,7 +75,7 @@ block content
 												span No 99-6 Yuya Road, Dadonghai, Sanya
 											div(class="testimonials") Отзывов: 1
 						div(class="show-info")
-							a(class="partners-list-toggle" href="#") Показать
+							a(class="partners-list-toggle partners-toggle-btn-js" href="#") Показать
 
 					div(class="item-wrapper")
 						div(class="partners-list-item cityjungle")

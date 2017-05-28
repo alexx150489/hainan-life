@@ -1,33 +1,79 @@
 $(document).ready(function() {
 
-	// block-header authorization/user-profile toggle
+	// block-header authorization/user-profile toggle >>>
 
 	var openAuthForm = $('.auth-btn-js');	
 	var authForm = $('.authorization-js');
 	var userProfile = $('.profile-js');
 
-	$(openAuthForm).on('click', function(e) {
-		
+	openAuthForm.on('click', function(e) {
+		openHeaderMenu.removeClass('active');
+		headerMenu.hide();
 		e.preventDefault();
-		$(openAuthForm).toggleClass('active');
+		openAuthForm.toggleClass('active');
 		if ( openAuthForm.hasClass('logged') ) {
 			userProfile.slideToggle();
 		} else {
 			authForm.slideToggle();
 		}
+	});
+
+	// block-header menu toggle >>>
+
+	var openHeaderMenu = $('.burger-js');	
+	var headerMenu = $('.nav-js');
+
+	openHeaderMenu.on('click', function(e) {
+		openAuthForm.removeClass('active');
+		authForm.hide();
+		userProfile.hide();
+		e.preventDefault();
+		openHeaderMenu.toggleClass('active');
+		headerMenu.slideToggle();
+	});
+
+	// block-header menu slideToggle >>>
+
+	var headerMenuToggle = $('.header-menu .toggle-js');
+	var headerSubMenu = $('.header-menu .header-submenu-js');
+
+	headerMenuToggle.on('click', function(e) {
+		headerSubMenu.slideToggle();
+		headerMenuToggle.toggleClass('active');
+	});
+
+	// block-footer menu slideToggle >>>
+	var footerMenuToggle = $('.footer-menu .toggle-js');
+	var footerSubMenu = $('.footer-menu .footer-submenu-js');
+	footerMenuToggle.on('click', function(e) {
+		footerSubMenu.slideToggle();
+		footerMenuToggle.toggleClass('active');
+	});
+
+	// block-partners-list slideToggle >>>
+
+	var partnersBtn = $('.partners-toggle-btn-js');
+	var partnersInfo = $('.partners-info-js');
+
+	partnersBtn.on("click", function(e) {
+		e.preventDefault();
+
+		var $this = $(this);
+
+		if( !$(this).hasClass("active") ) {
+			$(this).text("Скрыть");
+			partnersInfo.slideUp();
+			partnersBtn.removeClass("active");
+		} else {
+			$(this).text("Показать");
+		}
+
+		$(this).toggleClass("active");
+		partnersInfo.slideToggle();
 
 	});
 
-		// block-footer menu slideToggle
-
-		var footerMenuToggle = $('.footer-menu .toggle-js');
-		var footerSubMenu = $('.footer-menu .footer-submenu-js');
-		$(footerMenuToggle).on('click', function(e) {
-			footerSubMenu.slideToggle();
-			footerMenuToggle.toggleClass('active');
-		});
-
-	// jQuery UI Range slider https://jqueryui.com/slider
+	// jQuery UI Range slider https://jqueryui.com/slider >>>
 
 	$( "#slider-range" ).slider({
 		range: true,
@@ -77,18 +123,28 @@ $(document).ready(function() {
 
 	});
 
-	// jQuery UI DataPicker https://jqueryui.com/datepicker
+	// jQuery UI DataPicker https://jqueryui.com/datepicker >>>
 
+	// block-caledarEvents
 	$( ".calendarEvents-calendar" ).datepicker( $.datepicker.regional[ "ru" ] );
 
-	// slcik slider http://kenwheeler.github.io/slick/
+	// block-events
+
+	$('#calendar-show').datepicker( $.datepicker.regional[ "ru" ] );
+
+	$('.show-calendar-js').click(function (e) {
+			$('#calendar-show').datepicker("show");
+			e.preventDefault();
+	});
+
+	// slcik slider http://kenwheeler.github.io/slick/ >>>
 
 	// .block-contestTsigunWoman
 	$('.contestTsigunWoman-gallery .slider').slick({
 		arrows: true,
 		autoplay: true,
 		pauseOnHover: true,
-		autoplaySpeed: 2000,
+		autoplaySpeed: 3000,
 		dots: false,
 		slidesToShow: 1,
 		slidesToScroll: 1,
@@ -110,7 +166,7 @@ $(document).ready(function() {
 		arrows: true,
 		autoplay: true,
 		pauseOnHover: true,
-		autoplaySpeed: 2000,
+		autoplaySpeed: 3000,
 		dots: false,
 		slidesToShow: 1,
 		slidesToScroll: 1,
@@ -132,7 +188,7 @@ $(document).ready(function() {
 		arrows: true,
 		autoplay: true,
 		pauseOnHover: true,
-		autoplaySpeed: 2000,
+		autoplaySpeed: 3000,
 		dots: false,
 		slidesToShow: 1,
 		slidesToScroll: 1,
@@ -140,6 +196,108 @@ $(document).ready(function() {
 		nextArrow: $('.calendarEvents-slider .slide-next')
 	});
 
+	// block-ad
+	$('.block-ad .ad-slider').slick({
+		arrows: true,
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.block-ad .ad-slider-prev'),
+		nextArrow: $('.block-ad .ad-slider-next')
+	});
+
+	// block-previews blogs
+	$('.previews-blogs .blogs-slider').slick({
+		arrows: true,
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.previews-blogs .blogs-slider-prev'),
+		nextArrow: $('.previews-blogs .blogs-slider-next')
+	});
 
 
+	// block-previews video
+	$('.previews-video .video-slider').slick({
+		arrows: true,
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.previews-video .video-slider-prev'),
+		nextArrow: $('.previews-video .video-slider-next')
+	});
+
+	// block-previews photos
+	$('.previews-photos .photos-slider').slick({
+		arrows: true,
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.previews-photos .photos-slider-prev'),
+		nextArrow: $('.previews-photos .photos-slider-next')
+	});
+
+	// block-previews object
+	$('.previews-objects .objects-slider').slick({
+		arrows: true,
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.previews-objects .objects-slider-prev'),
+		nextArrow: $('.previews-objects .objects-slider-next')
+	});
+
+	// block-previews news
+	$('.previews-news .news-slider').slick({
+		arrows: true,
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.previews-news .news-slider-prev'),
+		nextArrow: $('.previews-news .news-slider-next')
+	});
+
+	// block-guideObject
+	$('.guideObject-similar-object .slider').slick({
+		arrows: true,
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.guideObject-similar-object .similar-object-slider-prev'),
+		nextArrow: $('.guideObject-similar-object .similar-object-slider-next')
+	});
+
+		// block-newsBlogFul
+	$('.newsBlogFull-similar-events .slider').slick({
+		arrows: true,
+		autoplay: true,
+		pauseOnHover: true,
+		autoplaySpeed: 3000,
+		dots: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		prevArrow: $('.newsBlogFull-similar-events .similar-events-slider-prev'),
+		nextArrow: $('.newsBlogFull-similar-events .similar-events-slider-next')
+	});
 });

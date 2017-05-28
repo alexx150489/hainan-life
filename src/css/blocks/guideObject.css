@@ -417,6 +417,7 @@
 }
 
 .guideObject-similar-object {
+	position: relative;
 	padding-top: 24px;
 	margin-bottom: 32px;
 }
@@ -456,6 +457,34 @@
 
 .guideObject-similar-object .testimonials {
 	text-decoration: underline;
+}
+
+.guideObject-similar-object .image img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+} 
+
+.guideObject-similar-object .similar-object-slider-prev {
+	position: absolute;
+	width: 6px;
+	height: 15px;
+	top: 26px;
+	right: 46px;
+	border: none;
+	background: url("../../images/sprite.png") -2019px -5px no-repeat;
+	cursor: pointer;
+}
+
+.guideObject-similar-object .similar-object-slider-next {
+	position: absolute;
+	width: 6px;
+	height: 15px;
+	top: 26px;
+	right: 17px;
+	border: none;
+	background: url("../../images/sprite.png") -2035px -5px no-repeat;
+	cursor: pointer;
 }
 
 .guideObject-reviews {

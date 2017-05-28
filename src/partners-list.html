@@ -31,13 +31,34 @@
     <header class="block-header">
       <div class="site-wrap">
         <div class="header-wrapper clearfix">
-          <div class="header-menu-toggle active"></div>
+          <div class="header-menu-toggle burger-js"></div>
           <div class="header-logo-wrapper">
             <div class="header-logo"><a href="#"><img src="images/main-logo.png" width="186" height="39" alt="Логотип"></a></div>
           </div>
           <div class="header-sign auth-btn-js"></div>
         </div>
       </div>
+      <nav class="header-navigation nav-js">
+        <div class="header-menu-wrapper">
+          <ul class="header-menu">
+            <li class="header-menu-item"><a class="item-title" href="#">Путеводитель по Хайнаню</a></li>
+            <li class="header-menu-item"><a class="item-title" href="#">Календарь мероприятий</a></li>
+            <li class="header-menu-item"><a class="item-title" href="#">Хайнань сегодня</a></li>
+            <li class="header-menu-item">
+              <div class="item-title toggle toggle-js">О хайнане</div>
+              <ul class="submenu header-submenu-js">
+                <li class="submenu-item"><a class="submenu-title" href="#">Карта Хайнаня</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Факты об острове</a></li>
+                <li class="submenu-item"><a class="submenu-title" href="#">Визовый режим</a></li>
+              </ul>
+            </li>
+            <li class="header-menu-item"><a class="item-title" href="#">Содружество HNL</a></li>
+            <li class="header-menu-item"><a class="item-title" href="#">Служба знакомств</a></li>
+            <li class="header-menu-item"><a class="item-title" href="#">Партнеры</a></li>
+            <li class="header-menu-item"><a class="item-title" href="#">Форум</a></li>
+          </ul>
+        </div>
+      </nav>
       <div class="header-authorization authorization-js">
         <h3 class="authorization-title">Вход на сайт</h3>
         <h3 class="authorization-title-eng">Authorization page</h3>
@@ -89,10 +110,13 @@
             <h2 class="partners-list-title section-title">Список партнеров</h2>
             <div class="partners-list-category">
               <form action="#" method="post" name="select-category-form">
-                <select class="partners-list-select" name="select-category" tabindex="1">
-                  <option value="option1">Значение 1</option>
-                  <option value="option1">Значение 3</option>
-                </select>
+                <div class="select-wrp">
+                  <select class="location-select" id="category-select" name="location-select">
+                    <option value="" disabled selected style="display:none;">Выберите категорию</option>
+                    <option value="option1">Значение 1</option>
+                    <option value="option1">Значение 3</option>
+                  </select>
+                </div>
               </form>
             </div>
           </div>
@@ -116,7 +140,7 @@
                     <div class="discounts-card gold">Золотая карта:<span>20%</span></div>
                   </div>
                 </div>
-                <div class="info">
+                <div class="info partners-info-js">
                   <div class="partners-list-about">
                     <div class="title">О компании</div>
                     <div class="text">
@@ -137,7 +161,7 @@
                   </div>
                 </div>
               </div>
-              <div class="show-info"><a class="partners-list-toggle" href="#">Показать</a></div>
+              <div class="show-info"><a class="partners-list-toggle partners-toggle-btn-js" href="#">Показать</a></div>
             </div>
             <div class="item-wrapper">
               <div class="partners-list-item cityjungle">
@@ -270,12 +294,13 @@
         <section class="block-events">
           <h3 class="events-title title"><span>События </span></h3>
           <div class="calendar-wrapper">
+            <input id="calendar-show" type="hidden">
             <table class="calendar-panel">
               <tr>
                 <td><a href="#">Сегодня</a></td>
                 <td><a href="#">Завтра</a></td>
                 <td><a href="#">Послезавтра</a></td>
-                <td class="show-calendar"></td>
+                <td class="show-calendar show-calendar-js"></td>
               </tr>
             </table>
             <div class="events-wrapper">
@@ -328,11 +353,13 @@
         <section class="block-ad">
           <h3 class="ad-title title"><span>Реклама </span>на портале</h3>
           <div class="ad-wrapper">
-            <div class="ad-slider">
-              <div class="slide">
-                <div class="slide-image"><img src="images/ad-img.jpg" alt="Реклама" width="289" height="356"></div>
-              </div>
+            <div class="ad-slider-controls">
+              <div class="ad-slider-prev"></div>
+              <div class="ad-slider-next"></div>
             </div>
+            <div class="ad-slider"><a class="slide" href="#">
+                <div class="slide-image"><img src="images/ad-img.jpg" alt="Реклама" width="289" height="356"></div></a><a class="slide" href="#">
+                <div class="slide-image"><img src="images/ad-img2.jpg" alt="Реклама" width="289" height="356"></div></a></div>
           </div>
         </section>
       </div>

@@ -2,6 +2,7 @@ section(class="block-events")
 	h3(class="events-title title")
 		span События 
 	div(class="calendar-wrapper")
+		input(id="calendar-show" type="hidden")
 		table(class="calendar-panel")
 			tr
 				td
@@ -10,7 +11,9 @@ section(class="block-events")
 					a(href="#") Завтра
 				td
 					a(href="#") Послезавтра
-				td(class="show-calendar")
+				td(class="show-calendar show-calendar-js")
+
+
 		div(class="events-wrapper")
 			div(class="event")
 				div(class="event-date")
