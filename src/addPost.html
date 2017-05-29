@@ -28,198 +28,200 @@
     </title>
   </head>
   <body>
-    <header class="block-header">
-      <div class="site-wrap">
-        <div class="header-wrapper clearfix">
-          <div class="header-menu-toggle burger-js"></div>
-          <div class="header-logo-wrapper">
-            <div class="header-logo"><a href="#"><img src="images/main-logo.png" width="186" height="39" alt="Логотип"></a></div>
-          </div>
-          <div class="header-sign auth-btn-js"></div>
-        </div>
-      </div>
-      <nav class="header-navigation nav-js">
-        <div class="header-menu-wrapper">
-          <ul class="header-menu">
-            <li class="header-menu-item"><a class="item-title" href="#">Путеводитель по Хайнаню</a></li>
-            <li class="header-menu-item"><a class="item-title" href="#">Календарь мероприятий</a></li>
-            <li class="header-menu-item"><a class="item-title" href="#">Хайнань сегодня</a></li>
-            <li class="header-menu-item">
-              <div class="item-title toggle toggle-js">О хайнане</div>
-              <ul class="submenu header-submenu-js">
-                <li class="submenu-item"><a class="submenu-title" href="#">Карта Хайнаня</a></li>
-                <li class="submenu-item"><a class="submenu-title" href="#">Факты об острове</a></li>
-                <li class="submenu-item"><a class="submenu-title" href="#">Визовый режим</a></li>
-              </ul>
-            </li>
-            <li class="header-menu-item"><a class="item-title" href="#">Содружество HNL</a></li>
-            <li class="header-menu-item"><a class="item-title" href="#">Служба знакомств</a></li>
-            <li class="header-menu-item"><a class="item-title" href="#">Партнеры</a></li>
-            <li class="header-menu-item"><a class="item-title" href="#">Форум</a></li>
-          </ul>
-        </div>
-      </nav>
-      <div class="header-authorization authorization-js">
-        <h3 class="authorization-title">Вход на сайт</h3>
-        <h3 class="authorization-title-eng">Authorization page</h3>
-        <form class="authorization-form" action="#" method="post" name="authorization-form">
-          <div class="form-el-wrp">
-            <input class="input-email" type="email" name="email" placeholder="Email 邮箱号:" tabindex="1">
-          </div>
-          <div class="form-el-wrp">
-            <input class="input-password" type="password" name="password" placeholder="Пароль/Password/请设置登录密码:" tabindex="2">
-          </div>
-          <div class="remember-me-wrp">
-            <input id="remember-me" type="checkbox">
-            <label for="remember-me"><span>Запомнить меня на этом компьютере</span><span>Remember me for this device</span><span>记住我</span></label>
-          </div>
-          <button class="authorization-submit" type="submit">Войти Enter</button>
-        </form>
-        <div class="authorization-info forget"><a class="title" href="#">Забыли свой пароль? Forgot your password?</a>
-          <div class="description">Если вы не помните свой пароль, то перейдите по ссылке на страницу с восстановлением пароля</div>
-          <div class="description-eng">Please follow this link for password recovery page</div>
-        </div>
-        <div class="authorization-info register"><a class="title" href="#">Зарегистрироваться. Register.</a>
-          <div class="description">Если вы впервые на сайте, заполните, пожалуйста, регистрационную форму</div>
-          <div class="description-eng">If you are new here, please register with us</div>
-        </div>
-      </div>
-      <div class="header-profile profile-js">
-        <div class="profile-top">
-          <div class="profile-user">
-            <div class="name">Иван</div>
-            <div class="surname">Пупкин</div><a class="dashboard" href="#">Личный кабинет</a>
-            <div class="photo"></div>
-          </div>
-          <div class="profile-add">
-            <div class="title">Добавить материалы</div>
-            <div class="items"><a class="item item1" href="#"></a><a class="item item2" href="#"></a><a class="item item3" href="#"></a><a class="item item4" href="#"></a><a class="item item5" href="#"></a></div>
-          </div>
-        </div>
-        <div class="profile-bottom">
-          <div class="profile-bottom-wrp"><a class="create-dating-acc" href="#">Создать аккаунт в службе знакомств</a></div>
-          <div class="profile-bottom-wrp"><a class="logout" href="#">Выход</a></div>
-        </div>
-      </div>
-    </header>
-    <section class="block-content">
-      <div class="site-wrap">
-        <section class="block-breadcrumbs"><a class="breadcrumbs-item home" href="index.html"></a><span class="breadcrumbs-item current">Добавить запись в блоге</span></section>
-        <section class="block-addPost">
-          <h2 class="addPost-title section-title">Добавить запись в блоге</h2>
-          <div class="form-wrp">
-            <form class="form" action="#" method="post" name="addPost-form">
-              <div class="addPost-type">
-                <div class="form-title">Тип</div>
-                <div class="form-el-wrp">
-                  <input class="post-type" type="text" name="post-type" placeholder="Спешу поделиться впечатлениями">
-                </div>
-              </div>
-              <div class="addPost-name">
-                <div class="form-title">Название статьи</div>
-                <div class="form-el-wrp">
-                  <input class="post-name" type="text" name="post-name">
-                </div>
-              </div>
-              <div class="addPost-image">
-                <div class="form-title">Картинка</div>
-                <div class="upload-image-zone"></div>
-              </div>
-              <div class="addPost-description-short">
-                <div class="form-title">Краткое описание:</div>
-                <div class="ta-wrp">
-                  <textarea name="description-ta"></textarea>
-                </div>
-              </div>
-              <div class="addPost-text">
-                <div class="form-title">Текст статьи:</div>
-                <div class="ta-wrp">
-                  <textarea name="description-ta"></textarea>
-                </div>
-              </div>
-              <div class="addEvent-tags">
-                <div class="form-title">Тэги:</div>
-                <div class="form-el-wrp">
-                  <input type="text" name="tags">
-                </div>
-              </div>
-              <button class="save-changes" type="submit" name="submit">Создать запись в блоге</button>
-            </form>
-          </div>
-        </section>
-        <section class="block-forumPreview">
-          <h3 class="forumPreview-title">Форум</h3>
-          <div class="items"><a class="item" href="#">
-              <div class="post-title">Тусовки на Хайнане</div>
-              <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
-              <div class="date">28 Января 2017</div></a><a class="item" href="#">
-              <div class="post-title">Тусовки на Хайнане</div>
-              <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
-              <div class="date">28 Января 2017</div></a><a class="item" href="#">
-              <div class="post-title">Тусовки на Хайнане</div>
-              <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
-              <div class="date">28 Января 2017</div></a><a class="item" href="#">
-              <div class="post-title">Тусовки на Хайнане</div>
-              <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
-              <div class="date">28 Января 2017</div></a><a class="item" href="#">
-              <div class="post-title">Тусовки на Хайнане</div>
-              <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
-              <div class="date">28 Января 2017</div></a></div>
-        </section>
-        <section class="block-ad">
-          <h3 class="ad-title title"><span>Реклама </span>на портале</h3>
-          <div class="ad-wrapper">
-            <div class="ad-slider-controls">
-              <div class="ad-slider-prev"></div>
-              <div class="ad-slider-next"></div>
+    <div class="container">
+      <header class="block-header">
+        <div class="site-wrap">
+          <div class="header-wrapper clearfix">
+            <div class="header-menu-toggle burger-js"></div>
+            <div class="header-logo-wrapper">
+              <div class="header-logo"><a href="#"><img src="images/main-logo.png" width="186" height="39" alt="Логотип"></a></div>
             </div>
-            <div class="ad-slider"><a class="slide" href="#">
-                <div class="slide-image"><img src="images/ad-img.jpg" alt="Реклама" width="289" height="356"></div></a><a class="slide" href="#">
-                <div class="slide-image"><img src="images/ad-img2.jpg" alt="Реклама" width="289" height="356"></div></a></div>
+            <div class="header-sign auth-btn-js"></div>
           </div>
-        </section>
-      </div>
-    </section>
-    <footer class="block-footer">
-      <div class="site-wrap">
-        <div class="footer-menu-wrapper">
-          <ul class="footer-menu">
-            <li class="footer-menu-item">
-              <div class="item-title toggle toggle-js">О хайнане</div>
-              <ul class="submenu footer-submenu-js">
-                <li class="submenu-item"><a class="submenu-title" href="#">Карта Хайнаня</a></li>
-                <li class="submenu-item"><a class="submenu-title" href="#">Факты об острове</a></li>
-                <li class="submenu-item"><a class="submenu-title" href="#">Визовый режим</a></li>
-                <li class="submenu-item"><a class="submenu-title" href="#">Перелёт на остров</a></li>
-                <li class="submenu-item"><a class="submenu-title" href="#">Достопримечательности</a></li>
-                <li class="submenu-item"><a class="submenu-title" href="#">Медицина</a></li>
-                <li class="submenu-item"><a class="submenu-title" href="#">Образование</a></li>
-                <li class="submenu-item"><a class="submenu-title" href="#">Проживание на острове</a></li>
-                <li class="submenu-item"><a class="submenu-title" href="#">Хайнаньская кухня</a></li>
-                <li class="submenu-item"><a class="submenu-title" href="#">Фотогалерея</a></li>
-                <li class="submenu-item"><a class="submenu-title" href="#">Видеогалерея</a></li>
-              </ul>
-            </li>
-            <li class="footer-menu-item"><a class="item-title" href="#">Хайнань сегодня</a></li>
-            <li class="footer-menu-item"><a class="item-title" href="#">Сотружество HNL</a></li>
-            <li class="footer-menu-item"><a class="item-title" href="#">Партнеры</a></li>
-            <li class="footer-menu-item"><a class="item-title" href="#">Путеводитель по Хайнаню</a></li>
-            <li class="footer-menu-item"><a class="item-title" href="#">Календарь мероприятий</a></li>
-            <li class="footer-menu-item"><a class="item-title" href="#">Служба знакомств</a></li>
-            <li class="footer-menu-item"><a class="item-title" href="#">Форум</a></li>
-          </ul>
         </div>
-        <div class="footer-bottom">
-          <div class="footer-contacts">
-            <div class="footer-contacts-tel">+86-185-059-397-87</div>
-            <div class="footer-contacts-adress">о. Хайнань, г. Хайкоу</div><a class="footer-contacts-mail" href="mailto:hainanlife@163.com">hainanlife@163.com</a>
+        <nav class="header-navigation nav-js">
+          <div class="header-menu-wrapper">
+            <ul class="header-menu">
+              <li class="header-menu-item"><a class="item-title" href="#">Путеводитель по Хайнаню</a></li>
+              <li class="header-menu-item"><a class="item-title" href="#">Календарь мероприятий</a></li>
+              <li class="header-menu-item"><a class="item-title" href="#">Хайнань сегодня</a></li>
+              <li class="header-menu-item">
+                <div class="item-title toggle toggle-js">О хайнане</div>
+                <ul class="submenu header-submenu-js">
+                  <li class="submenu-item"><a class="submenu-title" href="#">Карта Хайнаня</a></li>
+                  <li class="submenu-item"><a class="submenu-title" href="#">Факты об острове</a></li>
+                  <li class="submenu-item"><a class="submenu-title" href="#">Визовый режим</a></li>
+                </ul>
+              </li>
+              <li class="header-menu-item"><a class="item-title" href="#">Содружество HNL</a></li>
+              <li class="header-menu-item"><a class="item-title" href="#">Служба знакомств</a></li>
+              <li class="header-menu-item"><a class="item-title" href="#">Партнеры</a></li>
+              <li class="header-menu-item"><a class="item-title" href="#">Форум</a></li>
+            </ul>
           </div>
-          <div class="footer-social"><a class="footer-social-item tw" href="#"></a><a class="footer-social-item rss" href="#"></a><a class="footer-social-item yt" href="#"></a><a class="footer-social-item fb" href="#"></a></div>
-          <div class="footer-description">
-            <p>Остров Хайнань называют «Восточными Гавайями», «Таиландом eв миниатюре». Но зачем клеить чужие ярлыки на то, что достойно своего собственного имени? Это прекрасное место представляет собой неповторимую палитру отдыха и развлечений, а также выбора программ образования и лечения.</p>
-          </div><a class="footer-copyright" href="https://semprogroup.ru/"><span>Под чуткой заботой SEMPROGROUP</span></a>
+        </nav>
+        <div class="header-authorization authorization-js">
+          <h3 class="authorization-title">Вход на сайт</h3>
+          <h3 class="authorization-title-eng">Authorization page</h3>
+          <form class="authorization-form" action="#" method="post" name="authorization-form">
+            <div class="form-el-wrp">
+              <input class="input-email" type="email" name="email" placeholder="Email 邮箱号:" tabindex="1">
+            </div>
+            <div class="form-el-wrp">
+              <input class="input-password" type="password" name="password" placeholder="Пароль/Password/请设置登录密码:" tabindex="2">
+            </div>
+            <div class="remember-me-wrp">
+              <input id="remember-me" type="checkbox">
+              <label for="remember-me"><span>Запомнить меня на этом компьютере</span><span>Remember me for this device</span><span>记住我</span></label>
+            </div>
+            <button class="authorization-submit" type="submit">Войти Enter</button>
+          </form>
+          <div class="authorization-info forget"><a class="title" href="#">Забыли свой пароль? Forgot your password?</a>
+            <div class="description">Если вы не помните свой пароль, то перейдите по ссылке на страницу с восстановлением пароля</div>
+            <div class="description-eng">Please follow this link for password recovery page</div>
+          </div>
+          <div class="authorization-info register"><a class="title" href="#">Зарегистрироваться. Register.</a>
+            <div class="description">Если вы впервые на сайте, заполните, пожалуйста, регистрационную форму</div>
+            <div class="description-eng">If you are new here, please register with us</div>
+          </div>
         </div>
-      </div>
-    </footer>
+        <div class="header-profile profile-js">
+          <div class="profile-top">
+            <div class="profile-user">
+              <div class="name">Иван</div>
+              <div class="surname">Пупкин</div><a class="dashboard" href="#">Личный кабинет</a>
+              <div class="photo"></div>
+            </div>
+            <div class="profile-add">
+              <div class="title">Добавить материалы</div>
+              <div class="items"><a class="item item1" href="#"></a><a class="item item2" href="#"></a><a class="item item3" href="#"></a><a class="item item4" href="#"></a><a class="item item5" href="#"></a></div>
+            </div>
+          </div>
+          <div class="profile-bottom">
+            <div class="profile-bottom-wrp"><a class="create-dating-acc" href="#">Создать аккаунт в службе знакомств</a></div>
+            <div class="profile-bottom-wrp"><a class="logout" href="#">Выход</a></div>
+          </div>
+        </div>
+      </header>
+      <section class="block-content">
+        <div class="site-wrap">
+          <section class="block-breadcrumbs"><a class="breadcrumbs-item home" href="index.html"></a><span class="breadcrumbs-item current">Добавить запись в блоге</span></section>
+          <section class="block-addPost">
+            <h2 class="addPost-title section-title">Добавить запись в блоге</h2>
+            <div class="form-wrp">
+              <form class="form" action="#" method="post" name="addPost-form">
+                <div class="addPost-type">
+                  <div class="form-title">Тип</div>
+                  <div class="form-el-wrp">
+                    <input class="post-type" type="text" name="post-type" placeholder="Спешу поделиться впечатлениями">
+                  </div>
+                </div>
+                <div class="addPost-name">
+                  <div class="form-title">Название статьи</div>
+                  <div class="form-el-wrp">
+                    <input class="post-name" type="text" name="post-name">
+                  </div>
+                </div>
+                <div class="addPost-image">
+                  <div class="form-title">Картинка</div>
+                  <div class="upload-image-zone"></div>
+                </div>
+                <div class="addPost-description-short">
+                  <div class="form-title">Краткое описание:</div>
+                  <div class="ta-wrp">
+                    <textarea name="description-ta"></textarea>
+                  </div>
+                </div>
+                <div class="addPost-text">
+                  <div class="form-title">Текст статьи:</div>
+                  <div class="ta-wrp">
+                    <textarea name="description-ta"></textarea>
+                  </div>
+                </div>
+                <div class="addEvent-tags">
+                  <div class="form-title">Тэги:</div>
+                  <div class="form-el-wrp">
+                    <input type="text" name="tags">
+                  </div>
+                </div>
+                <button class="save-changes" type="submit" name="submit">Создать запись в блоге</button>
+              </form>
+            </div>
+          </section>
+          <section class="block-forumPreview">
+            <h3 class="forumPreview-title">Форум</h3>
+            <div class="items"><a class="item" href="#">
+                <div class="post-title">Тусовки на Хайнане</div>
+                <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
+                <div class="date">28 Января 2017</div></a><a class="item" href="#">
+                <div class="post-title">Тусовки на Хайнане</div>
+                <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
+                <div class="date">28 Января 2017</div></a><a class="item" href="#">
+                <div class="post-title">Тусовки на Хайнане</div>
+                <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
+                <div class="date">28 Января 2017</div></a><a class="item" href="#">
+                <div class="post-title">Тусовки на Хайнане</div>
+                <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
+                <div class="date">28 Января 2017</div></a><a class="item" href="#">
+                <div class="post-title">Тусовки на Хайнане</div>
+                <div class="post-text">Последнее сообщение от Уважаемая Редакция</div>
+                <div class="date">28 Января 2017</div></a></div>
+          </section>
+          <section class="block-ad">
+            <h3 class="ad-title title"><span>Реклама </span>на портале</h3>
+            <div class="ad-wrapper">
+              <div class="ad-slider-controls">
+                <div class="ad-slider-prev"></div>
+                <div class="ad-slider-next"></div>
+              </div>
+              <div class="ad-slider"><a class="slide" href="#">
+                  <div class="slide-image"><img src="images/ad-img.jpg" alt="Реклама" width="289" height="356"></div></a><a class="slide" href="#">
+                  <div class="slide-image"><img src="images/ad-img2.jpg" alt="Реклама" width="289" height="356"></div></a></div>
+            </div>
+          </section>
+        </div>
+      </section>
+      <footer class="block-footer">
+        <div class="site-wrap">
+          <div class="footer-menu-wrapper">
+            <ul class="footer-menu">
+              <li class="footer-menu-item">
+                <div class="item-title toggle toggle-js">О хайнане</div>
+                <ul class="submenu footer-submenu-js">
+                  <li class="submenu-item"><a class="submenu-title" href="#">Карта Хайнаня</a></li>
+                  <li class="submenu-item"><a class="submenu-title" href="#">Факты об острове</a></li>
+                  <li class="submenu-item"><a class="submenu-title" href="#">Визовый режим</a></li>
+                  <li class="submenu-item"><a class="submenu-title" href="#">Перелёт на остров</a></li>
+                  <li class="submenu-item"><a class="submenu-title" href="#">Достопримечательности</a></li>
+                  <li class="submenu-item"><a class="submenu-title" href="#">Медицина</a></li>
+                  <li class="submenu-item"><a class="submenu-title" href="#">Образование</a></li>
+                  <li class="submenu-item"><a class="submenu-title" href="#">Проживание на острове</a></li>
+                  <li class="submenu-item"><a class="submenu-title" href="#">Хайнаньская кухня</a></li>
+                  <li class="submenu-item"><a class="submenu-title" href="#">Фотогалерея</a></li>
+                  <li class="submenu-item"><a class="submenu-title" href="#">Видеогалерея</a></li>
+                </ul>
+              </li>
+              <li class="footer-menu-item"><a class="item-title" href="#">Хайнань сегодня</a></li>
+              <li class="footer-menu-item"><a class="item-title" href="#">Сотружество HNL</a></li>
+              <li class="footer-menu-item"><a class="item-title" href="#">Партнеры</a></li>
+              <li class="footer-menu-item"><a class="item-title" href="#">Путеводитель по Хайнаню</a></li>
+              <li class="footer-menu-item"><a class="item-title" href="#">Календарь мероприятий</a></li>
+              <li class="footer-menu-item"><a class="item-title" href="#">Служба знакомств</a></li>
+              <li class="footer-menu-item"><a class="item-title" href="#">Форум</a></li>
+            </ul>
+          </div>
+          <div class="footer-bottom">
+            <div class="footer-contacts">
+              <div class="footer-contacts-tel">+86-185-059-397-87</div>
+              <div class="footer-contacts-adress">о. Хайнань, г. Хайкоу</div><a class="footer-contacts-mail" href="mailto:hainanlife@163.com">hainanlife@163.com</a>
+            </div>
+            <div class="footer-social"><a class="footer-social-item tw" href="#"></a><a class="footer-social-item rss" href="#"></a><a class="footer-social-item yt" href="#"></a><a class="footer-social-item fb" href="#"></a></div>
+            <div class="footer-description">
+              <p>Остров Хайнань называют «Восточными Гавайями», «Таиландом eв миниатюре». Но зачем клеить чужие ярлыки на то, что достойно своего собственного имени? Это прекрасное место представляет собой неповторимую палитру отдыха и развлечений, а также выбора программ образования и лечения.</p>
+            </div><a class="footer-copyright" href="https://semprogroup.ru/"><span>Под чуткой заботой SEMPROGROUP</span></a>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

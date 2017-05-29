@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	// block-header authorization/user-profile toggle >>>
+	// block-header profile/auth toggle >>>
 
 	var openAuthForm = $('.auth-btn-js');	
 	var authForm = $('.authorization-js');
@@ -126,16 +126,25 @@ $(document).ready(function() {
 	// jQuery UI DataPicker https://jqueryui.com/datepicker >>>
 
 	// block-caledarEvents
-	$( ".calendarEvents-calendar" ).datepicker( $.datepicker.regional[ "ru" ] );
+	$( ".calendarEvents-calendar" ).datepicker({
+		showOtherMonths: true,
+		selectOtherMonths: true
+	}, $.datepicker.regional[ "ru" ]);
+
 
 	// block-events
-
-	$('#calendar-show').datepicker( $.datepicker.regional[ "ru" ] );
-
+	var dpickerCont;
+	$( "#calendar-show" ).datepicker({
+		showOtherMonths: true,
+		selectOtherMonths: true
+	}, $.datepicker.regional[ "ru" ]);
 	$('.show-calendar-js').click(function (e) {
 			$('#calendar-show').datepicker("show");
+			dpickerCont = $('.events-wrapper').outerWidth();
+			$('#ui-datepicker-div').css("width",dpickerCont);
 			e.preventDefault();
 	});
+
 
 	// slcik slider http://kenwheeler.github.io/slick/ >>>
 
@@ -301,3 +310,14 @@ $(document).ready(function() {
 		nextArrow: $('.newsBlogFull-similar-events .similar-events-slider-next')
 	});
 });
+
+
+	// // dynamic footer
+	// gwPadding = function() {
+	// 	var $footerHeight =$('.block-footer').height();
+	// 	$('.block-content').css("padding-bottom",$footerHeight);
+	// 	$('.block-footer').css("height",$footerHeight);
+	// };
+
+	// $(document).ready(gwPadding); 
+	// $(window).resize(gwPadding);
