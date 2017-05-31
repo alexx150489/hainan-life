@@ -17,53 +17,53 @@
 	margin-bottom: 25px;
 }
 
-.mypagage img {
+.mypage img {
 	width: 100%;
 	max-width: 100%;
 	height: auto;
 }
 
-.mypagage-top {
-	position: relative;
+.mypage-top {
 	margin-bottom: 11px;
 }
 
-.mypagage-top .verified-flag {
+.mypage-top .verified-flag {
 	position: absolute;
 	width: 21px;
 	height: 30px;
-	top: 237px;
-	right: 41px;
+	top: -9px;
+	right: 44px;
 	background: url("../../images/sprite.png") -5px -5px no-repeat;
 }
 
-.mypagage-top .premium-flag {
+.mypage-top .premium-flag {
 	position: absolute;
 	width: 21px;
 	height: 30px;
-	top: 238px;
-	right: 14px;
+	top: -9px;
+	right: 16px;
 	background: url("../../images/sprite.png") -36px -5px no-repeat;
 }
 
-.mypagage-top .online,	.mypagage-top .info {
+.mypage-top .online, .mypage-top .info {
 	border: 1px solid #eaeaea;
 	background-color: #fff;
 	border-radius: 2px;
 }
 
-.mypagage-top .online {
+.mypage-top .online {
+	position: relative;
 	padding: 10px 0;
 	padding-left: 23px;
 	font-size: 13px;
 }
 
-.mypagage-top .online span {
+.mypage-top .online span {
 	position: relative;
 }
 
 
-.mypagage-top .online span::after {
+.mypage-top .online span::after {
 	position: absolute;
 	content: '';
 	width: 5px;
@@ -74,23 +74,23 @@
 	background-color: #7d7d7d;
 }
 
-.mypagage-top .info {
+.mypage-top .info {
 	padding: 15px 0;
 	padding-left: 17px;
 	font-size: 13px;
 }
 
-.mypagage-top .age span {
+.mypage-top .age span {
 	font-size: 14px;
 	font-weight: 600;
 }
 
-.mypagage-top .photo-nbr {
+.mypage-top .photo-nbr {
 	position: relative;
 	padding-left: 43px;
 }
 
-.mypagage-top .photo-nbr::after {
+.mypage-top .photo-nbr::after {
 	position: absolute;
 	content: '';
 	width: 30px;
@@ -100,40 +100,51 @@
 	background:	url("../../images/sprite.png") -1456px -5px no-repeat;
 }
 
-.mypagage .send-message {
+.mypage .add-album {
+	position: relative;
 	display: inline-block;
 	padding: 10px 47px;
 	border-radius: 5px;
-	background-color: #ff9100;
+	background-color: #00c925;
 	font-size: 13px;
 	font-weight: 600;
 	color: #fff;
 	margin-bottom: 18px;
 }
 
-.mypagage-info {
+.mypage .add-album span::after {
+	position: absolute;
+	content: '';
+	width: 30px;
+	height: 28px;
+	top: 6px;
+	left: 9px;
+	background:	url("../../images/sprite.png") -1605px -5px no-repeat;
+}
+
+.mypage-info {
 	font-size: 13px;
 	margin-bottom: 41px;
 }
 
 
-.mypagage-info .name {
+.mypage-info .name {
 	margin-bottom: 15px;
 	font-size: 20px;
 	font-weight: 600;
 	color: #26c6da;
 }
 
-.mypagage-info div:not(.name) {
+.mypage-info div:not(.name) {
 	margin-bottom: 12px;
 }
 
-.mypagage-wrp span {
+.mypage-wrp span {
 	position: relative;
 	padding-right: 36px;
 }
 
-.mypagage-wrp .eyes::after {
+.mypage-wrp .eyes::after {
 	position: absolute;
 	content: '';
 	width: 26px;
@@ -144,7 +155,7 @@
 	background-color: #9c6001;
 }
 
-.mypagage-wrp .hair::after {
+.mypage-wrp .hair::after {
 	position: absolute;
 	content: '';
 	width: 26px;
@@ -155,37 +166,37 @@
 	background-color: #48361d;
 }
 
-.mypagage-info span {
+.mypage-info span {
 	font-weight: 600;
 }
 
-.mypagage-album {
+.mypage-album {
 	margin-bottom: 9px;
 }
 
-.mypagage-album .title {
+.mypage-album .title {
 	margin-bottom: 21px;
 	font-size: 16px;
 	font-weight: 600;
 	text-transform: none;
 }
 
-.mypagage-album .description {
+.mypage-album .description {
 	margin-bottom: 17px;
 	font-size: 14px;
 }
 
-.mypagage-album .date {
+.mypage-album .date {
 	margin-bottom: 10px;
 	font-size: 13px;
 }
 
-.mypagage-album .photo {
+.mypage-album .photo {
 	display: block;
 	position: relative;
 }
 
-.mypagage-album span.all {
+.mypage-album span.all {
 	position: absolute;
 	padding: 25px 0;
 	width: 91px;
@@ -198,12 +209,12 @@
 	background-color: #ffa726;
 }
 
-.mypagage-album span.all span {
+.mypage-album span.all span {
 	font-size: 36px;
 	font-weight: bold;
 }
 
-.mypagage-edit a {
+.mypage-edit a {
 	display: inline-block;
 	vertical-align: top;
 	padding: 10px 10px;
@@ -216,11 +227,11 @@
 	background-color: #ffa726;
 }
 
-.mypagage-edit a span{
+.mypage-edit a span{
 	position: relative;
 }
 
-.mypagage-edit a span::after{
+.mypage-edit a span::after{
 	position: absolute;
 	content: '';
 	width: 26px;

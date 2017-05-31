@@ -24,7 +24,6 @@
 }
 
 .questionnaire-top {
-	position: relative;
 	margin-bottom: 11px;
 }
 
@@ -32,8 +31,8 @@
 	position: absolute;
 	width: 21px;
 	height: 30px;
-	top: 237px;
-	right: 41px;
+	top: -9px;
+	right: 44px;
 	background: url("../../images/sprite.png") -5px -5px no-repeat;
 }
 
@@ -41,8 +40,8 @@
 	position: absolute;
 	width: 21px;
 	height: 30px;
-	top: 238px;
-	right: 14px;
+	top: -9px;
+	right: 16px;
 	background: url("../../images/sprite.png") -36px -5px no-repeat;
 }
 
@@ -53,6 +52,7 @@
 }
 
 .questionnaire-top .online {
+	position: relative;
 	padding: 10px 0;
 	padding-left: 23px;
 	font-size: 13px;

@@ -11,7 +11,6 @@ block content
 				a(class="breadcrumbs-item home" href="index.html")
 				span(class="breadcrumbs-item current") Добавить запись в блоге
 
-
 			section(class="block-addPost")
 				h2(class="addPost-title section-title") Добавить запись в блоге
 				div(class="form-wrp")
@@ -19,8 +18,12 @@ block content
 
 						div(class="addPost-type")
 							div(class="form-title") Тип
-							div(class="form-el-wrp")
-								input(class="post-type" type="text" name="post-type" placeholder="Спешу поделиться впечатлениями")
+							div(class="select-wrp")
+								select(id="category-select" class="location-select" name="location-select")
+									option(value="" disabled selected style='display:none;') Спешу поделиться впечатлениями
+									option(value="option1") Значение 1
+									option(value="option1") Значение 3
+
 
 						div(class="addPost-name")
 							div(class="form-title") Название статьи

@@ -18,23 +18,24 @@ block content
 				include ../blocks/dating-menu
 				include ../blocks/dating-search-form
 
-				div(class="mypagage")
-					div(class="mypagage-top")
-						div(class="mypagage-image")
+				div(class="mypage")
+					div(class="mypage-top")
+						div(class="mypage-image")
 							img(src="images/mypage-sample.jpg" alt="Фотография" width="290" height="247")
 						div(class="online")
 							span Не в сети
+							div(class="verified-flag")
+							div(class="premium-flag")
 						div(class="info")
 							span(class="age")
 								span 36 
 								| лет 
 							span(class="photo-nbr") 1 фото
-						div(class="verified-flag")
-						div(class="premium-flag")
 
-					a(class="send-message" href="#") Написать сообщение
 
-					div(class="mypagage-info")
+					a(class="add-album" href="#") #[span Добавить альбом]
+
+					div(class="mypage-info")
 						div(class="name") Макс Дойч
 						div(class="status") Ищу друзей для переписки
 						div(class="sex")
@@ -58,14 +59,14 @@ block content
 						div(class="language")
 							span Язык общения: 
 							| Английский 
-						div(class="mypagage-wrp")
+						div(class="mypage-wrp")
 							span(class="eyes") Цвет глаз: 
 							span(class="hair") Цвет волос: 
 						div(class="growth")
 							span Рост: 
 							| 188 см 
 
-					div(class="mypagage-album")
+					div(class="mypage-album")
 						div(class="title") Альбомы пользователя
 						div(class="description") Это я 
 						div(class="date") 8 мая 2015
@@ -76,7 +77,7 @@ block content
 								br
 								| фото
 
-					div(class="mypagage-edit")
+					div(class="mypage-edit")
 						a(href="#")
 							span Редактировать
 

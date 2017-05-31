@@ -1,7 +1,7 @@
 .block-aboutHainanFotoFull {
 	padding: 0 15px;
 	padding-top: 20px;
-	padding-bottom: 126px;
+	padding-bottom: 70px;
 	background-color: #f9f4f4;
 }
 
@@ -61,4 +61,32 @@
 	width: 100%;
 	max-width: 100%;
 	height: auto;
+}
+
+.aboutHainanFotoFull-back-btn {
+	padding-top: 40px;
+}
+
+.aboutHainanFotoFull-back-btn .back-btn span {
+	position: relative;
+}
+
+.aboutHainanFotoFull-back-btn .back-btn span::after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	height: 11px;
+	top: 4px;
+	left: -16px;
+	background: url("../../images/sprite.png") -452px -5px no-repeat;
+}
+
+.aboutHainanFotoFull-back-btn .back-btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 31px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #ff9100;
+	border-radius: 5px;
 }

@@ -189,6 +189,11 @@
 
 .addObject-rang span.rang-item {
 	margin-right: 5px;
+	cursor: pointer;
+}
+
+.addObject-rang span.rang-item.active {
+	color: #DD2126;
 }
 
 .addObject-language {

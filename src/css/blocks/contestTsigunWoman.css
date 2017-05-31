@@ -99,11 +99,13 @@
 .contestTsigunWoman-info .btn {
 	display: inline-block;
 	vertical-align: top;
-	padding: 10px 23px;
+	padding: 10px 0px;
+	width: 209px;
 	font-weight: 600;
 	color: #fff;
 	background-color: #ff9100;
 	border-radius: 5px;
+	text-align: center;
 }
 
 .contestTsigunWoman-info .btn span{
@@ -116,7 +118,7 @@
 	width: 6px;
 	height: 11px;
 	top: 4px;
-	right: -13px;
+	right: -20px;
 	background: url("../../images/sprite.png") -415px -5px no-repeat;
 }
 
@@ -130,12 +132,21 @@
 	background: url("../../images/sprite.png") -452px -5px no-repeat;
 }
 
+.contestTsigunWoman-info .prev-btn span::after {
+	content: '';
+	position: absolute;
+	width: 6px;
+	height: 11px;
+	top: 3px;
+	left: -20px;
+	background: url("../../images/sprite.png") -452px -5px no-repeat;
+}
+
 .contestTsigunWoman-comments {
 	padding: 0 15px;
 	padding-top: 22px;
 	padding-bottom: 36px;
 }
-
 
 .contestTsigunWoman-comments .title {
 	font-size: 18px;

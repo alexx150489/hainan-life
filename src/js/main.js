@@ -309,15 +309,13 @@ $(document).ready(function() {
 		prevArrow: $('.newsBlogFull-similar-events .similar-events-slider-prev'),
 		nextArrow: $('.newsBlogFull-similar-events .similar-events-slider-next')
 	});
+
+
+	// block addObject rang
+	$('.addObject-rang .rang-item').click(function (e) {
+		$(this).toggleClass('active');
+	});
+
 });
 
 
-	// // dynamic footer
-	// gwPadding = function() {
-	// 	var $footerHeight =$('.block-footer').height();
-	// 	$('.block-content').css("padding-bottom",$footerHeight);
-	// 	$('.block-footer').css("height",$footerHeight);
-	// };
-
-	// $(document).ready(gwPadding); 
-	// $(window).resize(gwPadding);
