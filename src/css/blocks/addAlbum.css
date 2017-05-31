@@ -35,6 +35,11 @@
 	margin-bottom: 16px;
 }
 
+.upload-photo-zone-wrp {
+	width: 290px;
+	margin: 0 auto;
+}
+
 .addAlbum-upload-photo .upload-photo-zone {
 	display: inline-block;
 	vertical-align: top;

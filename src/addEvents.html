@@ -125,11 +125,11 @@
                 <div class="addEvent-time">
                   <div class="form-title">Дата начала мероприятия</div>
                   <div class="form-el-wrp">
-                    <input class="time-begin" type="datetime" name="time-begin">
+                    <input class="time-begin" type="text" name="time-begin">
                   </div>
                   <div class="form-title">Дата окончания	мероприятия</div>
                   <div class="form-el-wrp">
-                    <input class="time-end" type="datetime" name="time-begin">
+                    <input class="time-end" type="text" name="time-begin">
                   </div>
                 </div>
                 <div class="addEvent-image">
@@ -151,7 +151,8 @@
                 <div class="addEvent-addInfo">
                   <div class="form-title">Дополнительные данные:</div>
                   <div class="select-wrp">
-                    <select class="category-select" id="category-select" name="category-select">
+                    <select class="location-select" id="category-select" name="location-select">
+                      <option value="" disabled selected style="display:none;">Объект:</option>
                       <option value="option1">Значение 1</option>
                       <option value="option1">Значение 3</option>
                     </select>
@@ -160,7 +161,8 @@
                     <input class="cost" type="text" name="cost" placeholder="Стоимость">
                   </div>
                   <div class="select-wrp">
-                    <select class="category-select" id="category-select" name="category-select">
+                    <select class="location-select" id="category-select" name="location-select">
+                      <option value="" disabled selected style="display:none;">Тип:</option>
                       <option value="option1">Значение 1</option>
                       <option value="option1">Значение 3</option>
                     </select>

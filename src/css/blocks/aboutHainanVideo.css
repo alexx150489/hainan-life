@@ -21,6 +21,7 @@
 }
 
 .block-aboutHainanVideo .add-video-btn {
+	position: relative;
 	display: inline-block;
 	vertical-align: top;
 	padding: 10px 0;
@@ -34,6 +35,16 @@
 	font-weight: 600;
 	color: #fff;
 	border-radius: 5px;
+}
+
+.block-aboutHainanVideo .add-video-btn::after {
+	position: absolute;
+	content: '';
+	width: 21px;
+	height: 21px;
+	top: 9px;
+	left: 12px;
+	background:	url("../../images/sprite.png") -178px -48px no-repeat;
 }
 
 .aboutHainanVideo-item img {

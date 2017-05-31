@@ -29,10 +29,10 @@ block content
 						div(class="addEvent-time")
 							div(class="form-title") Дата начала мероприятия
 							div(class="form-el-wrp")
-								input(class="time-begin" type="datetime" name="time-begin")
+								input(class="time-begin" type="text" name="time-begin")
 							div(class="form-title") Дата окончания	мероприятия
 							div(class="form-el-wrp")
-								input(class="time-end" type="datetime" name="time-begin")
+								input(class="time-end" type="text" name="time-begin")
 
 						div(class="addEvent-image")
 							div(class="form-title") Картинка
@@ -52,13 +52,15 @@ block content
 						div(class="addEvent-addInfo")
 							div(class="form-title") Дополнительные данные:
 							div(class="select-wrp")
-								select(id="category-select" class="category-select" name="category-select")
+								select(id="category-select" class="location-select" name="location-select")
+									option(value="" disabled selected style='display:none;') Объект:
 									option(value="option1") Значение 1
 									option(value="option1") Значение 3
 							div(class="form-el-wrp")
 								input(class="cost" type="text" name="cost" placeholder="Стоимость")
 							div(class="select-wrp")
-								select(id="category-select" class="category-select" name="category-select")
+								select(id="category-select" class="location-select" name="location-select")
+									option(value="" disabled selected style='display:none;') Тип:
 									option(value="option1") Значение 1
 									option(value="option1") Значение 3
 							div(class="form-el-wrp")
