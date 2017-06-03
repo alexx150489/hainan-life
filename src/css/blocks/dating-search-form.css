@@ -46,11 +46,7 @@
 	background:	url("../../images/sprite.png") -68px -56px no-repeat;
 }
 
-.search-form-location {
-	margin-bottom: 28px;
-}
-
-.search-form-location select, .search-form-goal select	{
+.block-dating-search-form select	{
 	width: 100%;
 	padding: 5px 0px;
 	padding-right: 32px;
@@ -65,11 +61,11 @@
 	background: #fff url("../../images/select-dw-icon.png") right 11px top 50% / 10px no-repeat
 }
 
-.search-form-location .select-wrp, .search-form-goal .select-wrp {
+.block-dating-search-form .select-wrp {
 	position: relative;
 }
 
-.search-form-location .select-wrp::after, .search-form-goal .select-wrp::after {
+.block-dating-search-form .select-wrp::after {
 	position: absolute;
 	content: '';
 	width: 1px;
@@ -78,18 +74,6 @@
 	right: 32px;
 	background-color: #c4c4c4;
 	cursor: pointer;
-}
-
-.search-form-age {
-	margin-bottom: 21px;
-}
-
-.search-form-goal {
-	margin-bottom: 14px;
-}
-
-.search-form-have-foto {
-	margin-bottom: 23px;
 }
 
 .block-dating-search-form .search-btn {
@@ -109,9 +93,6 @@
 
 }
 
-.search-form-age .input-label {
-	padding: 0;
-}
 
 .range-slider-wrapper {
 	margin-bottom: 26px;
@@ -135,4 +116,163 @@
 	height: 32px;
 	padding: 0 20px;
 	text-align: center;
+}
+
+.search-form-age .input-label {
+	padding: 0;
+}
+
+.search-form-age {
+	margin-bottom: 33px;
+}
+
+.search-form-growth .range-slider-input {
+	font-size: 13px;
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+}
+
+.search-form-growth .range-slider-input input{
+	width: 71px;
+	height: 32px;
+	padding: 0 20px;
+	text-align: center;
+}
+
+.search-form-growth .input-label {
+	padding: 0;
+}
+
+.search-form-growth {
+	margin-bottom: 32px;
+}
+
+.search-form-language {
+	margin-bottom: 11px;
+}
+
+.search-form-language .form-title {
+	margin-bottom: 10px;
+}
+
+.search-form-language .search-form-language-wrp{
+	font-size: 0;
+}
+
+.search-form-language .checkbox-wrp {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 39px;
+	margin-bottom: 15px;
+	font-size: 13px;
+}
+
+.search-form-language-wrp {
+	width: 250px;
+}
+
+.search-form-hairColor {
+	margin-bottom: 20px;
+}
+
+.search-form-hairColor .form-title {
+	margin-bottom: 10px;
+}
+
+.search-form-hairColor .search-form-hairColor-wrp {
+	width: 260px;
+	margin-left: -11px;
+	font-size: 0;
+}
+
+.search-form-hairColor .checkbox-group1 {
+	margin-bottom: 15px;
+}
+
+.search-form-hairColor .checkbox-wrp {
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 15px;
+}
+
+.search-form-hairColor label {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	margin-left: 35px;
+	background-color: black;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.search-form-hairColor label.brown {
+	background-color: #b3833b;
+}
+.search-form-hairColor label.orange {
+	background-color: #ff9700;
+}
+.search-form-hairColor label.black {
+	background-color: #000000;
+}
+.search-form-hairColor label.gray {
+	background-color: #d3d3d3;
+}
+
+.search-form-hairColor label.blue {
+	background-color: #039be6;
+}
+.search-form-hairColor label.dbrown {
+	background-color: #7b5030;
+}
+.search-form-hairColor label.green {
+	background-color: #4da70a;
+}
+.search-form-hairColor label.dgray {
+	background-color: #362e2b;
+}
+
+.search-form-hairColor input[type="checkbox"] + label::before {
+	left: -21px;
+	top: 7px;
+}
+
+.search-form-location {
+	margin-bottom: 30px;
+}
+
+.search-form-goal {
+	margin-bottom: 30px;
+}
+
+.search-form-finance {
+	margin-bottom: 30px;
+}
+
+.search-form-education {
+	margin-bottom: 30px;
+}
+
+.search-form-zodiac {
+	margin-bottom: 30px;
+}
+
+
+.search-form-have-foto {
+	margin-bottom: 22px;
+}
+
+.search-form-verify {
+	margin-bottom: 22px;
+}
+
+.search-form-verify label{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.search-form-online {
+	margin-bottom: 40px;
 }

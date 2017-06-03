@@ -10,25 +10,87 @@ div(class="block-dating-search-form")
 							input(id="female" type="checkbox")
 							label(for="female") Девушка
 
+				div(class="search-form-age")
+					div(class="form-title") Возраст
+					div(class="range-slider-wrapper")
+						div(class="range-slider-input")
+							label(class="input-label" for="amount") от
+							input(class="input1" type="text" id="amount-age")
+						div(class="range-slider-input")
+							label(for="amount-age") до
+							input(class="input-label"	type="text" id="amount-second-age")
+					div(id="slider-range-wrapper")
+						div(id="slider-range-age")
+
+				div(class="search-form-growth")
+					div(class="form-title") Рост
+					div(class="range-slider-wrapper")
+						div(class="range-slider-input")
+							label(class="input-label" for="amount") от
+							input(class="input1" type="text" id="amount-growth")
+						div(class="range-slider-input")
+							label(for="amount-growth") до
+							input(class="input-label"	type="text" id="amount-second-growth")
+					div(id="slider-range-wrapper")
+						div(id="slider-range-growth")
+
+				div(class="search-form-language")
+					div(class="form-title") Язык общения
+					div(class="search-form-language-wrp")
+						div(class="checkbox-wrp")
+								input(id="ru" type="checkbox")
+								label(for="ru") Русский
+						div(class="checkbox-wrp")
+								input(id="eng" type="checkbox")
+								label(for="eng") Английский
+						div(class="checkbox-wrp")
+								input(id="cn" type="checkbox")
+								label(for="cn") Китайский
+
+				div(class="search-form-hairColor")
+					div(class="form-title") Цвет волос
+					div(class="search-form-hairColor-wrp")
+						div(class="checkbox-group1")
+							div(class="checkbox-wrp")
+									input(id="brown-color" type="checkbox")
+									label(class="brown" for="brown-color")
+
+							div(class="checkbox-wrp")
+									input(id="orange-color" type="checkbox")
+									label(class="orange" for="orange-color")
+
+							div(class="checkbox-wrp")
+									input(id="black-color" type="checkbox")
+									label(class="black" for="black-color")
+
+							div(class="checkbox-wrp")
+									input(id="gray-color" type="checkbox")
+									label(class="gray" for="gray-color")
+
+						div(class="checkbox-group2")
+							div(class="checkbox-wrp")
+									input(id="blue-color" type="checkbox")
+									label(class="blue" for="blue-color")
+
+							div(class="checkbox-wrp")
+									input(id="dbrown-color" type="checkbox")
+									label(class="dbrown" for="dbrown-color")
+
+							div(class="checkbox-wrp")
+									input(id="green-color" type="checkbox")
+									label(class="green" for="green-color")
+
+							div(class="checkbox-wrp")
+									input(id="dgray-color" type="checkbox")
+									label(class="dgray" for="dgray-color")
+
 				div(class="search-form-location")
 					div(class="form-title") Местонахождение
 					div(class="select-wrp")
 						select(id="category-select1" class="location-select" name="location-select")
 							option(value="" disabled selected style='display:none;') Любое
 							option(value="option1") Значение 1
-							option(value="option1") Значение 3
-
-				div(class="search-form-age")
-					div(class="form-title") Возраст
-					div(class="range-slider-wrapper")
-						div(class="range-slider-input")
-							label(class="input-label" for="amount") от
-							input(class="input1" type="text" id="amount")
-						div(class="range-slider-input")
-							label(for="amount") до
-							input(class="input-label"	type="text" id="amount-second")
-					div(id="slider-range-wrapper")
-						div(id="slider-range")
+							option(value="option2") Значение 3
 
 				div(class="search-form-goal")
 					div(class="form-title") Цель
@@ -36,12 +98,46 @@ div(class="block-dating-search-form")
 						select(id="category-select2" class="goal-select" name="goal-select")
 							option(value="" disabled selected style='display:none;') Все цели
 							option(value="option1") Значение 1
-							option(value="option1") Значение 3
+							option(value="option2") Значение 3
+
+				div(class="search-form-finance")
+					div(class="form-title") Материальное положение
+					div(class="select-wrp")
+						select(id="finance-select" class="finance-select" name="finance-select")
+							option(value="" disabled selected style='display:none;') Не важно
+							option(value="option1") Значение 1
+							option(value="option2") Значение 3
+
+				div(class="search-form-education")
+					div(class="form-title") Образование
+					div(class="select-wrp")
+						select(id="education-select" class="education-select" name="education-select")
+							option(value="" disabled selected style='display:none;') Любое
+							option(value="option1") Значение 1
+							option(value="option2") Значение 3
+
+				div(class="search-form-zodiac")
+					div(class="form-title") Знак зодиака
+					div(class="select-wrp")
+						select(id="education-select2" class="education-select" name="education-select")
+							option(value="" disabled selected style='display:none;') Любой
+							option(value="option1") Значение 1
+							option(value="option2") Значение 3
 
 				div(class="search-form-have-foto")
 					div(class="checkbox-wrp")
 							input(id="have-foto" type="checkbox")
 							label(for="have-foto") Только с фото
+
+				div(class="search-form-verify")
+					div(class="checkbox-wrp")
+							input(id="verify" type="checkbox")
+							label(for="verify") Только с верифицированными фотографиями
+
+				div(class="search-form-online")
+					div(class="checkbox-wrp")
+							input(id="online" type="checkbox")
+							label(for="online") Только онлайн
 
 				button(class="search-btn" type="submit" name="search-btn") Найти
 

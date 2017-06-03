@@ -132,30 +132,104 @@
                       <label for="female">Девушка</label>
                     </div>
                   </div>
+                  <div class="search-form-age">
+                    <div class="form-title">Возраст</div>
+                    <div class="range-slider-wrapper">
+                      <div class="range-slider-input">
+                        <label class="input-label" for="amount">от</label>
+                        <input class="input1" type="text" id="amount-age">
+                      </div>
+                      <div class="range-slider-input">
+                        <label for="amount-age">до</label>
+                        <input class="input-label" type="text" id="amount-second-age">
+                      </div>
+                    </div>
+                    <div id="slider-range-wrapper">
+                      <div id="slider-range-age"></div>
+                    </div>
+                  </div>
+                  <div class="search-form-growth">
+                    <div class="form-title">Рост</div>
+                    <div class="range-slider-wrapper">
+                      <div class="range-slider-input">
+                        <label class="input-label" for="amount">от</label>
+                        <input class="input1" type="text" id="amount-growth">
+                      </div>
+                      <div class="range-slider-input">
+                        <label for="amount-growth">до</label>
+                        <input class="input-label" type="text" id="amount-second-growth">
+                      </div>
+                    </div>
+                    <div id="slider-range-wrapper">
+                      <div id="slider-range-growth"></div>
+                    </div>
+                  </div>
+                  <div class="search-form-language">
+                    <div class="form-title">Язык общения</div>
+                    <div class="search-form-language-wrp">
+                      <div class="checkbox-wrp">
+                        <input id="ru" type="checkbox">
+                        <label for="ru">Русский</label>
+                      </div>
+                      <div class="checkbox-wrp">
+                        <input id="eng" type="checkbox">
+                        <label for="eng">Английский</label>
+                      </div>
+                      <div class="checkbox-wrp">
+                        <input id="cn" type="checkbox">
+                        <label for="cn">Китайский</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="search-form-hairColor">
+                    <div class="form-title">Цвет волос</div>
+                    <div class="search-form-hairColor-wrp">
+                      <div class="checkbox-group1">
+                        <div class="checkbox-wrp">
+                          <input id="brown-color" type="checkbox">
+                          <label class="brown" for="brown-color"></label>
+                        </div>
+                        <div class="checkbox-wrp">
+                          <input id="orange-color" type="checkbox">
+                          <label class="orange" for="orange-color"></label>
+                        </div>
+                        <div class="checkbox-wrp">
+                          <input id="black-color" type="checkbox">
+                          <label class="black" for="black-color"></label>
+                        </div>
+                        <div class="checkbox-wrp">
+                          <input id="gray-color" type="checkbox">
+                          <label class="gray" for="gray-color"></label>
+                        </div>
+                      </div>
+                      <div class="checkbox-group2">
+                        <div class="checkbox-wrp">
+                          <input id="blue-color" type="checkbox">
+                          <label class="blue" for="blue-color"></label>
+                        </div>
+                        <div class="checkbox-wrp">
+                          <input id="dbrown-color" type="checkbox">
+                          <label class="dbrown" for="dbrown-color"></label>
+                        </div>
+                        <div class="checkbox-wrp">
+                          <input id="green-color" type="checkbox">
+                          <label class="green" for="green-color"></label>
+                        </div>
+                        <div class="checkbox-wrp">
+                          <input id="dgray-color" type="checkbox">
+                          <label class="dgray" for="dgray-color"></label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <div class="search-form-location">
                     <div class="form-title">Местонахождение</div>
                     <div class="select-wrp">
                       <select class="location-select" id="category-select1" name="location-select">
                         <option value="" disabled selected style="display:none;">Любое</option>
                         <option value="option1">Значение 1</option>
-                        <option value="option1">Значение 3</option>
+                        <option value="option2">Значение 3</option>
                       </select>
-                    </div>
-                  </div>
-                  <div class="search-form-age">
-                    <div class="form-title">Возраст</div>
-                    <div class="range-slider-wrapper">
-                      <div class="range-slider-input">
-                        <label class="input-label" for="amount">от</label>
-                        <input class="input1" type="text" id="amount">
-                      </div>
-                      <div class="range-slider-input">
-                        <label for="amount">до</label>
-                        <input class="input-label" type="text" id="amount-second">
-                      </div>
-                    </div>
-                    <div id="slider-range-wrapper">
-                      <div id="slider-range"></div>
                     </div>
                   </div>
                   <div class="search-form-goal">
@@ -164,7 +238,37 @@
                       <select class="goal-select" id="category-select2" name="goal-select">
                         <option value="" disabled selected style="display:none;">Все цели</option>
                         <option value="option1">Значение 1</option>
-                        <option value="option1">Значение 3</option>
+                        <option value="option2">Значение 3</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="search-form-finance">
+                    <div class="form-title">Материальное положение</div>
+                    <div class="select-wrp">
+                      <select class="finance-select" id="finance-select" name="finance-select">
+                        <option value="" disabled selected style="display:none;">Не важно</option>
+                        <option value="option1">Значение 1</option>
+                        <option value="option2">Значение 3</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="search-form-education">
+                    <div class="form-title">Образование</div>
+                    <div class="select-wrp">
+                      <select class="education-select" id="education-select" name="education-select">
+                        <option value="" disabled selected style="display:none;">Любое</option>
+                        <option value="option1">Значение 1</option>
+                        <option value="option2">Значение 3</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="search-form-zodiac">
+                    <div class="form-title">Знак зодиака</div>
+                    <div class="select-wrp">
+                      <select class="education-select" id="education-select2" name="education-select">
+                        <option value="" disabled selected style="display:none;">Любой</option>
+                        <option value="option1">Значение 1</option>
+                        <option value="option2">Значение 3</option>
                       </select>
                     </div>
                   </div>
@@ -172,6 +276,18 @@
                     <div class="checkbox-wrp">
                       <input id="have-foto" type="checkbox">
                       <label for="have-foto">Только с фото</label>
+                    </div>
+                  </div>
+                  <div class="search-form-verify">
+                    <div class="checkbox-wrp">
+                      <input id="verify" type="checkbox">
+                      <label for="verify">Только с верифицированными фотографиями</label>
+                    </div>
+                  </div>
+                  <div class="search-form-online">
+                    <div class="checkbox-wrp">
+                      <input id="online" type="checkbox">
+                      <label for="online">Только онлайн</label>
                     </div>
                   </div>
                   <button class="search-btn" type="submit" name="search-btn">Найти</button><a class="ex-search" href="#">Расширенный поиск</a>

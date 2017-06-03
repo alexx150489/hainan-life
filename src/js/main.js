@@ -74,41 +74,91 @@ $(document).ready(function() {
 	});
 
 	// jQuery UI Range slider https://jqueryui.com/slider >>>
-
-	$( "#slider-range" ).slider({
+	// block-dating-search-form
+	$( "#slider-range-age" ).slider({
 		range: true,
 		min: 0,
 		max: 99,
 		values: [ 0, 99 ],
 		slide: function( event, ui ) {
-			$( "#amount" ).val( ui.values[ 0 ] );
-			$( "#amount-second" ).val( ui.values[ 1 ] );
+			$( "#amount-age" ).val( ui.values[ 0 ] );
+			$( "#amount-second-age" ).val( ui.values[ 1 ] );
 		}
 	});
-	$( "#amount" ).val( $( "#slider-range" ).slider( "values", 0 ) );
-	$( "#amount-second" ).val( $( "#slider-range" ).slider( "values", 1 ) );
+	$( "#amount-age" ).val( $( "#slider-range-age" ).slider( "values", 0 ) );
+	$( "#amount-second-age" ).val( $( "#slider-range-age" ).slider( "values", 1 ) );
 
-	$("input#amount").change(function(){
-		var value1=$("input#amount").val();
-		var value2=$("input#amount-second").val();
+	$("input#amount-age").change(function(){
+		var value1=$("input#amount-age").val();
+		var value2=$("input#amount-second-age").val();
 			if(parseInt(value1) > parseInt(value2)) {
 				value1 = value2;
-				$("input#amount").val(value1);
+				$("input#amount-age").val(value1);
 			}
-			$("#slider-range").slider("values",0,value1);
+			$("#slider-range-age").slider("values",0,value1);
 	})
 
-		$("input#amount-second").change(function(){
-		var value1=$("input#amount").val();
-		var value2=$("input#amount-second").val();
+		$("input#amount-second-age").change(function(){
+		var value1=$("input#amount-age").val();
+		var value2=$("input#amount-second-age").val();
 			if(parseInt(value1) > parseInt(value2)) {
 				value2 = value1;
-				$("input#amount-second").val(value2);
+				$("input#amount-second-age").val(value2);
 			}
-			$("#slider-range").slider("values",1,value2);
+			$("#slider-range-age").slider("values",1,value2);
 	})
 
-	$("input#amount ,input#amount-second").keypress(function(event){
+	$("input#amount-age ,input#amount-second-age").keypress(function(event){
+		var key, keyChar;
+
+		if (!event) var event = window.event;
+		if (event.keyCode) key = event.keyCode;
+		else if (event.which) key = event.which;
+
+		if(key==null || key==0 || key==8 || key==13 || key==9 || key==46 || key==37 || key==39 ) return true;
+
+		keyChar=String.fromCharCode(key);
+		
+		if(!/\d/.test(keyChar)) return false;
+
+	});
+
+// jQuery UI Range slider https://jqueryui.com/slider >>>
+// block-dating-search-form
+		$( "#slider-range-growth" ).slider({
+		range: true,
+		min: 100,
+		max: 250,
+		values: [ 100, 250 ],
+		slide: function( event, ui ) {
+			$( "#amount-growth" ).val( ui.values[ 0 ] );
+			$( "#amount-second-growth" ).val( ui.values[ 1 ] );
+		}
+	});
+	$( "#amount-growth" ).val( $( "#slider-range-growth" ).slider( "values", 0 ) );
+	$( "#amount-second-growth" ).val( $( "#slider-range-growth" ).slider( "values", 1 ) );
+
+	$("input#amount-growth").change(function(){
+		var value1=$("input#amount-growth").val();
+		var value2=$("input#amount-second-growth").val();
+			if(parseInt(value1) > parseInt(value2)) {
+				value1 = value2;
+				$("input#amount-growth").val(value1);
+			}
+			$("#slider-range-growth").slider("values",0,value1);
+	})
+
+		$("input#amount-second-growth").change(function(){
+		var value1=$("input#amount-growth").val();
+		var value2=$("input#amount-second-growth").val();
+			if(parseInt(value1) > parseInt(value2)) {
+				value2 = value1;
+				$("input#amount-second-growth").val(value2);
+			}
+			$("#slider-range-growth").slider("values",1,value2);
+	})
+
+	$("input#amount-growth ,input#amount-second-growth").keypress(function(event){
 		var key, keyChar;
 
 		if (!event) var event = window.event;
