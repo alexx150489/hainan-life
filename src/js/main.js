@@ -195,6 +195,12 @@ $(document).ready(function() {
 			e.preventDefault();
 	});
 
+	// block-datingEdit
+	 $( ".bday" ).datepicker();
+
+	// block-addEvent
+	$( ".time-begin" ).datepicker();
+	$( ".time-end" ).datepicker();
 
 	// slcik slider http://kenwheeler.github.io/slick/ >>>
 
@@ -365,6 +371,9 @@ $(document).ready(function() {
 	$('.addObject-rang .rang-item').click(function (e) {
 		$(this).toggleClass('active');
 	});
+
+	// block-aboutHainanFotoFull http://fancybox.net/ >>>
+	$(".gallery-item").fancybox();
 
 });
 

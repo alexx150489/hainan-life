@@ -17,7 +17,6 @@
 	font-size: 13px;
 }
 
-
 .datingEdit-form .form div{
 	margin-bottom: 13px;
 }
@@ -34,6 +33,7 @@
 .datingEdit-form .bday {
 	background: #fff url("../../images/cal-icon.png") right 7px top 50% / 15px no-repeat;
 	background-origin: padding-box;
+	cursor: pointer;
 }
 
 .datingEdit-form select {

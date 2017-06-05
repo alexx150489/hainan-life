@@ -50,7 +50,9 @@
 }
 
 .aboutHainanFotoFull-gallery .gallery-item {
+	display: block;
 	margin-bottom: 10px;
+	cursor: pointer;
 }
 
 .aboutHainanFotoFull-gallery .gallery-item:last-child {

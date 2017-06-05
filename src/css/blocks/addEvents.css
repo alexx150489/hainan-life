@@ -58,6 +58,10 @@
 	border-radius: 2px;
 }
 
+.addEvent-time .time-begin, .addEvent-time .time-end {
+	cursor: pointer;
+}
+
 .addEvent-time .form-el-wrp {
 	margin-bottom: 12px;
 }
